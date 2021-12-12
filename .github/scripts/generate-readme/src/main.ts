@@ -26,14 +26,14 @@ function main(argv: any) {
       (file) =>
         `<a href="icons/${file}"><img src="icons/${file}" title="${file}" alt="${file}" width="100px" /><br>${file}</a>`
     )
-  const images = arrayChunk(files, 3)
+  const images = arrayChunk(files, 5)
     .map((chunk: any[]) => chunk.join(' | '))
     .map((chunk: string) => `| ${chunk} |`)
     .join('\n')
 
   const template = fs.readFileSync('template.md').toString()
   const header =
-    '|     |     |     |\n| :-: | :-: | :-: |'
+    '|     |     |     |     |     |\n| :-: | :-: | :-: | :-: | :-: |'
 
   fs.writeFileSync(
     argv.output,
