@@ -33,7 +33,7 @@ function main(argv: any) {
 
   const template = fs.readFileSync('template.md').toString()
   const header =
-    '|     |     |     |     |\n| :-: | :-: | :-: | :-: |'
+    '|     |     |     |\n| :-: | :-: | :-: |'
 
   fs.writeFileSync(
     argv.output,
