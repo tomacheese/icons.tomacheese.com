@@ -23,7 +23,7 @@ jobs:
 
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
-      working-directory: ./.github/generate-readme/
+      working-directory: ./.github/scripts/generate-readme/
       run: echo "::set-output name=dir::$(yarn cache dir)"
 
     - name: Cache node_modules
@@ -36,11 +36,11 @@ jobs:
           ${{ runner.os }}-yarn-
 
     - name: Install dependencies
-      working-directory: ./.github/generate-readme/
+      working-directory: ./.github/scripts/generate-readme/
       run: yarn
 
     - name: Generate README file
-      working-directory: ./.github/generate-readme/
+      working-directory: ./.github/scripts/generate-readme/
       run: yarn build --target ../../../icons/ --output ../../../README.md
 
     - name: Commit & Push
