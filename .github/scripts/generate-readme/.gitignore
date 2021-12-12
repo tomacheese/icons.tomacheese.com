@@ -1,0 +1,7 @@
+dist
+node_modules
+dist.tgz
+config/*
+!config/.gitkeep
+yarn-error.log
+yarn.lock
