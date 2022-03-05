@@ -70,7 +70,7 @@ async function main(argv: yargs.Arguments) {
 
   const newDownloadedEmojis: DownloadedEmoji[] = []
   for (const emoji of emojis.flat()) {
-    const path = `${output}/${emoji.name}.png`
+    const path = `${output}/${emoji.name}.` + (emoji.animated ? 'gif' : 'png')
     const emojiUrl =
       'https://cdn.discordapp.com/emojis/' +
       emoji.id +
