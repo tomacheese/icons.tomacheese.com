@@ -42,6 +42,8 @@ jobs:
     - name: Generate README file
       working-directory: ./.github/scripts/fetch-tomachi-emojis/
       run: yarn build --output ../../../icons/
+      env:
+        DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 
     - name: Commit & Push
       run: |
