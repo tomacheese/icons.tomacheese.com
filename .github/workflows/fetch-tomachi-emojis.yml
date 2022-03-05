@@ -52,7 +52,7 @@ jobs:
 
     - name: Cache node_modules (Generate README)
       uses: actions/cache@v2.1.7
-      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      id: yarn-cache-gen-readme # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
       with:
         path: ${{ steps.yarn-cache-dir-path-gen-readme.outputs.dir }}
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
