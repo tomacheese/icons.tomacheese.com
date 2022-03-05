@@ -39,7 +39,7 @@ jobs:
       working-directory: ./.github/scripts/fetch-tomachi-emojis/
       run: yarn
 
-    - name: Generate README file
+    - name: Fetch emojis from Tomachi Emojis
       working-directory: ./.github/scripts/fetch-tomachi-emojis/
       run: yarn build --output ../../../icons/
       env:
@@ -50,6 +50,7 @@ jobs:
         git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git status || true
         git status | grep modified && git add -A && git commit -v -m "feat: Fetched emojis from Tomachi Emojis [skip ci]" || true
         git push origin master
       env:
