@@ -1,13 +1,12 @@
-name: Generate readme
+name: Fetch Tomachi Emojis
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-     - master
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
-  generate:
+  fetch-emojis:
    runs-on: ubuntu-latest
 
    steps:
@@ -24,7 +23,7 @@ jobs:
 
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
-      working-directory: ./.github/scripts/generate-readme/
+      working-directory: ./.github/scripts/fetch-tomachi-emojis/
       run: echo "::set-output name=dir::$(yarn cache dir)"
 
     - name: Cache node_modules
@@ -37,18 +36,18 @@ jobs:
           ${{ runner.os }}-yarn-
 
     - name: Install dependencies
-      working-directory: ./.github/scripts/generate-readme/
+      working-directory: ./.github/scripts/fetch-tomachi-emojis/
       run: yarn
 
     - name: Generate README file
-      working-directory: ./.github/scripts/generate-readme/
-      run: yarn build --target ../../../icons/ --output ../../../README.md
+      working-directory: ./.github/scripts/fetch-tomachi-emojis/
+      run: yarn build --output ../../../icons/
 
     - name: Commit & Push
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git status | grep modified && git add -A && git commit -v -m "feat: Updated README.md [skip ci]" || true
-        git push origin HEAD:${GITHUB_REF};
+        git status | grep modified && git add -A && git commit -v -m "feat: Fetched emojis from Tomachi Emojis [skip ci]" || true
+        git push origin master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
