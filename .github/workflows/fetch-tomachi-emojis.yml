@@ -45,13 +45,34 @@ jobs:
       env:
         DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 
+    - name: Get yarn cache directory path (Generate README)
+      id: yarn-cache-dir-path-gen-readme
+      working-directory: ./.github/scripts/generate-readme/
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+
+    - name: Cache node_modules (Generate README)
+      uses: actions/cache@v2.1.7
+      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      with:
+        path: ${{ steps.yarn-cache-dir-path-gen-readme.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+
+    - name: Install dependencies (Generate README)
+      working-directory: ./.github/scripts/generate-readme/
+      run: yarn
+
+    - name: Generate README file
+      working-directory: ./.github/scripts/generate-readme/
+      run: yarn build --target ../../../icons/ --output ../../../README.md
+
     - name: Commit & Push
       run: |
         git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git status || true
-        git status | grep modified && git add -A && git commit -v -m "feat: Fetched emojis from Tomachi Emojis [skip ci]" || true
+        git add -A && git commit -v -m "feat: Fetched emojis from Tomachi Emojis" || true
         git push origin master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
