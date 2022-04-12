@@ -4,6 +4,8 @@
 
 Tomachi icons repository
 
+- [Tomachi Icon Usage Rules (Japanese)](https://icons.tomacheese.com/terms)
+
 ## How do I add icon?
 
 1. [Fork this repository.](https://github.com/tomacheese/icons.tomacheese.com/fork)
