@@ -47,3 +47,15 @@ Tomachi icons repository
 | <a href="icons/tomasuperpsycherainbow.gif"><img src="icons/tomasuperpsycherainbow.gif" title="tomasuperpsycherainbow.gif" alt="tomasuperpsycherainbow.gif" width="100px" /><br>tomasuperpsycherainbow.gif</a> | <a href="icons/tomatank.png"><img src="icons/tomatank.png" title="tomatank.png" alt="tomatank.png" width="100px" /><br>tomatank.png</a> | <a href="icons/tomaterminus.png"><img src="icons/tomaterminus.png" title="tomaterminus.png" alt="tomaterminus.png" width="100px" /><br>tomaterminus.png</a> | <a href="icons/tomaterrorbeak.png"><img src="icons/tomaterrorbeak.png" title="tomaterrorbeak.png" alt="tomaterrorbeak.png" width="100px" /><br>tomaterrorbeak.png</a> | <a href="icons/tomathinking.png"><img src="icons/tomathinking.png" title="tomathinking.png" alt="tomathinking.png" width="100px" /><br>tomathinking.png</a> |
 | <a href="icons/tomathinkinging.gif"><img src="icons/tomathinkinging.gif" title="tomathinkinging.gif" alt="tomathinkinging.gif" width="100px" /><br>tomathinkinging.gif</a> | <a href="icons/tomatinyface.png"><img src="icons/tomatinyface.png" title="tomatinyface.png" alt="tomatinyface.png" width="100px" /><br>tomatinyface.png</a> | <a href="icons/tomatora.png"><img src="icons/tomatora.png" title="tomatora.png" alt="tomatora.png" width="100px" /><br>tomatora.png</a> | <a href="icons/tomattention.png"><img src="icons/tomattention.png" title="tomattention.png" alt="tomattention.png" width="100px" /><br>tomattention.png</a> | <a href="icons/tomawink.png"><img src="icons/tomawink.png" title="tomawink.png" alt="tomawink.png" width="100px" /><br>tomawink.png</a> |
 | <a href="icons/tomawink2.png"><img src="icons/tomawink2.png" title="tomawink2.png" alt="tomawink2.png" width="100px" /><br>tomawink2.png</a> | <a href="icons/tomazoomeyes.png"><img src="icons/tomazoomeyes.png" title="tomazoomeyes.png" alt="tomazoomeyes.png" width="100px" /><br>tomazoomeyes.png</a> | <a href="icons/toomachi.png"><img src="icons/toomachi.png" title="toomachi.png" alt="toomachi.png" width="100px" /><br>toomachi.png</a> | <a href="icons/toomachi_face.png"><img src="icons/toomachi_face.png" title="toomachi_face.png" alt="toomachi_face.png" width="100px" /><br>toomachi_face.png</a> | <a href="icons/yellowtmt.png"><img src="icons/yellowtmt.png" title="yellowtmt.png" alt="yellowtmt.png" width="100px" /><br>yellowtmt.png</a> |
+
+## Icon file extensions
+
+| file ext | count |
+| :-: | :-: |
+| **png** | 116 |
+| **gif** | 38 |
+| **jpg** | 1 |
+| **jpeg** | 0 |
+| **svg** | 0 |
+| **webp** | 0 |
+| **ico** | 0 |
