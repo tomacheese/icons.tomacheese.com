@@ -19,7 +19,7 @@ function main(argv: any) {
     .map((ext) => {
       return {
         ext,
-        count: files.filter((file) => file.endsWith(`.${ext}`)).length
+        count: files.filter((file) => file.endsWith(`.${ext}`)).length,
       }
     })
     .sort((a, b) => b.count - a.count)
@@ -51,11 +51,11 @@ main(
   yargs
     .option('target', {
       description: 'Target path',
-      demandOption: true
+      demandOption: true,
     })
     .option('output', {
       description: 'Output path',
-      demandOption: true
+      demandOption: true,
     })
     .help().argv
 )
