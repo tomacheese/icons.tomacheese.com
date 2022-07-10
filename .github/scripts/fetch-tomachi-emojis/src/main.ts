@@ -54,6 +54,7 @@ async function main(argv: yargs.Arguments) {
     '627851806990663724', // Tomachi Emojis
     '844380625645600778', // Tomachi Emojis 2
     '929935925335711836', // Tomachi Emojis 3
+    '995672815065911368', // Tomachi Emojis 4
   ]
 
   const emojis = await Promise.all(
