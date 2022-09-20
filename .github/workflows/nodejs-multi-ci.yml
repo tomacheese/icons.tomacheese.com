@@ -103,16 +103,3 @@ jobs:
       - name: ☑️ Check Dependencies
         working-directory: ${{ matrix.directory }}
         run: npx depcheck
-
-      - name: Check exists dist directory
-        id: check-dist
-        working-directory: ${{ matrix.directory }}
-        run: |
-          echo "::set-output name=exists::$(test -d dist && echo true || echo false)"
-
-      - name: 📦 Upload artifact
-        if: steps.check-dist.outputs.exists == 'true'
-        uses: actions/upload-artifact@v3
-        with:
-          name: ${{ matrix.directory }}-dist
-          path: ${{ matrix.directory }}/dist
