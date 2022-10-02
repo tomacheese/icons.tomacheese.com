@@ -21,14 +21,26 @@ interface Emoji {
   animated: boolean
 }
 
+interface Guild {
+  id: string
+  name: string
+}
+
+type EmojiWithGuild = Emoji & { server: Guild }
+
 interface DownloadedEmoji {
   id: string
   name: string
   path: string
   hash: string
+  server: Guild
 }
 
-async function getEmojis(token: string, guildId: string): Promise<Emoji[]> {
+async function getEmojis(
+  token: string,
+  guildId: string,
+  guildName: string
+): Promise<EmojiWithGuild[]> {
   const response = await axios.get(
     'https://discord.com/api/guilds/' + guildId + '/emojis',
     {
@@ -38,11 +50,21 @@ async function getEmojis(token: string, guildId: string): Promise<Emoji[]> {
     }
   )
   const emojis = response.data
-  return emojis
+  return emojis.map((emoji: Emoji) => {
+    return {
+      ...emoji,
+      server: {
+        id: guildId,
+        name: guildName,
+      },
+    }
+  })
 }
 
 async function main(argv: yargs.Arguments) {
-  const output = argv.output
+  const output = argv.output as string
+  const targetGuildsPath = argv.targetGuilds as string
+  const emojisPath = argv.emojis as string
 
   if (process.env.DISCORD_TOKEN === undefined) {
     console.warn('DISCORD_TOKEN is not set')
@@ -50,23 +72,25 @@ async function main(argv: yargs.Arguments) {
   }
 
   const token: string = process.env.DISCORD_TOKEN
-  const guildIds = [
-    '627851806990663724', // Tomachi Emojis
-    '844380625645600778', // Tomachi Emojis 2
-    '929935925335711836', // Tomachi Emojis 3
-    '995672815065911368', // Tomachi Emojis 4
-    '1025997422880628776', // Tomachi Emojis 5
-  ]
+  if (!fs.existsSync(targetGuildsPath)) {
+    console.warn('targetGuilds.json does not exist')
+    return
+  }
+  const guildIds: {
+    [key: string]: string
+  } = JSON.parse(fs.readFileSync(targetGuildsPath, 'utf8'))
 
   const emojis = await Promise.all(
-    guildIds.map((guildId) => getEmojis(token, guildId))
+    Object.entries(guildIds).map((v) => {
+      const guildName = v[1]
+      const guildId = v[0]
+      return getEmojis(token, guildId, guildName)
+    })
   )
   const downloadedEmojis: DownloadedEmoji[] = []
-  if (fs.existsSync('emojis.json')) {
+  if (fs.existsSync(emojisPath)) {
     downloadedEmojis.push(
-      ...(JSON.parse(
-        fs.readFileSync('emojis.json', 'utf8')
-      ) as DownloadedEmoji[])
+      ...(JSON.parse(fs.readFileSync(emojisPath, 'utf8')) as DownloadedEmoji[])
     )
   }
 
@@ -113,6 +137,7 @@ async function main(argv: yargs.Arguments) {
       name: emoji.name,
       path,
       hash,
+      server: emoji.server,
     })
   }
 
@@ -127,7 +152,7 @@ async function main(argv: yargs.Arguments) {
     fs.unlinkSync(downloadedEmoji.path)
   }
 
-  fs.writeFileSync('emojis.json', JSON.stringify(newDownloadedEmojis))
+  fs.writeFileSync(emojisPath, JSON.stringify(newDownloadedEmojis, null, 2))
 }
 
 ;(async () => {
@@ -135,6 +160,14 @@ async function main(argv: yargs.Arguments) {
     yargs
       .option('output', {
         description: 'Output path',
+        demandOption: true,
+      })
+      .option('target-guilds', {
+        description: 'Target guilds file path',
+        demandOption: true,
+      })
+      .option('emojis', {
+        description: 'Emojis file path',
         demandOption: true,
       })
       .help()
