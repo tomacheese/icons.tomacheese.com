@@ -47,9 +47,9 @@ function getEmojiServerTable(targetGuildsPath: string, emojisPath: string) {
   const emojis = JSON.parse(
     fs.readFileSync(emojisPath, 'utf8')
   ) as DownloadedEmoji[]
-  const guilds = JSON.parse(
-    fs.readFileSync(targetGuildsPath, 'utf8')
-  ) as { [key: string]: string }
+  const guilds = JSON.parse(fs.readFileSync(targetGuildsPath, 'utf8')) as {
+    [key: string]: string
+  }
 
   const guildEmojiCount = Object.entries(guilds).map((guild) => {
     const guildName = guild[1]
@@ -71,7 +71,16 @@ function getEmojiServerTable(targetGuildsPath: string, emojisPath: string) {
   })
 
   const serverTables = guildEmojiCount
-    .map((guild) => '| **' + guild.guildName + '** | ' + guild.pngCount + ' | ' + guild.gifCount + ' |')
+    .map(
+      (guild) =>
+        '| **' +
+        guild.guildName +
+        '** | ' +
+        guild.pngCount +
+        ' | ' +
+        guild.gifCount +
+        ' |'
+    )
     .join('\n')
   return headerIconServers + '\n' + serverTables
 }
@@ -96,8 +105,7 @@ function main(argv: any) {
     .join('\n')
 
   const template = fs.readFileSync('template.md').toString()
-  const headerIcons =
-    '|     |     |     |\n| :-: | :-: | :-: |'
+  const headerIcons = '|     |     |     |\n| :-: | :-: | :-: |'
 
   const output = template
     .replace('{{ICONS}}', headerIcons + '\n' + images)

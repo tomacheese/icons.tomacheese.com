@@ -90,9 +90,7 @@ async function main(argv: yargs.Arguments) {
   const downloadedEmojis: DownloadedEmoji[] = []
   if (fs.existsSync(emojisPath)) {
     downloadedEmojis.push(
-      ...(JSON.parse(
-        fs.readFileSync(emojisPath, 'utf8')
-      ) as DownloadedEmoji[])
+      ...(JSON.parse(fs.readFileSync(emojisPath, 'utf8')) as DownloadedEmoji[])
     )
   }
 
