@@ -16,6 +16,10 @@ Tomachi icons repository
 
 {{ICONS}}
 
-## Icon file extensions
+## Extensions
 
 {{ICON_EXTS}}
+
+## Servers
+
+{{ICON_SERVERS}}
