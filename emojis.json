@@ -2518,5 +2518,15 @@
       "id": "1025997422880628776",
       "name": "Tomachi Emojis 5"
     }
+  },
+  {
+    "id": "1028631983435292702",
+    "name": "7DaysToMachi",
+    "path": "../../../icons//7DaysToMachi.png",
+    "hash": "d3874f18621f3e44f353dfd3a9de78bc",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
   }
 ]
