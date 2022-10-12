@@ -2528,5 +2528,15 @@
       "id": "1025997422880628776",
       "name": "Tomachi Emojis 5"
     }
+  },
+  {
+    "id": "1029358967287185438",
+    "name": "tomaghost_transparent",
+    "path": "../../../icons//tomaghost_transparent.png",
+    "hash": "659c8c1de355079a3cd20b2762fa29b4",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
   }
 ]
