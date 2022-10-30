@@ -840,6 +840,16 @@
     }
   },
   {
+    "id": "1036047763575676928",
+    "name": "tomaplace",
+    "path": "../../../icons//tomaplace.gif",
+    "hash": "4afa2f37e44c5341cccd121fe3d72bd2",
+    "server": {
+      "id": "627851806990663724",
+      "name": "Tomachi Emojis"
+    }
+  },
+  {
     "id": "855462651425194046",
     "name": "tomadevil",
     "path": "../../../icons//tomadevil.png",
@@ -2534,6 +2544,56 @@
     "name": "tomaghost_transparent",
     "path": "../../../icons//tomaghost_transparent.png",
     "hash": "659c8c1de355079a3cd20b2762fa29b4",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1035750781720207451",
+    "name": "tomai",
+    "path": "../../../icons//tomai.png",
+    "hash": "99bed949368c3988554fd26806265702",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1035807944765358150",
+    "name": "tomako",
+    "path": "../../../icons//tomako.png",
+    "hash": "c274b3bfa17642f5af7bed8c7d15d99c",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1035808403911618580",
+    "name": "tomagirl",
+    "path": "../../../icons//tomagirl.png",
+    "hash": "e4f33ada418ce3928ad98185b494a659",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1035810128068345896",
+    "name": "egetsunai_tomachi",
+    "path": "../../../icons//egetsunai_tomachi.png",
+    "hash": "4f8792c822ea56a8b79de49f3b604335",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1035811257225330768",
+    "name": "egetsunai_tomanazar",
+    "path": "../../../icons//egetsunai_tomanazar.png",
+    "hash": "eaebd605fc79fb80ade7950569866bf9",
     "server": {
       "id": "1025997422880628776",
       "name": "Tomachi Emojis 5"
