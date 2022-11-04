@@ -24,7 +24,7 @@ jobs:
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
       working-directory: ./.github/scripts/fetch-tomachi-emojis/
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+      run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
 
     - name: Cache node_modules
       uses: actions/cache@v3.0.11
@@ -48,7 +48,7 @@ jobs:
     - name: Get yarn cache directory path (Generate README)
       id: yarn-cache-dir-path-gen-readme
       working-directory: ./.github/scripts/generate-readme/
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+      run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
 
     - name: Cache node_modules (Generate README)
       uses: actions/cache@v3.0.11
