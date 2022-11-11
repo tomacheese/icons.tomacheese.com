@@ -850,6 +850,26 @@
     }
   },
   {
+    "id": "1039864125762834484",
+    "name": "tomasmashed",
+    "path": "../../../icons//tomasmashed.gif",
+    "hash": "821afebbab6baadfd5d5b3d2522cb2e9",
+    "server": {
+      "id": "627851806990663724",
+      "name": "Tomachi Emojis"
+    }
+  },
+  {
+    "id": "1039865206253297676",
+    "name": "tomawipe",
+    "path": "../../../icons//tomawipe.gif",
+    "hash": "3d39daa48874c9f3d76129c9b8d2b50c",
+    "server": {
+      "id": "627851806990663724",
+      "name": "Tomachi Emojis"
+    }
+  },
+  {
     "id": "855462651425194046",
     "name": "tomadevil",
     "path": "../../../icons//tomadevil.png",
@@ -2604,6 +2624,56 @@
     "name": "megashoboshobotomachi",
     "path": "../../../icons//megashoboshobotomachi.png",
     "hash": "ca2108debbcc1f0dceaa057b6ced7508",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1039872611385094195",
+    "name": "microtomachi",
+    "path": "../../../icons//microtomachi.png",
+    "hash": "624858a76c2232e90641c50b1b55eb7b",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1040214597203918918",
+    "name": "tomagoldbadge",
+    "path": "../../../icons//tomagoldbadge.png",
+    "hash": "89a0bf0747d51a6cbc5a9dfdbba346da",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1040215096149954621",
+    "name": "tomasilverbadge",
+    "path": "../../../icons//tomasilverbadge.png",
+    "hash": "94945857b91791829c00523cf61cd083",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1040217892433690645",
+    "name": "tomabrackets",
+    "path": "../../../icons//tomabrackets.png",
+    "hash": "81067c42ae9b5acd49266033fd10cb0b",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1040218791088492618",
+    "name": "tomasyntaxerror",
+    "path": "../../../icons//tomasyntaxerror.png",
+    "hash": "9143b9d2a048025e5dea5d5089c0133f",
     "server": {
       "id": "1025997422880628776",
       "name": "Tomachi Emojis 5"
