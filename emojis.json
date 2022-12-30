@@ -2688,5 +2688,55 @@
       "id": "1025997422880628776",
       "name": "Tomachi Emojis 5"
     }
+  },
+  {
+    "id": "1044576155501596723",
+    "name": "tomahate",
+    "path": "../../../icons//tomahate.png",
+    "hash": "4d23adc22638b8138ce26604e2279629",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1044576899562741830",
+    "name": "tomahatehate",
+    "path": "../../../icons//tomahatehate.png",
+    "hash": "e0c0167dedc654e3e468d5f7ca7ce601",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1044577938462482452",
+    "name": "tomagomi",
+    "path": "../../../icons//tomagomi.png",
+    "hash": "c90e61ceb177ebfccdbf8e2af017677e",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1052198716834062458",
+    "name": "tomaboko",
+    "path": "../../../icons//tomaboko.png",
+    "hash": "015c799786f8a31d8b80c3f0fde915de",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
+  },
+  {
+    "id": "1057979595141414982",
+    "name": "tomascreen",
+    "path": "../../../icons//tomascreen.png",
+    "hash": "485aa613baf475b8f4286e49014ce5ca",
+    "server": {
+      "id": "1025997422880628776",
+      "name": "Tomachi Emojis 5"
+    }
   }
 ]
