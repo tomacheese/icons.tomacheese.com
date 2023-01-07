@@ -2,76 +2,145 @@ import axios from 'axios'
 import fs from 'fs'
 import md5 from 'md5'
 import yargs from 'yargs'
+import { getEmojis, getStickers } from './lib'
+import { DownloadedItem, EmojiWithGuild, StickerWithGuild } from './models'
 
-interface User {
-  username: string
-  discriminator: string
-  id: string
-  avatar: string
-  public_flags: number
+const conf = {
+  EMOJI: {
+    URL: 'https://cdn.discordapp.com/emojis/{id}.{format}',
+    METHOD: getEmojis,
+  },
+  STICKER: {
+    URL: 'https://cdn.discordapp.com/stickers/{id}.{format}',
+    METHOD: getStickers,
+  },
 }
 
-interface Emoji {
-  id: string
-  name: string
-  roles: string[]
-  user: User
-  require_colons: boolean
-  managed: boolean
-  animated: boolean
+function getExtension(emoji: EmojiWithGuild | StickerWithGuild) {
+  if ('animated' in emoji && emoji.animated) {
+    return 'gif'
+  }
+  // https://discord.com/developers/docs/resources/sticker#sticker-object-sticker-format-types
+  if ('format_type' in emoji && emoji.format_type === 2) {
+    return 'apng'
+  }
+  if ('format_type' in emoji && emoji.format_type === 3) {
+    return 'lottie'
+  }
+  return 'png'
 }
 
-interface Guild {
-  id: string
-  name: string
-}
-
-type EmojiWithGuild = Emoji & { server: Guild }
-
-interface DownloadedEmoji {
-  id: string
-  name: string
-  path: string
-  hash: string
-  server: Guild
-}
-
-async function getEmojis(
+async function crawl(
+  target: 'EMOJI' | 'STICKER',
+  guildIds: { [key: string]: string },
   token: string,
-  guildId: string,
-  guildName: string
-): Promise<EmojiWithGuild[]> {
-  const response = await axios.get(
-    'https://discord.com/api/guilds/' + guildId + '/emojis',
-    {
-      headers: {
-        Authorization: 'Bot ' + token,
-      },
-    }
+  output: string,
+  filePath: string
+) {
+  console.log(`crawl(${target})`)
+  console.time(`crawl(${target})`)
+  const { URL, METHOD } = conf[target]
+  const items = await Promise.all(
+    Object.entries(guildIds).map((v) => {
+      const guildName = v[1]
+      const guildId = v[0]
+      return METHOD(token, guildId, guildName)
+    })
   )
-  const emojis = response.data
-  return emojis.map((emoji: Emoji) => {
-    return {
-      ...emoji,
-      server: {
-        id: guildId,
-        name: guildName,
-      },
+  const downloadedItems: DownloadedItem[] = []
+  if (fs.existsSync(filePath)) {
+    downloadedItems.push(
+      ...(JSON.parse(fs.readFileSync(filePath, 'utf8')) as DownloadedItem[])
+    )
+  }
+
+  if (!fs.existsSync(output)) {
+    fs.mkdirSync(output, { recursive: true })
+  }
+
+  const newDownloadedItems: DownloadedItem[] = []
+  for (const item of items.flat()) {
+    const path =
+      `${
+        output.endsWith('/') ? output.substring(0, output.length - 1) : output
+      }/${item.name}.` + getExtension(item)
+    const emojiUrl = URL.replace('{id}', item.id).replace(
+      '{format}',
+      getExtension(item)
+    )
+    const data = await axios.get(emojiUrl, {
+      responseType: 'arraybuffer',
+    })
+    const hash = md5(data.data)
+
+    const downloadedItem = downloadedItems.find((e) => e.id === item.id)
+    if (downloadedItem !== undefined) {
+      // すでにダウンロード済み
+      // 既存画像と比較して変更があれば更新
+
+      // 名前の変更
+      if (downloadedItem.name !== item.name) {
+        console.log(`rename ${downloadedItem.name} -> ${item.name}`)
+        fs.renameSync(downloadedItem.path, path)
+        downloadedItem.name = item.name
+      }
+
+      // ハッシュ値の変更
+      if (downloadedItem.hash !== hash) {
+        console.log(`update ${item.name}`)
+        fs.writeFileSync(path, data.data)
+        downloadedItem.hash = hash
+      }
+      newDownloadedItems.push(downloadedItem)
+      continue
     }
-  })
+
+    // ダウンロード済みでない
+    console.log(`download ${item.name}`)
+    fs.writeFileSync(path, data.data)
+    newDownloadedItems.push({
+      id: item.id,
+      name: item.name,
+      path,
+      hash,
+      server: item.server,
+    })
+  }
+
+  // 削除済みの画像を処理
+  for (const downloadedItem of downloadedItems) {
+    if (
+      newDownloadedItems.find((e) => e.id === downloadedItem.id) !== undefined
+    ) {
+      continue
+    }
+    console.log(`delete ${downloadedItem.name}`)
+    fs.unlinkSync(downloadedItem.path)
+  }
+
+  fs.writeFileSync(filePath, JSON.stringify(newDownloadedItems, null, 2))
+  console.timeEnd(`crawl(${target})`)
 }
 
-async function main(argv: yargs.Arguments) {
-  const output = argv.output as string
-  const targetGuildsPath = argv.targetGuilds as string
-  const emojisPath = argv.emojis as string
+interface MainOptions {
+  output: {
+    emojis: string
+    stickers: string
+  }
+  targetGuildsPath: string
+  emojisPath: string
+  stickersPath: string
+}
+
+async function main(options: MainOptions) {
+  const { output, targetGuildsPath, emojisPath, stickersPath } = options
 
   if (process.env.DISCORD_TOKEN === undefined) {
     console.warn('DISCORD_TOKEN is not set')
     return
   }
-
   const token: string = process.env.DISCORD_TOKEN
+
   if (!fs.existsSync(targetGuildsPath)) {
     console.warn('targetGuilds.json does not exist')
     return
@@ -80,97 +149,48 @@ async function main(argv: yargs.Arguments) {
     [key: string]: string
   } = JSON.parse(fs.readFileSync(targetGuildsPath, 'utf8'))
 
-  const emojis = await Promise.all(
-    Object.entries(guildIds).map((v) => {
-      const guildName = v[1]
-      const guildId = v[0]
-      return getEmojis(token, guildId, guildName)
-    })
-  )
-  const downloadedEmojis: DownloadedEmoji[] = []
-  if (fs.existsSync(emojisPath)) {
-    downloadedEmojis.push(
-      ...(JSON.parse(fs.readFileSync(emojisPath, 'utf8')) as DownloadedEmoji[])
-    )
-  }
-
-  const newDownloadedEmojis: DownloadedEmoji[] = []
-  for (const emoji of emojis.flat()) {
-    const path = `${output}/${emoji.name}.` + (emoji.animated ? 'gif' : 'png')
-    const emojiUrl =
-      'https://cdn.discordapp.com/emojis/' +
-      emoji.id +
-      '.' +
-      (emoji.animated ? 'gif' : 'png')
-    const data = await axios.get(emojiUrl, {
-      responseType: 'arraybuffer',
-    })
-    const hash = md5(data.data)
-
-    const downloadedEmoji = downloadedEmojis.find((e) => e.id === emoji.id)
-    if (downloadedEmoji !== undefined) {
-      // 絵文字がすでにダウンロード済み
-      // 既存絵文字画像と比較して変更があれば更新
-
-      // 名前の変更
-      if (downloadedEmoji.name !== emoji.name) {
-        console.log(`rename ${downloadedEmoji.name} -> ${emoji.name}`)
-        fs.renameSync(downloadedEmoji.path, path)
-        downloadedEmoji.name = emoji.name
-      }
-
-      // ハッシュ値の変更
-      if (downloadedEmoji.hash !== hash) {
-        console.log(`update ${emoji.name}`)
-        fs.writeFileSync(path, data.data)
-        downloadedEmoji.hash = hash
-      }
-      newDownloadedEmojis.push(downloadedEmoji)
-      continue
-    }
-
-    // 絵文字がダウンロード済みでない
-    console.log(`download ${emoji.name}`)
-    fs.writeFileSync(path, data.data)
-    newDownloadedEmojis.push({
-      id: emoji.id,
-      name: emoji.name,
-      path,
-      hash,
-      server: emoji.server,
-    })
-  }
-
-  // 削除済みの絵文字を処理
-  for (const downloadedEmoji of downloadedEmojis) {
-    if (
-      newDownloadedEmojis.find((e) => e.id === downloadedEmoji.id) !== undefined
-    ) {
-      continue
-    }
-    console.log(`delete ${downloadedEmoji.name}`)
-    fs.unlinkSync(downloadedEmoji.path)
-  }
-
-  fs.writeFileSync(emojisPath, JSON.stringify(newDownloadedEmojis, null, 2))
+  await Promise.all([
+    crawl('EMOJI', guildIds, token, output.emojis, emojisPath),
+    crawl('STICKER', guildIds, token, output.stickers, stickersPath),
+  ])
 }
 
 ;(async () => {
-  main(
-    yargs
-      .option('output', {
-        description: 'Output path',
-        demandOption: true,
-      })
-      .option('target-guilds', {
-        description: 'Target guilds file path',
-        demandOption: true,
-      })
-      .option('emojis', {
-        description: 'Emojis file path',
-        demandOption: true,
-      })
-      .help()
-      .parseSync()
-  )
+  const args = yargs
+    .option('output-emojis', {
+      description: 'Output emojis path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('output-stickers', {
+      description: 'Output stickers path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('target-guilds', {
+      description: 'Target guilds file path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('emojis', {
+      description: 'Emojis file path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('stickers', {
+      description: 'Stickers file path',
+      demandOption: true,
+      type: 'string',
+    })
+    .help()
+    .parseSync()
+  main({
+    output: {
+      emojis: args['output-emojis'],
+      stickers: args['output-stickers'],
+    },
+    targetGuildsPath: args['target-guilds'],
+    emojisPath: args.emojis,
+    stickersPath: args.stickers,
+  })
 })()

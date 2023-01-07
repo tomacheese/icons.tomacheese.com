@@ -16,6 +16,10 @@ Tomachi icons repository
 
 {{ICONS}}
 
+## Stickers
+
+{{STICKERS}}
+
 ## Extensions
 
 {{ICON_EXTS}}

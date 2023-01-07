@@ -1,20 +1,18 @@
 import fs from 'fs'
 import yargs from 'yargs'
+import { DownloadedItem } from './models'
 
-const extensions = ['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp', 'ico']
-
-interface Guild {
-  id: string
-  name: string
-}
-
-interface DownloadedEmoji {
-  id: string
-  name: string
-  path: string
-  hash: string
-  server: Guild
-}
+const extensions = [
+  'png',
+  'jpg',
+  'jpeg',
+  'gif',
+  'svg',
+  'webp',
+  'ico',
+  'apng',
+  'lottie',
+]
 
 function arrayChunk([...array], size = 1) {
   return array.reduce(
@@ -24,61 +22,98 @@ function arrayChunk([...array], size = 1) {
   )
 }
 
-function getEmojiExtensionsTable(files: string[]) {
+function getEmojiExtensionsTable(emojiFiles: string[], stickerFiles: string[]) {
   const extCounts = extensions
     .map((ext) => {
       return {
         ext,
-        count: files.filter((file) => file.endsWith(`.${ext}`)).length,
+        emojiCount: emojiFiles.filter((file) => file.endsWith(`.${ext}`))
+          .length,
+        stickerCount: stickerFiles.filter((file) => file.endsWith(`.${ext}`))
+          .length,
       }
     })
-    .sort((a, b) => b.count - a.count)
-  const headerIconExts = '| file ext | count |\n| :-: | :-: |'
+    .sort((a, b) => b.emojiCount - a.emojiCount)
+  const headerIconExts =
+    '| file ext | emojis count | stickers count |\n| :-: | :-: | :-: |'
   const extTables = extCounts
-    .map((ext) => '| **' + ext.ext + '** | ' + ext.count + ' |')
+    .map(
+      (ext) =>
+        '| **' +
+        ext.ext +
+        '** | ' +
+        ext.emojiCount +
+        ' |' +
+        ext.stickerCount +
+        ' |'
+    )
     .join('\n')
 
   return headerIconExts + '\n' + extTables
 }
 
-function getEmojiServerTable(targetGuildsPath: string, emojisPath: string) {
-  const headerIconServers = '| server | png | gif |\n| :-: | :-: | :-: |'
+function getEmojiServerTable(
+  targetGuildsPath: string,
+  emojisPath: string,
+  stickerPath: string
+) {
+  const headerIconServers =
+    '| server | emoji/png | emoji/gif | sticker/png | sticker/apng |\n| :- | :-: | :-: | :-: | :-: |'
 
   const emojis = JSON.parse(
     fs.readFileSync(emojisPath, 'utf8')
-  ) as DownloadedEmoji[]
+  ) as DownloadedItem[]
+  const stickers = JSON.parse(
+    fs.readFileSync(stickerPath, 'utf8')
+  ) as DownloadedItem[]
   const guilds = JSON.parse(fs.readFileSync(targetGuildsPath, 'utf8')) as {
     [key: string]: string
   }
 
-  const guildEmojiCount = Object.entries(guilds).map((guild) => {
+  const guildItemCount = Object.entries(guilds).map((guild) => {
     const guildName = guild[1]
     const guildId = guild[0]
 
     const guildEmojis = emojis.filter((emoji) => emoji.server.id === guildId)
-    const pngCount = guildEmojis.filter((emoji) =>
+
+    const guildStickers = stickers.filter(
+      (sticker) => sticker.server.id === guildId
+    )
+    const emojiPngCount = guildEmojis.filter((emoji) =>
       emoji.path.endsWith('.png')
     ).length
-    const gifCount = guildEmojis.filter((emoji) =>
+    const emojiGifCount = guildEmojis.filter((emoji) =>
       emoji.path.endsWith('.gif')
+    ).length
+    const stickerPngCount = guildStickers.filter((sticker) =>
+      sticker.path.endsWith('.png')
+    ).length
+    const stickerApngCount = guildStickers.filter((sticker) =>
+      sticker.path.endsWith('.apng')
     ).length
 
     return {
       guildName,
-      pngCount,
-      gifCount,
+      emojiPngCount,
+      emojiGifCount,
+      stickerPngCount,
+      stickerApngCount,
     }
   })
 
-  const serverTables = guildEmojiCount
+  const serverTables = guildItemCount
     .map(
       (guild) =>
         '| **' +
         guild.guildName +
         '** | ' +
-        guild.pngCount +
+        guild.emojiPngCount +
         ' | ' +
-        guild.gifCount +
+        guild.emojiGifCount +
+        ' | ' +
+        guild.stickerPngCount +
+        ' | ' +
+        guild.stickerApngCount +
         ' |'
     )
     .join('\n')
@@ -86,20 +121,33 @@ function getEmojiServerTable(targetGuildsPath: string, emojisPath: string) {
 }
 
 function main(argv: any) {
-  const targetPath = argv.target as string
+  const targetEmojisPath = argv.targetEmojis as string
+  const targetStickersPath = argv.targetStickers as string
   const outputPath = argv.output as string
   const targetGuildsPath = argv.targetGuilds as string
   const emojisPath = argv.emojis as string
+  const stickersPath = argv.stickers as string
 
-  const files = fs
-    .readdirSync(targetPath)
+  const emojiFiles = fs
+    .readdirSync(targetEmojisPath)
+    .filter((file) => extensions.find((ext) => file.endsWith(`.${ext}`)))
+  const stickerFiles = fs
+    .readdirSync(targetStickersPath)
     .filter((file) => extensions.find((ext) => file.endsWith(`.${ext}`)))
 
-  const imgTags = files.map(
+  const emojiImgTags = emojiFiles.map(
     (file) =>
       `<a href="icons/${file}"><img src="icons/${file}" title="${file}" alt="${file}" width="100px" /><br>${file}</a>`
   )
-  const images = arrayChunk(imgTags, 3)
+  const emojiImages = arrayChunk(emojiImgTags, 3)
+    .map((chunk: any[]) => chunk.join(' | '))
+    .map((chunk: string) => `| ${chunk} |`)
+    .join('\n')
+  const stickerImgTags = stickerFiles.map(
+    (file) =>
+      `<a href="stickers/${file}"><img src="stickers/${file}" title="${file}" alt="${file}" width="100px" /><br>${file}</a>`
+  )
+  const stickerImages = arrayChunk(stickerImgTags, 3)
     .map((chunk: any[]) => chunk.join(' | '))
     .map((chunk: string) => `| ${chunk} |`)
     .join('\n')
@@ -108,19 +156,24 @@ function main(argv: any) {
   const headerIcons = '|     |     |     |\n| :-: | :-: | :-: |'
 
   const output = template
-    .replace('{{ICONS}}', headerIcons + '\n' + images)
-    .replace('{{ICON_EXTS}}', getEmojiExtensionsTable(files))
+    .replace('{{ICONS}}', headerIcons + '\n' + emojiImages)
+    .replace('{{STICKERS}}', headerIcons + '\n' + stickerImages)
+    .replace('{{ICON_EXTS}}', getEmojiExtensionsTable(emojiFiles, stickerFiles))
     .replace(
       '{{ICON_SERVERS}}',
-      getEmojiServerTable(targetGuildsPath, emojisPath)
+      getEmojiServerTable(targetGuildsPath, emojisPath, stickersPath)
     )
 
   fs.writeFileSync(outputPath, output)
 }
 main(
   yargs
-    .option('target', {
-      description: 'Target path',
+    .option('target-emojis', {
+      description: 'Target emojis path',
+      demandOption: true,
+    })
+    .option('target-stickers', {
+      description: 'Target stickers path',
       demandOption: true,
     })
     .option('output', {
@@ -133,6 +186,10 @@ main(
     })
     .option('emojis', {
       description: 'Emojis file path',
+      demandOption: true,
+    })
+    .option('stickers', {
+      description: 'Stickers file path',
       demandOption: true,
     })
     .help().argv

@@ -41,7 +41,7 @@ jobs:
 
     - name: Fetch emojis from Tomachi Emojis
       working-directory: ./.github/scripts/fetch-tomachi-emojis/
-      run: yarn build --output ../../../icons/ --target-guilds ../../../targetGuilds.json --emojis ../../../emojis.json
+      run: yarn build --output-emojis ../../../icons/ --output-stickers ../../../stickers/ --target-guilds ../../../targetGuilds.json --emojis ../../../emojis.json --stickers ../../../stickers.json
       env:
         DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 
@@ -65,7 +65,7 @@ jobs:
 
     - name: Generate README file
       working-directory: ./.github/scripts/generate-readme/
-      run: yarn build --target ../../../icons/ --output ../../../README.md --target-guilds ../../../targetGuilds.json --emojis ../../../emojis.json
+      run: yarn build --target-emojis ../../../icons/ --target-stickers ../../../stickers/ --output ../../../README.md --target-guilds ../../../targetGuilds.json --emojis ../../../emojis.json --stickers ../../../stickers.json
 
     - name: Commit & Push
       run: |
