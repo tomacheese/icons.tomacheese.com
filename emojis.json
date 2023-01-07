@@ -2,7 +2,7 @@
   {
     "id": "627857252706942987",
     "name": "tomask",
-    "path": "../../../icons//tomask.png",
+    "path": "../../../icons/tomask.png",
     "hash": "47c60543f24c215aaae323a1d9f3f766",
     "server": {
       "id": "627851806990663724",
@@ -12,7 +12,7 @@
   {
     "id": "627857252723982358",
     "name": "tomachi",
-    "path": "../../../icons//tomachi.png",
+    "path": "../../../icons/tomachi.png",
     "hash": "bff530afcf1f7bb6e625496cd6237f42",
     "server": {
       "id": "627851806990663724",
@@ -22,7 +22,7 @@
   {
     "id": "627857252790960133",
     "name": "yellowtmt",
-    "path": "../../../icons//yellowtmt.png",
+    "path": "../../../icons/yellowtmt.png",
     "hash": "f7ad3b024738c028a87caee97373d455",
     "server": {
       "id": "627851806990663724",
@@ -32,7 +32,7 @@
   {
     "id": "627857252921114634",
     "name": "tomachiwinking",
-    "path": "../../../icons//tomachiwinking.gif",
+    "path": "../../../icons/tomachiwinking.gif",
     "hash": "c04701129a76a3087a80363e86bc46e5",
     "server": {
       "id": "627851806990663724",
@@ -42,7 +42,7 @@
   {
     "id": "627857252933697546",
     "name": "tomascratch",
-    "path": "../../../icons//tomascratch.png",
+    "path": "../../../icons/tomascratch.png",
     "hash": "fedc71b4923230cbbd45a3b77dd89fb4",
     "server": {
       "id": "627851806990663724",
@@ -52,7 +52,7 @@
   {
     "id": "627857252933697565",
     "name": "tomachiflat",
-    "path": "../../../icons//tomachiflat.png",
+    "path": "../../../icons/tomachiflat.png",
     "hash": "333a2f9e325d2f8fd0c4992f62cab8bd",
     "server": {
       "id": "627851806990663724",
@@ -62,7 +62,7 @@
   {
     "id": "627857253013258240",
     "name": "tomaoverloading",
-    "path": "../../../icons//tomaoverloading.gif",
+    "path": "../../../icons/tomaoverloading.gif",
     "hash": "b02c2678ccb8832fbc4dd916b9230061",
     "server": {
       "id": "627851806990663724",
@@ -72,7 +72,7 @@
   {
     "id": "627857253042749469",
     "name": "tomablurple",
-    "path": "../../../icons//tomablurple.png",
+    "path": "../../../icons/tomablurple.png",
     "hash": "512c99715be1e55416b8174e49076a98",
     "server": {
       "id": "627851806990663724",
@@ -82,7 +82,7 @@
   {
     "id": "627857253050875934",
     "name": "tomaextremeoverloading",
-    "path": "../../../icons//tomaextremeoverloading.gif",
+    "path": "../../../icons/tomaextremeoverloading.gif",
     "hash": "f0f15c31f07c1aced713a79014a7638f",
     "server": {
       "id": "627851806990663724",
@@ -92,7 +92,7 @@
   {
     "id": "627857253063720970",
     "name": "tomarainbowing",
-    "path": "../../../icons//tomarainbowing.gif",
+    "path": "../../../icons/tomarainbowing.gif",
     "hash": "e84bd002af1f6ace9b88e3b46130fc6a",
     "server": {
       "id": "627851806990663724",
@@ -102,7 +102,7 @@
   {
     "id": "627857253067784202",
     "name": "tomachipress",
-    "path": "../../../icons//tomachipress.png",
+    "path": "../../../icons/tomachipress.png",
     "hash": "3a2e3da6255f8ea6d302b0b6fafffbb9",
     "server": {
       "id": "627851806990663724",
@@ -112,7 +112,7 @@
   {
     "id": "627857253071847424",
     "name": "tomaserver_1",
-    "path": "../../../icons//tomaserver_1.png",
+    "path": "../../../icons/tomaserver_1.png",
     "hash": "b2970923fcdbc9b615c4ffc73582410b",
     "server": {
       "id": "627851806990663724",
@@ -122,7 +122,7 @@
   {
     "id": "627857253105664010",
     "name": "tomathinking",
-    "path": "../../../icons//tomathinking.png",
+    "path": "../../../icons/tomathinking.png",
     "hash": "25301408defab685cf89f913deed8d1a",
     "server": {
       "id": "627851806990663724",
@@ -132,7 +132,7 @@
   {
     "id": "627857253126635520",
     "name": "tomaskin",
-    "path": "../../../icons//tomaskin.png",
+    "path": "../../../icons/tomaskin.png",
     "hash": "7f0a2e612ab1791efc1e085780d35f3a",
     "server": {
       "id": "627851806990663724",
@@ -142,7 +142,7 @@
   {
     "id": "627857253369774090",
     "name": "tomawink",
-    "path": "../../../icons//tomawink.png",
+    "path": "../../../icons/tomawink.png",
     "hash": "e6d03e981aa11c6577666ddcaa6fad35",
     "server": {
       "id": "627851806990663724",
@@ -152,7 +152,7 @@
   {
     "id": "627857253797724161",
     "name": "tomarainbow",
-    "path": "../../../icons//tomarainbow.png",
+    "path": "../../../icons/tomarainbow.png",
     "hash": "2d8a55a60c638ceb5765d680e39d2c5d",
     "server": {
       "id": "627851806990663724",
@@ -162,7 +162,7 @@
   {
     "id": "627857253814370321",
     "name": "tomadedding",
-    "path": "../../../icons//tomadedding.gif",
+    "path": "../../../icons/tomadedding.gif",
     "hash": "2dde0cfe5141fb844ffda6ca58810b7d",
     "server": {
       "id": "627851806990663724",
@@ -172,7 +172,7 @@
   {
     "id": "627857253873221632",
     "name": "tomachioccurrence",
-    "path": "../../../icons//tomachioccurrence.png",
+    "path": "../../../icons/tomachioccurrence.png",
     "hash": "e43d230797262caeb43eab027e761fec",
     "server": {
       "id": "627851806990663724",
@@ -182,7 +182,7 @@
   {
     "id": "627857253927747584",
     "name": "tomahype",
-    "path": "../../../icons//tomahype.gif",
+    "path": "../../../icons/tomahype.gif",
     "hash": "e1ac31a12730d1187108763911c9b97d",
     "server": {
       "id": "627851806990663724",
@@ -192,7 +192,7 @@
   {
     "id": "627857254002982913",
     "name": "tomathinkinging",
-    "path": "../../../icons//tomathinkinging.gif",
+    "path": "../../../icons/tomathinkinging.gif",
     "hash": "59a11729587a7f73d69b52a4aadf380a",
     "server": {
       "id": "627851806990663724",
@@ -202,7 +202,7 @@
   {
     "id": "627857254007177246",
     "name": "tomadisrespecting",
-    "path": "../../../icons//tomadisrespecting.gif",
+    "path": "../../../icons/tomadisrespecting.gif",
     "hash": "dbe0f135e79b6f51b1551b68bf33f11f",
     "server": {
       "id": "627851806990663724",
@@ -212,7 +212,7 @@
   {
     "id": "627857254024216594",
     "name": "tomajao",
-    "path": "../../../icons//tomajao.gif",
+    "path": "../../../icons/tomajao.gif",
     "hash": "abf816d09d3e252b905eb13c2b6326d2",
     "server": {
       "id": "627851806990663724",
@@ -222,7 +222,7 @@
   {
     "id": "627857254065897503",
     "name": "tomaloading",
-    "path": "../../../icons//tomaloading.gif",
+    "path": "../../../icons/tomaloading.gif",
     "hash": "f9b3f94d3a1b15648485aedf97dde0b7",
     "server": {
       "id": "627851806990663724",
@@ -232,7 +232,7 @@
   {
     "id": "627857254066028593",
     "name": "tomaeew",
-    "path": "../../../icons//tomaeew.png",
+    "path": "../../../icons/tomaeew.png",
     "hash": "1bbc8040f0725d78ae566c401e4a93c2",
     "server": {
       "id": "627851806990663724",
@@ -242,7 +242,7 @@
   {
     "id": "627857255038976022",
     "name": "tomamaterial",
-    "path": "../../../icons//tomamaterial.png",
+    "path": "../../../icons/tomamaterial.png",
     "hash": "b551bffdd967c283b1743e4fb57a6f5d",
     "server": {
       "id": "627851806990663724",
@@ -252,7 +252,7 @@
   {
     "id": "627857255114735626",
     "name": "tomapsycherainbow",
-    "path": "../../../icons//tomapsycherainbow.gif",
+    "path": "../../../icons/tomapsycherainbow.gif",
     "hash": "8325cf98f2a838cdc172bdfd8012d125",
     "server": {
       "id": "627851806990663724",
@@ -262,7 +262,7 @@
   {
     "id": "627857556542455808",
     "name": "tomaburied",
-    "path": "../../../icons//tomaburied.png",
+    "path": "../../../icons/tomaburied.png",
     "hash": "d181728fda45829470dcd6bed26d8e66",
     "server": {
       "id": "627851806990663724",
@@ -272,7 +272,7 @@
   {
     "id": "627857973670313988",
     "name": "tomaserver_2",
-    "path": "../../../icons//tomaserver_2.png",
+    "path": "../../../icons/tomaserver_2.png",
     "hash": "7639e1c7a9c335e979a420f61e17cce5",
     "server": {
       "id": "627851806990663724",
@@ -282,7 +282,7 @@
   {
     "id": "627857973884092435",
     "name": "tomaserver_8",
-    "path": "../../../icons//tomaserver_8.png",
+    "path": "../../../icons/tomaserver_8.png",
     "hash": "af8f15050e839c8497f4f593aba8543b",
     "server": {
       "id": "627851806990663724",
@@ -292,7 +292,7 @@
   {
     "id": "627857974018310164",
     "name": "tomaserver_3",
-    "path": "../../../icons//tomaserver_3.png",
+    "path": "../../../icons/tomaserver_3.png",
     "hash": "ef60fd4062b9b80282e7b727865c37d9",
     "server": {
       "id": "627851806990663724",
@@ -302,7 +302,7 @@
   {
     "id": "627857974064316466",
     "name": "tomaserver_6",
-    "path": "../../../icons//tomaserver_6.png",
+    "path": "../../../icons/tomaserver_6.png",
     "hash": "f74a26857810da58de334474ec28411e",
     "server": {
       "id": "627851806990663724",
@@ -312,7 +312,7 @@
   {
     "id": "627857974064447499",
     "name": "tomaserver_4",
-    "path": "../../../icons//tomaserver_4.png",
+    "path": "../../../icons/tomaserver_4.png",
     "hash": "cebe37cb87514de0319d7a0a4f2cc523",
     "server": {
       "id": "627851806990663724",
@@ -322,7 +322,7 @@
   {
     "id": "627857974093938728",
     "name": "tomaserver_7",
-    "path": "../../../icons//tomaserver_7.png",
+    "path": "../../../icons/tomaserver_7.png",
     "hash": "ca9ec2a786d9e8225c92032b641f8c09",
     "server": {
       "id": "627851806990663724",
@@ -332,7 +332,7 @@
   {
     "id": "627857974102065192",
     "name": "tomaserver_5",
-    "path": "../../../icons//tomaserver_5.png",
+    "path": "../../../icons/tomaserver_5.png",
     "hash": "ce2306f862f758d5508a243d09e971e8",
     "server": {
       "id": "627851806990663724",
@@ -342,7 +342,7 @@
   {
     "id": "627857974295134228",
     "name": "tomaserver_9",
-    "path": "../../../icons//tomaserver_9.png",
+    "path": "../../../icons/tomaserver_9.png",
     "hash": "7c734e4b9af68a9eac2d3d7ba6ba9571",
     "server": {
       "id": "627851806990663724",
@@ -352,7 +352,7 @@
   {
     "id": "627857974857170992",
     "name": "tomaserver_10",
-    "path": "../../../icons//tomaserver_10.png",
+    "path": "../../../icons/tomaserver_10.png",
     "hash": "2003d833b4b39829b7813cd71564d34a",
     "server": {
       "id": "627851806990663724",
@@ -362,7 +362,7 @@
   {
     "id": "627858456904466482",
     "name": "tomasuperpsycherainbow",
-    "path": "../../../icons//tomasuperpsycherainbow.gif",
+    "path": "../../../icons/tomasuperpsycherainbow.gif",
     "hash": "768ca7529b715b1a2550cebdca42aed3",
     "server": {
       "id": "627851806990663724",
@@ -372,7 +372,7 @@
   {
     "id": "627859200306970644",
     "name": "realtomachi",
-    "path": "../../../icons//realtomachi.png",
+    "path": "../../../icons/realtomachi.png",
     "hash": "91ade135122668e11f74679798a45cfe",
     "server": {
       "id": "627851806990663724",
@@ -382,7 +382,7 @@
   {
     "id": "627859247023259668",
     "name": "tomacomet",
-    "path": "../../../icons//tomacomet.png",
+    "path": "../../../icons/tomacomet.png",
     "hash": "ea22f316fad3623e81d172faad40c5e7",
     "server": {
       "id": "627851806990663724",
@@ -392,7 +392,7 @@
   {
     "id": "627859416758353930",
     "name": "tomaphone",
-    "path": "../../../icons//tomaphone.png",
+    "path": "../../../icons/tomaphone.png",
     "hash": "769c5e0e0239ef3d01f64fe948a3119c",
     "server": {
       "id": "627851806990663724",
@@ -402,7 +402,7 @@
   {
     "id": "627863902960615426",
     "name": "tomacchi",
-    "path": "../../../icons//tomacchi.png",
+    "path": "../../../icons/tomacchi.png",
     "hash": "39c1db8e380dd8a719f5d349ca0ba7f6",
     "server": {
       "id": "627851806990663724",
@@ -412,7 +412,7 @@
   {
     "id": "627863903107285013",
     "name": "nudonge_dotomachi",
-    "path": "../../../icons//nudonge_dotomachi.png",
+    "path": "../../../icons/nudonge_dotomachi.png",
     "hash": "5cc96a263a2fafed0d599b494e05f043",
     "server": {
       "id": "627851806990663724",
@@ -422,7 +422,7 @@
   {
     "id": "627863903250022440",
     "name": "dotomachi",
-    "path": "../../../icons//dotomachi.png",
+    "path": "../../../icons/dotomachi.png",
     "hash": "b7445c8c8548db9b51636c71ca2cc507",
     "server": {
       "id": "627851806990663724",
@@ -432,7 +432,7 @@
   {
     "id": "627863903312805917",
     "name": "tomame",
-    "path": "../../../icons//tomame.png",
+    "path": "../../../icons/tomame.png",
     "hash": "da2c18acb94cf9dc1f319f1902455b36",
     "server": {
       "id": "627851806990663724",
@@ -442,7 +442,7 @@
   {
     "id": "633983485857759254",
     "name": "tomahopconga_d",
-    "path": "../../../icons//tomahopconga_d.gif",
+    "path": "../../../icons/tomahopconga_d.gif",
     "hash": "63b7c4cb3ee5abfbcc0de2e20ef865d9",
     "server": {
       "id": "627851806990663724",
@@ -452,7 +452,7 @@
   {
     "id": "633983486679711794",
     "name": "tomahopconga_u",
-    "path": "../../../icons//tomahopconga_u.gif",
+    "path": "../../../icons/tomahopconga_u.gif",
     "hash": "ae5b2da6d627d24aa4b364f861df3315",
     "server": {
       "id": "627851806990663724",
@@ -462,7 +462,7 @@
   {
     "id": "635674789683658753",
     "name": "tomachiGood",
-    "path": "../../../icons//tomachiGood.png",
+    "path": "../../../icons/tomachiGood.png",
     "hash": "ccf1fbfda63663a6598b7638f1409547",
     "server": {
       "id": "627851806990663724",
@@ -472,7 +472,7 @@
   {
     "id": "635674861888471040",
     "name": "tomachiGoodGood",
-    "path": "../../../icons//tomachiGoodGood.png",
+    "path": "../../../icons/tomachiGoodGood.png",
     "hash": "9e04d00f1b66b040b07a4d0b37dd730a",
     "server": {
       "id": "627851806990663724",
@@ -482,7 +482,7 @@
   {
     "id": "637892409736298507",
     "name": "tomachimi",
-    "path": "../../../icons//tomachimi.png",
+    "path": "../../../icons/tomachimi.png",
     "hash": "9d41d537732491179bf4b0053e7ae6b3",
     "server": {
       "id": "627851806990663724",
@@ -492,7 +492,7 @@
   {
     "id": "643788548566286336",
     "name": "tomachinanago",
-    "path": "../../../icons//tomachinanago.png",
+    "path": "../../../icons/tomachinanago.png",
     "hash": "781438193ff8bd58658760ff70570e25",
     "server": {
       "id": "627851806990663724",
@@ -502,7 +502,7 @@
   {
     "id": "645244443401912350",
     "name": "nishikianago",
-    "path": "../../../icons//nishikianago.png",
+    "path": "../../../icons/nishikianago.png",
     "hash": "808a31ce5d7b20ab6c1c401d209152a5",
     "server": {
       "id": "627851806990663724",
@@ -512,7 +512,7 @@
   {
     "id": "660612646848036874",
     "name": "tomachop_fast",
-    "path": "../../../icons//tomachop_fast.gif",
+    "path": "../../../icons/tomachop_fast.gif",
     "hash": "aa3f5378116ccfe2c26393270e026113",
     "server": {
       "id": "627851806990663724",
@@ -522,7 +522,7 @@
   {
     "id": "661781677709721661",
     "name": "tomadealwithit",
-    "path": "../../../icons//tomadealwithit.png",
+    "path": "../../../icons/tomadealwithit.png",
     "hash": "1c42cc3196cf8097e8264f950aa0e30d",
     "server": {
       "id": "627851806990663724",
@@ -532,7 +532,7 @@
   {
     "id": "692379165487398942",
     "name": "tomapixel",
-    "path": "../../../icons//tomapixel.png",
+    "path": "../../../icons/tomapixel.png",
     "hash": "44395350ddfd312c0948796e1d905c40",
     "server": {
       "id": "627851806990663724",
@@ -542,7 +542,7 @@
   {
     "id": "693511155557204008",
     "name": "tomapin",
-    "path": "../../../icons//tomapin.png",
+    "path": "../../../icons/tomapin.png",
     "hash": "85fd629c2217a44aa1e43a876181f117",
     "server": {
       "id": "627851806990663724",
@@ -552,7 +552,7 @@
   {
     "id": "766989902910849025",
     "name": "tomatank",
-    "path": "../../../icons//tomatank.png",
+    "path": "../../../icons/tomatank.png",
     "hash": "c87fe197cc0d6b21fb4bd18f430826ff",
     "server": {
       "id": "627851806990663724",
@@ -562,7 +562,7 @@
   {
     "id": "767179399446396953",
     "name": "tomahop",
-    "path": "../../../icons//tomahop.gif",
+    "path": "../../../icons/tomahop.gif",
     "hash": "d30fa7db5b5056970535a9acc73eaec3",
     "server": {
       "id": "627851806990663724",
@@ -572,7 +572,7 @@
   {
     "id": "787162183796523069",
     "name": "tomadarkness",
-    "path": "../../../icons//tomadarkness.png",
+    "path": "../../../icons/tomadarkness.png",
     "hash": "f2aac8dff425675d1dba5255561d271c",
     "server": {
       "id": "627851806990663724",
@@ -582,7 +582,7 @@
   {
     "id": "790145272004608021",
     "name": "nasuchi",
-    "path": "../../../icons//nasuchi.gif",
+    "path": "../../../icons/nasuchi.gif",
     "hash": "9f235f260d953428af769610a4609b05",
     "server": {
       "id": "627851806990663724",
@@ -592,7 +592,7 @@
   {
     "id": "794096125275013150",
     "name": "tomalarm",
-    "path": "../../../icons//tomalarm.gif",
+    "path": "../../../icons/tomalarm.gif",
     "hash": "4a5b8f9be61876c44c02f7a0c06b9272",
     "server": {
       "id": "627851806990663724",
@@ -602,7 +602,7 @@
   {
     "id": "817474889925263420",
     "name": "automachi",
-    "path": "../../../icons//automachi.png",
+    "path": "../../../icons/automachi.png",
     "hash": "72d7c2b13494032c63bf14a1c03c88a1",
     "server": {
       "id": "627851806990663724",
@@ -612,7 +612,7 @@
   {
     "id": "828294040633344000",
     "name": "tomacat",
-    "path": "../../../icons//tomacat.png",
+    "path": "../../../icons/tomacat.png",
     "hash": "34dd9d1e877d013dfb20d2472bd9da35",
     "server": {
       "id": "627851806990663724",
@@ -622,7 +622,7 @@
   {
     "id": "828294861932986378",
     "name": "tomacat_withtail",
-    "path": "../../../icons//tomacat_withtail.png",
+    "path": "../../../icons/tomacat_withtail.png",
     "hash": "ec70e890f4890d400ca62cc7613143cf",
     "server": {
       "id": "627851806990663724",
@@ -632,7 +632,7 @@
   {
     "id": "829879678968791071",
     "name": "tomajumpscare",
-    "path": "../../../icons//tomajumpscare.gif",
+    "path": "../../../icons/tomajumpscare.gif",
     "hash": "0bff0e44389a66f576d64d75d1dc461e",
     "server": {
       "id": "627851806990663724",
@@ -642,7 +642,7 @@
   {
     "id": "830762278541459457",
     "name": "tomashot_r",
-    "path": "../../../icons//tomashot_r.gif",
+    "path": "../../../icons/tomashot_r.gif",
     "hash": "da22ade929f87946ac4fd68057314795",
     "server": {
       "id": "627851806990663724",
@@ -652,7 +652,7 @@
   {
     "id": "830763707737833492",
     "name": "tomashot_l",
-    "path": "../../../icons//tomashot_l.gif",
+    "path": "../../../icons/tomashot_l.gif",
     "hash": "845f54f0f05a6961788509682bcfcf7d",
     "server": {
       "id": "627851806990663724",
@@ -662,7 +662,7 @@
   {
     "id": "830767588481040384",
     "name": "tomashot_d",
-    "path": "../../../icons//tomashot_d.gif",
+    "path": "../../../icons/tomashot_d.gif",
     "hash": "94a789f28b9179abd09458fcff87e4c8",
     "server": {
       "id": "627851806990663724",
@@ -672,7 +672,7 @@
   {
     "id": "830767812976967720",
     "name": "tomashot_u",
-    "path": "../../../icons//tomashot_u.gif",
+    "path": "../../../icons/tomashot_u.gif",
     "hash": "043b0e6c4743ba3e70ae1d2eea0a9fbf",
     "server": {
       "id": "627851806990663724",
@@ -682,7 +682,7 @@
   {
     "id": "831870376120025149",
     "name": "tomapien",
-    "path": "../../../icons//tomapien.png",
+    "path": "../../../icons/tomapien.png",
     "hash": "e53b5b3772d05c94d303569a71278973",
     "server": {
       "id": "627851806990663724",
@@ -692,7 +692,7 @@
   {
     "id": "839119768430051349",
     "name": "pizzaontomachi",
-    "path": "../../../icons//pizzaontomachi.png",
+    "path": "../../../icons/pizzaontomachi.png",
     "hash": "df3b4c120cf227dacef125490ac08442",
     "server": {
       "id": "627851806990663724",
@@ -702,7 +702,7 @@
   {
     "id": "839819698739740672",
     "name": "TomachintelliJ",
-    "path": "../../../icons//TomachintelliJ.png",
+    "path": "../../../icons/TomachintelliJ.png",
     "hash": "30f6671b57c25da67a2616dc00bad365",
     "server": {
       "id": "627851806990663724",
@@ -712,7 +712,7 @@
   {
     "id": "843299288573280296",
     "name": "tomabeat",
-    "path": "../../../icons//tomabeat.gif",
+    "path": "../../../icons/tomabeat.gif",
     "hash": "ee7070676dca24d9b3df7dd2aa0d49ca",
     "server": {
       "id": "627851806990663724",
@@ -722,7 +722,7 @@
   {
     "id": "844382294869016576",
     "name": "tomapay",
-    "path": "../../../icons//tomapay.png",
+    "path": "../../../icons/tomapay.png",
     "hash": "3f6ab46f34072ba1475f7a79c4ebed70",
     "server": {
       "id": "627851806990663724",
@@ -732,7 +732,7 @@
   {
     "id": "850986930531205121",
     "name": "tomastep",
-    "path": "../../../icons//tomastep.gif",
+    "path": "../../../icons/tomastep.gif",
     "hash": "0446cfa26f191f7d156a52e64a6ed518",
     "server": {
       "id": "627851806990663724",
@@ -742,7 +742,7 @@
   {
     "id": "855454029810368542",
     "name": "tomaen",
-    "path": "../../../icons//tomaen.png",
+    "path": "../../../icons/tomaen.png",
     "hash": "aea67bb000cbee8bf280184ff1f214c1",
     "server": {
       "id": "627851806990663724",
@@ -752,7 +752,7 @@
   {
     "id": "878931897856712714",
     "name": "tomaora",
-    "path": "../../../icons//tomaora.gif",
+    "path": "../../../icons/tomaora.gif",
     "hash": "b15ed86f29c4bfe3948c981a6fdcc615",
     "server": {
       "id": "627851806990663724",
@@ -762,7 +762,7 @@
   {
     "id": "944450457798053968",
     "name": "tomaori",
-    "path": "../../../icons//tomaori.gif",
+    "path": "../../../icons/tomaori.gif",
     "hash": "a5f5bf25da425df1bda84acf49d9d308",
     "server": {
       "id": "627851806990663724",
@@ -772,7 +772,7 @@
   {
     "id": "944451260252299304",
     "name": "tomahyperaori",
-    "path": "../../../icons//tomahyperaori.gif",
+    "path": "../../../icons/tomahyperaori.gif",
     "hash": "069ab6011fb2bae89928b9101dffffc5",
     "server": {
       "id": "627851806990663724",
@@ -782,7 +782,7 @@
   {
     "id": "952004228681965608",
     "name": "tomagatling",
-    "path": "../../../icons//tomagatling.gif",
+    "path": "../../../icons/tomagatling.gif",
     "hash": "85bcc74e6061b4b00bf002735174bf3b",
     "server": {
       "id": "627851806990663724",
@@ -792,7 +792,7 @@
   {
     "id": "972800311771160637",
     "name": "toma3dhyperspinhop",
-    "path": "../../../icons//toma3dhyperspinhop.gif",
+    "path": "../../../icons/toma3dhyperspinhop.gif",
     "hash": "b81d69e442a321e49cb203544281d30f",
     "server": {
       "id": "627851806990663724",
@@ -802,7 +802,7 @@
   {
     "id": "995465134388543568",
     "name": "tomafaceshake",
-    "path": "../../../icons//tomafaceshake.gif",
+    "path": "../../../icons/tomafaceshake.gif",
     "hash": "1281d8ad39b9e9ea4622db1f65ca3bc1",
     "server": {
       "id": "627851806990663724",
@@ -812,7 +812,7 @@
   {
     "id": "995466257925160980",
     "name": "tomadoubleloading",
-    "path": "../../../icons//tomadoubleloading.gif",
+    "path": "../../../icons/tomadoubleloading.gif",
     "hash": "6714c3613a3803b0cf006774af0f363c",
     "server": {
       "id": "627851806990663724",
@@ -822,7 +822,7 @@
   {
     "id": "997702256826798101",
     "name": "tomadestroyed",
-    "path": "../../../icons//tomadestroyed.gif",
+    "path": "../../../icons/tomadestroyed.gif",
     "hash": "5a15573728edda42c772d265cdc3395d",
     "server": {
       "id": "627851806990663724",
@@ -832,7 +832,7 @@
   {
     "id": "1017439950909734983",
     "name": "tomablasthiratakedubstep",
-    "path": "../../../icons//tomablasthiratakedubstep.gif",
+    "path": "../../../icons/tomablasthiratakedubstep.gif",
     "hash": "5baf4d28760216b98791233526ef15b5",
     "server": {
       "id": "627851806990663724",
@@ -842,7 +842,7 @@
   {
     "id": "1036047763575676928",
     "name": "tomaplace",
-    "path": "../../../icons//tomaplace.gif",
+    "path": "../../../icons/tomaplace.gif",
     "hash": "4afa2f37e44c5341cccd121fe3d72bd2",
     "server": {
       "id": "627851806990663724",
@@ -852,7 +852,7 @@
   {
     "id": "1039864125762834484",
     "name": "tomasmashed",
-    "path": "../../../icons//tomasmashed.gif",
+    "path": "../../../icons/tomasmashed.gif",
     "hash": "821afebbab6baadfd5d5b3d2522cb2e9",
     "server": {
       "id": "627851806990663724",
@@ -862,7 +862,7 @@
   {
     "id": "1039865206253297676",
     "name": "tomawipe",
-    "path": "../../../icons//tomawipe.gif",
+    "path": "../../../icons/tomawipe.gif",
     "hash": "3d39daa48874c9f3d76129c9b8d2b50c",
     "server": {
       "id": "627851806990663724",
@@ -872,7 +872,7 @@
   {
     "id": "855462651425194046",
     "name": "tomadevil",
-    "path": "../../../icons//tomadevil.png",
+    "path": "../../../icons/tomadevil.png",
     "hash": "78caf2549b33f55227404e4268cffd39",
     "server": {
       "id": "844380625645600778",
@@ -882,7 +882,7 @@
   {
     "id": "855462651454947351",
     "name": "tomaglass",
-    "path": "../../../icons//tomaglass.png",
+    "path": "../../../icons/tomaglass.png",
     "hash": "06710e8c5afb5ab23a63c446828f72b2",
     "server": {
       "id": "844380625645600778",
@@ -892,7 +892,7 @@
   {
     "id": "855462652141764608",
     "name": "tomakiss",
-    "path": "../../../icons//tomakiss.png",
+    "path": "../../../icons/tomakiss.png",
     "hash": "f1fb240848cec9b98b8c3723a22a5311",
     "server": {
       "id": "844380625645600778",
@@ -902,7 +902,7 @@
   {
     "id": "855463327093489704",
     "name": "tomaikiri",
-    "path": "../../../icons//tomaikiri.png",
+    "path": "../../../icons/tomaikiri.png",
     "hash": "669e05c50a56e2dc21c1950fde865db1",
     "server": {
       "id": "844380625645600778",
@@ -912,7 +912,7 @@
   {
     "id": "855464874536075264",
     "name": "tomacat",
-    "path": "../../../icons//tomacat.png",
+    "path": "../../../icons/tomacat.png",
     "hash": "5f6048e882e75b59e085d9d84c80f1fe",
     "server": {
       "id": "844380625645600778",
@@ -922,7 +922,7 @@
   {
     "id": "855466769111056405",
     "name": "tomasunny",
-    "path": "../../../icons//tomasunny.png",
+    "path": "../../../icons/tomasunny.png",
     "hash": "95b7ff1bb8059236ea1ef0ee830fa222",
     "server": {
       "id": "844380625645600778",
@@ -932,7 +932,7 @@
   {
     "id": "856699369473310780",
     "name": "tomattention",
-    "path": "../../../icons//tomattention.png",
+    "path": "../../../icons/tomattention.png",
     "hash": "00f22df6809775d8a5e6e416b1b4fe67",
     "server": {
       "id": "844380625645600778",
@@ -942,7 +942,7 @@
   {
     "id": "856882107984773120",
     "name": "tomawink2",
-    "path": "../../../icons//tomawink2.png",
+    "path": "../../../icons/tomawink2.png",
     "hash": "dcbd156b23868a6428c8d23f6ab748f3",
     "server": {
       "id": "844380625645600778",
@@ -952,7 +952,7 @@
   {
     "id": "856882108919316540",
     "name": "tomaflower",
-    "path": "../../../icons//tomaflower.png",
+    "path": "../../../icons/tomaflower.png",
     "hash": "e24250393ec1aa15db8d31c96e1de345",
     "server": {
       "id": "844380625645600778",
@@ -962,7 +962,7 @@
   {
     "id": "857207345653874728",
     "name": "tomapat",
-    "path": "../../../icons//tomapat.gif",
+    "path": "../../../icons/tomapat.gif",
     "hash": "cc70305788c315b55fcea53e834e7ef3",
     "server": {
       "id": "844380625645600778",
@@ -972,7 +972,7 @@
   {
     "id": "867058823135232010",
     "name": "refactored_tomachi",
-    "path": "../../../icons//refactored_tomachi.png",
+    "path": "../../../icons/refactored_tomachi.png",
     "hash": "95666f34a0e0e68e2a94f6988ac6d1b5",
     "server": {
       "id": "844380625645600778",
@@ -982,7 +982,7 @@
   {
     "id": "870243020392501298",
     "name": "tomablobthumbsup",
-    "path": "../../../icons//tomablobthumbsup.png",
+    "path": "../../../icons/tomablobthumbsup.png",
     "hash": "92117c4ef5cfaa2b19d1399ff8ab1476",
     "server": {
       "id": "844380625645600778",
@@ -992,7 +992,7 @@
   {
     "id": "879297382192414740",
     "name": "tomatora",
-    "path": "../../../icons//tomatora.png",
+    "path": "../../../icons/tomatora.png",
     "hash": "ed1ac4a948d6fc519d2d7615c3b379b1",
     "server": {
       "id": "844380625645600778",
@@ -1002,7 +1002,7 @@
   {
     "id": "884851685699231794",
     "name": "bigtomaisallseeing",
-    "path": "../../../icons//bigtomaisallseeing.png",
+    "path": "../../../icons/bigtomaisallseeing.png",
     "hash": "1cc5fa712ab5c751ebfb97a3fdcfc77a",
     "server": {
       "id": "844380625645600778",
@@ -1012,7 +1012,7 @@
   {
     "id": "889285019204485120",
     "name": "tomaglow",
-    "path": "../../../icons//tomaglow.png",
+    "path": "../../../icons/tomaglow.png",
     "hash": "a7147f6233050e195e5cd6504742484b",
     "server": {
       "id": "844380625645600778",
@@ -1022,7 +1022,7 @@
   {
     "id": "889715021368680508",
     "name": "Tomachi_VR",
-    "path": "../../../icons//Tomachi_VR.png",
+    "path": "../../../icons/Tomachi_VR.png",
     "hash": "291030b2bc78421b38e11df456e4324c",
     "server": {
       "id": "844380625645600778",
@@ -1032,7 +1032,7 @@
   {
     "id": "890177051632484413",
     "name": "tomachigoodgoodgood",
-    "path": "../../../icons//tomachigoodgoodgood.png",
+    "path": "../../../icons/tomachigoodgoodgood.png",
     "hash": "2f213f823a5d0bef38f7a3c476c16992",
     "server": {
       "id": "844380625645600778",
@@ -1042,7 +1042,7 @@
   {
     "id": "890189510623785001",
     "name": "toma3rdeye",
-    "path": "../../../icons//toma3rdeye.png",
+    "path": "../../../icons/toma3rdeye.png",
     "hash": "c41569f1a4e9e57eb48a961afb5ecd05",
     "server": {
       "id": "844380625645600778",
@@ -1052,7 +1052,7 @@
   {
     "id": "890890919820288050",
     "name": "tomaeyes",
-    "path": "../../../icons//tomaeyes.png",
+    "path": "../../../icons/tomaeyes.png",
     "hash": "e6790770bf0986284bf4f76575a36cb9",
     "server": {
       "id": "844380625645600778",
@@ -1062,7 +1062,7 @@
   {
     "id": "894038657420378113",
     "name": "hexagonaltomachi",
-    "path": "../../../icons//hexagonaltomachi.png",
+    "path": "../../../icons/hexagonaltomachi.png",
     "hash": "c12f36b4b077c2072ea370bb5c6367b9",
     "server": {
       "id": "844380625645600778",
@@ -1072,7 +1072,7 @@
   {
     "id": "894038690245005352",
     "name": "tomachigoodgoodgoodgood",
-    "path": "../../../icons//tomachigoodgoodgoodgood.png",
+    "path": "../../../icons/tomachigoodgoodgoodgood.png",
     "hash": "e100262e749addc4e9fb05178734ba00",
     "server": {
       "id": "844380625645600778",
@@ -1082,7 +1082,7 @@
   {
     "id": "894039378668691506",
     "name": "tomachigoodgoodgoodgoodgood",
-    "path": "../../../icons//tomachigoodgoodgoodgoodgood.png",
+    "path": "../../../icons/tomachigoodgoodgoodgoodgood.png",
     "hash": "f783fd00c6fd5bd56f5978b8f8c488ef",
     "server": {
       "id": "844380625645600778",
@@ -1092,7 +1092,7 @@
   {
     "id": "894045667016728576",
     "name": "tomachigoodgoodgoodgoodgoodgood",
-    "path": "../../../icons//tomachigoodgoodgoodgoodgoodgood.png",
+    "path": "../../../icons/tomachigoodgoodgoodgoodgoodgood.png",
     "hash": "015e4dd2454cc7584da81b4432e549a3",
     "server": {
       "id": "844380625645600778",
@@ -1102,7 +1102,7 @@
   {
     "id": "898892973343928330",
     "name": "tomafist",
-    "path": "../../../icons//tomafist.png",
+    "path": "../../../icons/tomafist.png",
     "hash": "21655b11a6a107d82c8ce651ef049549",
     "server": {
       "id": "844380625645600778",
@@ -1112,7 +1112,7 @@
   {
     "id": "899993025340665856",
     "name": "tomachi3d",
-    "path": "../../../icons//tomachi3d.png",
+    "path": "../../../icons/tomachi3d.png",
     "hash": "ca5b073bf9cac9042a1bf2a78f87a4d3",
     "server": {
       "id": "844380625645600778",
@@ -1122,7 +1122,7 @@
   {
     "id": "901447903787225198",
     "name": "tomadistortion",
-    "path": "../../../icons//tomadistortion.png",
+    "path": "../../../icons/tomadistortion.png",
     "hash": "0889fbb8d48ca2b6df5416363d5ade81",
     "server": {
       "id": "844380625645600778",
@@ -1132,7 +1132,7 @@
   {
     "id": "901453109371490374",
     "name": "tomapulsating",
-    "path": "../../../icons//tomapulsating.gif",
+    "path": "../../../icons/tomapulsating.gif",
     "hash": "19ad4ec32ff7cdd0066a4ca5a91c452b",
     "server": {
       "id": "844380625645600778",
@@ -1142,7 +1142,7 @@
   {
     "id": "909052912322375720",
     "name": "tomachup",
-    "path": "../../../icons//tomachup.png",
+    "path": "../../../icons/tomachup.png",
     "hash": "0b6d5f697777c421b9007c1bc7f96daa",
     "server": {
       "id": "844380625645600778",
@@ -1152,7 +1152,7 @@
   {
     "id": "919478095512219679",
     "name": "tomaclose",
-    "path": "../../../icons//tomaclose.png",
+    "path": "../../../icons/tomaclose.png",
     "hash": "b3b98fa96aacea0f0a103fc43f9807fe",
     "server": {
       "id": "844380625645600778",
@@ -1162,7 +1162,7 @@
   {
     "id": "919478768001765388",
     "name": "tomatinyface",
-    "path": "../../../icons//tomatinyface.png",
+    "path": "../../../icons/tomatinyface.png",
     "hash": "9410a205b1113ea7936cbfb34d10cc70",
     "server": {
       "id": "844380625645600778",
@@ -1172,7 +1172,7 @@
   {
     "id": "919478883873611830",
     "name": "tomachiblank",
-    "path": "../../../icons//tomachiblank.png",
+    "path": "../../../icons/tomachiblank.png",
     "hash": "bc9e76ca758644e9c48af638c1aebe64",
     "server": {
       "id": "844380625645600778",
@@ -1182,7 +1182,7 @@
   {
     "id": "919479352134094859",
     "name": "tomahugeface",
-    "path": "../../../icons//tomahugeface.png",
+    "path": "../../../icons/tomahugeface.png",
     "hash": "4230cdc2f90a839df6c4d469596e6748",
     "server": {
       "id": "844380625645600778",
@@ -1192,7 +1192,7 @@
   {
     "id": "919480910859091988",
     "name": "tomadefeated",
-    "path": "../../../icons//tomadefeated.png",
+    "path": "../../../icons/tomadefeated.png",
     "hash": "b675153c2e3933703812695a37b88f10",
     "server": {
       "id": "844380625645600778",
@@ -1202,7 +1202,7 @@
   {
     "id": "919481540428304455",
     "name": "tomadefeatedpat",
-    "path": "../../../icons//tomadefeatedpat.gif",
+    "path": "../../../icons/tomadefeatedpat.gif",
     "hash": "fcb914af11b006ec3f959fa7b22b60b6",
     "server": {
       "id": "844380625645600778",
@@ -1212,7 +1212,7 @@
   {
     "id": "919482291238105088",
     "name": "tomaeyeflip",
-    "path": "../../../icons//tomaeyeflip.png",
+    "path": "../../../icons/tomaeyeflip.png",
     "hash": "1f8d74f819611341615fe8c82ab61896",
     "server": {
       "id": "844380625645600778",
@@ -1222,7 +1222,7 @@
   {
     "id": "919483526234136586",
     "name": "doyachi",
-    "path": "../../../icons//doyachi.png",
+    "path": "../../../icons/doyachi.png",
     "hash": "e14b78ba411e8d909e92121ecde319e5",
     "server": {
       "id": "844380625645600778",
@@ -1232,7 +1232,7 @@
   {
     "id": "919485963690999808",
     "name": "tomamolten",
-    "path": "../../../icons//tomamolten.png",
+    "path": "../../../icons/tomamolten.png",
     "hash": "e1cafc5be72e8a18c4bb1e72754bac8b",
     "server": {
       "id": "844380625645600778",
@@ -1242,7 +1242,7 @@
   {
     "id": "919488297049403413",
     "name": "tomadefeatedglow",
-    "path": "../../../icons//tomadefeatedglow.png",
+    "path": "../../../icons/tomadefeatedglow.png",
     "hash": "399feb831715c1080b85c1fed240ba61",
     "server": {
       "id": "844380625645600778",
@@ -1252,7 +1252,7 @@
   {
     "id": "919488748293619762",
     "name": "tomaglow_evil",
-    "path": "../../../icons//tomaglow_evil.png",
+    "path": "../../../icons/tomaglow_evil.png",
     "hash": "21d716ebc4662f83c8777d459c941cb9",
     "server": {
       "id": "844380625645600778",
@@ -1262,7 +1262,7 @@
   {
     "id": "923153141531279390",
     "name": "tomanoentry",
-    "path": "../../../icons//tomanoentry.png",
+    "path": "../../../icons/tomanoentry.png",
     "hash": "963ca92ff2a55f47daa7c245ca50bde1",
     "server": {
       "id": "844380625645600778",
@@ -1272,7 +1272,7 @@
   {
     "id": "927531605189357630",
     "name": "tomaleveler",
-    "path": "../../../icons//tomaleveler.png",
+    "path": "../../../icons/tomaleveler.png",
     "hash": "47a5cb76bc136fef31cfd16cd1cde63c",
     "server": {
       "id": "844380625645600778",
@@ -1282,7 +1282,7 @@
   {
     "id": "927818144758767636",
     "name": "kasutoma",
-    "path": "../../../icons//kasutoma.png",
+    "path": "../../../icons/kasutoma.png",
     "hash": "6d9e21adf45fdb429741c3e627d4ce5b",
     "server": {
       "id": "844380625645600778",
@@ -1292,7 +1292,7 @@
   {
     "id": "928277938842009641",
     "name": "gangimari_tomachi",
-    "path": "../../../icons//gangimari_tomachi.png",
+    "path": "../../../icons/gangimari_tomachi.png",
     "hash": "4418628fa40c078268a69c0c4a57aea5",
     "server": {
       "id": "844380625645600778",
@@ -1302,7 +1302,7 @@
   {
     "id": "928287437107642368",
     "name": "tomacat",
-    "path": "../../../icons//tomacat.png",
+    "path": "../../../icons/tomacat.png",
     "hash": "9611c259176c8ce7a47be79d9698a002",
     "server": {
       "id": "844380625645600778",
@@ -1312,7 +1312,7 @@
   {
     "id": "929932351348310116",
     "name": "tomacube",
-    "path": "../../../icons//tomacube.png",
+    "path": "../../../icons/tomacube.png",
     "hash": "d762a7d90d4bbc674cbebaed36b9a259",
     "server": {
       "id": "844380625645600778",
@@ -1322,7 +1322,7 @@
   {
     "id": "936485948072558632",
     "name": "tomazoomeyes",
-    "path": "../../../icons//tomazoomeyes.png",
+    "path": "../../../icons/tomazoomeyes.png",
     "hash": "1c0c897b367c63c9c0e6e124e8fdd9f4",
     "server": {
       "id": "844380625645600778",
@@ -1332,7 +1332,7 @@
   {
     "id": "936494382104842250",
     "name": "tomaspasm",
-    "path": "../../../icons//tomaspasm.gif",
+    "path": "../../../icons/tomaspasm.gif",
     "hash": "4f845dca2bbd1f1296a1dc1db682cf99",
     "server": {
       "id": "844380625645600778",
@@ -1342,7 +1342,7 @@
   {
     "id": "939464418100662303",
     "name": "toma",
-    "path": "../../../icons//toma.png",
+    "path": "../../../icons/toma.png",
     "hash": "30dc18e1f1537f0d66ccbf8bafad4d3f",
     "server": {
       "id": "844380625645600778",
@@ -1352,7 +1352,7 @@
   {
     "id": "939464974974189609",
     "name": "chi",
-    "path": "../../../icons//chi.png",
+    "path": "../../../icons/chi.png",
     "hash": "23b09414504d6497eafe714c6861f7b3",
     "server": {
       "id": "844380625645600778",
@@ -1362,7 +1362,7 @@
   {
     "id": "939702872113823765",
     "name": "tomaclose_a",
-    "path": "../../../icons//tomaclose_a.gif",
+    "path": "../../../icons/tomaclose_a.gif",
     "hash": "49adde9577f296aac51ac4af7628f9ba",
     "server": {
       "id": "844380625645600778",
@@ -1372,7 +1372,7 @@
   {
     "id": "943814168497229854",
     "name": "hamchi",
-    "path": "../../../icons//hamchi.png",
+    "path": "../../../icons/hamchi.png",
     "hash": "4f12ee64018f7d06aab1b98098408df3",
     "server": {
       "id": "844380625645600778",
@@ -1382,7 +1382,7 @@
   {
     "id": "951998140469375017",
     "name": "tomacrown",
-    "path": "../../../icons//tomacrown.png",
+    "path": "../../../icons/tomacrown.png",
     "hash": "34009b5ec28760a04bcb5e9c56c6de4a",
     "server": {
       "id": "844380625645600778",
@@ -1392,7 +1392,7 @@
   {
     "id": "952078641578250311",
     "name": "tomameltdown",
-    "path": "../../../icons//tomameltdown.png",
+    "path": "../../../icons/tomameltdown.png",
     "hash": "ac0a5806a56b1ca93ff1b997256e1685",
     "server": {
       "id": "844380625645600778",
@@ -1402,7 +1402,7 @@
   {
     "id": "952121176577163304",
     "name": "rotomachi",
-    "path": "../../../icons//rotomachi.png",
+    "path": "../../../icons/rotomachi.png",
     "hash": "303679fe347f947fc9a205b5b64731f8",
     "server": {
       "id": "844380625645600778",
@@ -1412,7 +1412,7 @@
   {
     "id": "952121532690350080",
     "name": "rotomachi_blue",
-    "path": "../../../icons//rotomachi_blue.png",
+    "path": "../../../icons/rotomachi_blue.png",
     "hash": "fbcad79699b9102c1a950d909de02b3b",
     "server": {
       "id": "844380625645600778",
@@ -1422,7 +1422,7 @@
   {
     "id": "957287138603446322",
     "name": "tomaexplode",
-    "path": "../../../icons//tomaexplode.gif",
+    "path": "../../../icons/tomaexplode.gif",
     "hash": "ca07af0b1af8df9e375df1b8cd571678",
     "server": {
       "id": "844380625645600778",
@@ -1432,7 +1432,7 @@
   {
     "id": "984070298938785812",
     "name": "tomato_and_cheese_a",
-    "path": "../../../icons//tomato_and_cheese_a.gif",
+    "path": "../../../icons/tomato_and_cheese_a.gif",
     "hash": "a205237f341ff72cf92019426e2c01ab",
     "server": {
       "id": "844380625645600778",
@@ -1442,7 +1442,7 @@
   {
     "id": "984070312268279808",
     "name": "tomato_and_cheese_b",
-    "path": "../../../icons//tomato_and_cheese_b.gif",
+    "path": "../../../icons/tomato_and_cheese_b.gif",
     "hash": "6f81393b2f349db2bcccef1b806d9132",
     "server": {
       "id": "844380625645600778",
@@ -1452,7 +1452,7 @@
   {
     "id": "936495523727294465",
     "name": "tomama",
-    "path": "../../../icons//tomama.png",
+    "path": "../../../icons/tomama.png",
     "hash": "0c9ae31f6437ebd73765fbb113117f86",
     "server": {
       "id": "929935925335711836",
@@ -1462,7 +1462,7 @@
   {
     "id": "955410082798137405",
     "name": "toomachi_face",
-    "path": "../../../icons//toomachi_face.png",
+    "path": "../../../icons/toomachi_face.png",
     "hash": "1a64937ac96b0aee8d4b2f8e71104def",
     "server": {
       "id": "929935925335711836",
@@ -1472,7 +1472,7 @@
   {
     "id": "955412774878601316",
     "name": "toomachi",
-    "path": "../../../icons//toomachi.png",
+    "path": "../../../icons/toomachi.png",
     "hash": "5bdffaa52d767377fcf948760271facd",
     "server": {
       "id": "929935925335711836",
@@ -1482,7 +1482,7 @@
   {
     "id": "955445513300369470",
     "name": "tomachimushi",
-    "path": "../../../icons//tomachimushi.png",
+    "path": "../../../icons/tomachimushi.png",
     "hash": "61fdc9c7263d6ca5187be92addf936f4",
     "server": {
       "id": "929935925335711836",
@@ -1492,7 +1492,7 @@
   {
     "id": "962318728907849810",
     "name": "tomabroken",
-    "path": "../../../icons//tomabroken.gif",
+    "path": "../../../icons/tomabroken.gif",
     "hash": "4087682daead080c128df964a7a1725c",
     "server": {
       "id": "929935925335711836",
@@ -1502,7 +1502,7 @@
   {
     "id": "962319261081165844",
     "name": "tomabroken_fast",
-    "path": "../../../icons//tomabroken_fast.gif",
+    "path": "../../../icons/tomabroken_fast.gif",
     "hash": "8b7d029b2967f2b40d4dd66ac97796ce",
     "server": {
       "id": "929935925335711836",
@@ -1512,7 +1512,7 @@
   {
     "id": "965226768644583484",
     "name": "tomagodlike",
-    "path": "../../../icons//tomagodlike.png",
+    "path": "../../../icons/tomagodlike.png",
     "hash": "94d07d18d6a5ab4cc7563e39c5c493cd",
     "server": {
       "id": "929935925335711836",
@@ -1522,7 +1522,7 @@
   {
     "id": "969174260780240916",
     "name": "tomapolska",
-    "path": "../../../icons//tomapolska.png",
+    "path": "../../../icons/tomapolska.png",
     "hash": "4acb86170ad3f5c4d1c01def75d3ea22",
     "server": {
       "id": "929935925335711836",
@@ -1532,7 +1532,7 @@
   {
     "id": "975295761745055756",
     "name": "tomaterminus",
-    "path": "../../../icons//tomaterminus.png",
+    "path": "../../../icons/tomaterminus.png",
     "hash": "0a051ecdc0c817900800f2c15a2be548",
     "server": {
       "id": "929935925335711836",
@@ -1542,7 +1542,7 @@
   {
     "id": "975700577226981376",
     "name": "tomaffxiv",
-    "path": "../../../icons//tomaffxiv.png",
+    "path": "../../../icons/tomaffxiv.png",
     "hash": "55923bae0080612bfc4a6ff85445238d",
     "server": {
       "id": "929935925335711836",
@@ -1552,7 +1552,7 @@
   {
     "id": "976430691585777785",
     "name": "gorichi",
-    "path": "../../../icons//gorichi.png",
+    "path": "../../../icons/gorichi.png",
     "hash": "555b2708d0b32193eaefb87510d842d1",
     "server": {
       "id": "929935925335711836",
@@ -1562,7 +1562,7 @@
   {
     "id": "976459713736749056",
     "name": "nazatomachi",
-    "path": "../../../icons//nazatomachi.png",
+    "path": "../../../icons/nazatomachi.png",
     "hash": "4c7f1e276570554190648f29d92e1d3d",
     "server": {
       "id": "929935925335711836",
@@ -1572,7 +1572,7 @@
   {
     "id": "976462974745215058",
     "name": "tomanazar",
-    "path": "../../../icons//tomanazar.png",
+    "path": "../../../icons/tomanazar.png",
     "hash": "6c2b7e0c4f9a354bebedf7dde1e39cfd",
     "server": {
       "id": "929935925335711836",
@@ -1582,7 +1582,7 @@
   {
     "id": "976795858907578409",
     "name": "tomayoko",
-    "path": "../../../icons//tomayoko.png",
+    "path": "../../../icons/tomayoko.png",
     "hash": "995448f354f1d7e2ce064a2c0544a85e",
     "server": {
       "id": "929935925335711836",
@@ -1592,7 +1592,7 @@
   {
     "id": "976799744066207744",
     "name": "tomaprint",
-    "path": "../../../icons//tomaprint.gif",
+    "path": "../../../icons/tomaprint.gif",
     "hash": "6a6030c617d5f9925d1da34277161357",
     "server": {
       "id": "929935925335711836",
@@ -1602,7 +1602,7 @@
   {
     "id": "977154548806320128",
     "name": "tomaslut",
-    "path": "../../../icons//tomaslut.png",
+    "path": "../../../icons/tomaslut.png",
     "hash": "c4e9cfa5598ee28a8e30c42c4ddcab6a",
     "server": {
       "id": "929935925335711836",
@@ -1612,7 +1612,7 @@
   {
     "id": "977154548944736295",
     "name": "toma_e",
-    "path": "../../../icons//toma_e.png",
+    "path": "../../../icons/toma_e.png",
     "hash": "d43a4cb4ba3ea21d4a5450d016a17af1",
     "server": {
       "id": "929935925335711836",
@@ -1622,7 +1622,7 @@
   {
     "id": "977163532351180800",
     "name": "book000",
-    "path": "../../../icons//book000.png",
+    "path": "../../../icons/book000.png",
     "hash": "e0db77a1cecdc6fe1fadcaa7c230ab8e",
     "server": {
       "id": "929935925335711836",
@@ -1632,7 +1632,7 @@
   {
     "id": "977170114208215050",
     "name": "tomatea",
-    "path": "../../../icons//tomatea.png",
+    "path": "../../../icons/tomatea.png",
     "hash": "ec59dd9fbbdad0f3bb8e4006642ffe7b",
     "server": {
       "id": "929935925335711836",
@@ -1642,7 +1642,7 @@
   {
     "id": "977172193228230706",
     "name": "tomateaori",
-    "path": "../../../icons//tomateaori.gif",
+    "path": "../../../icons/tomateaori.gif",
     "hash": "5d75b42cbb0529c361cfa29856e89d0b",
     "server": {
       "id": "929935925335711836",
@@ -1652,7 +1652,7 @@
   {
     "id": "977408439770832946",
     "name": "tomacho",
-    "path": "../../../icons//tomacho.png",
+    "path": "../../../icons/tomacho.png",
     "hash": "dade558e71a7cf0ac30e9927fb8758f3",
     "server": {
       "id": "929935925335711836",
@@ -1662,7 +1662,7 @@
   {
     "id": "977456712288206908",
     "name": "tomaeat_ekusas",
-    "path": "../../../icons//tomaeat_ekusas.png",
+    "path": "../../../icons/tomaeat_ekusas.png",
     "hash": "f308f1abd5251f390ebfc99fdd40c72a",
     "server": {
       "id": "929935925335711836",
@@ -1672,7 +1672,7 @@
   {
     "id": "977456712451776562",
     "name": "suyasuya_tomachi",
-    "path": "../../../icons//suyasuya_tomachi.png",
+    "path": "../../../icons/suyasuya_tomachi.png",
     "hash": "c373beaf20d5a28da7c13316488cfd86",
     "server": {
       "id": "929935925335711836",
@@ -1682,7 +1682,7 @@
   {
     "id": "977456713869455420",
     "name": "tomaeat_zokasu",
-    "path": "../../../icons//tomaeat_zokasu.png",
+    "path": "../../../icons/tomaeat_zokasu.png",
     "hash": "b7f3e02b5af00cd0d1a9ebb60e24bab6",
     "server": {
       "id": "929935925335711836",
@@ -1692,7 +1692,7 @@
   {
     "id": "977459056614723584",
     "name": "tomaphone",
-    "path": "../../../icons//tomaphone.png",
+    "path": "../../../icons/tomaphone.png",
     "hash": "25d3a08aedb475a7aae2f77b7ee69ab8",
     "server": {
       "id": "929935925335711836",
@@ -1702,7 +1702,7 @@
   {
     "id": "977459057847857192",
     "name": "tomacrab",
-    "path": "../../../icons//tomacrab.png",
+    "path": "../../../icons/tomacrab.png",
     "hash": "1919054f39f6f96ed73de6dbfd005e7e",
     "server": {
       "id": "929935925335711836",
@@ -1712,7 +1712,7 @@
   {
     "id": "977461021373513748",
     "name": "tomawhale",
-    "path": "../../../icons//tomawhale.png",
+    "path": "../../../icons/tomawhale.png",
     "hash": "362182aa7416ea8a492155d6bba83944",
     "server": {
       "id": "929935925335711836",
@@ -1722,7 +1722,7 @@
   {
     "id": "977461021872640001",
     "name": "tomayadokari",
-    "path": "../../../icons//tomayadokari.png",
+    "path": "../../../icons/tomayadokari.png",
     "hash": "adc08d80352ad8098ec60965e779a6ec",
     "server": {
       "id": "929935925335711836",
@@ -1732,7 +1732,7 @@
   {
     "id": "977466146863341589",
     "name": "tomabell",
-    "path": "../../../icons//tomabell.png",
+    "path": "../../../icons/tomabell.png",
     "hash": "ffbd54f82605679a177781ec5e25efc9",
     "server": {
       "id": "929935925335711836",
@@ -1742,7 +1742,7 @@
   {
     "id": "977710334561353759",
     "name": "tomaresurrection",
-    "path": "../../../icons//tomaresurrection.gif",
+    "path": "../../../icons/tomaresurrection.gif",
     "hash": "1d0fbb8b13e1e6242826788fe6f86455",
     "server": {
       "id": "929935925335711836",
@@ -1752,7 +1752,7 @@
   {
     "id": "979750485001109524",
     "name": "tomaorangewhite",
-    "path": "../../../icons//tomaorangewhite.png",
+    "path": "../../../icons/tomaorangewhite.png",
     "hash": "f848408847690932b8aa5c5693e62957",
     "server": {
       "id": "929935925335711836",
@@ -1762,7 +1762,7 @@
   {
     "id": "979751470209568800",
     "name": "8tomachi",
-    "path": "../../../icons//8tomachi.png",
+    "path": "../../../icons/8tomachi.png",
     "hash": "8253fc9646a62d9e38cb2a5dcba65f32",
     "server": {
       "id": "929935925335711836",
@@ -1772,7 +1772,7 @@
   {
     "id": "981174128222560296",
     "name": "tomatriplenazar",
-    "path": "../../../icons//tomatriplenazar.png",
+    "path": "../../../icons/tomatriplenazar.png",
     "hash": "de6070ea034c59fc2aa65803eed2aa8c",
     "server": {
       "id": "929935925335711836",
@@ -1782,7 +1782,7 @@
   {
     "id": "981174128289665074",
     "name": "tomascream",
-    "path": "../../../icons//tomascream.png",
+    "path": "../../../icons/tomascream.png",
     "hash": "893ae7ad229d0c550d3b18d80572eb02",
     "server": {
       "id": "929935925335711836",
@@ -1792,7 +1792,7 @@
   {
     "id": "981985775572885586",
     "name": "stomap",
-    "path": "../../../icons//stomap.png",
+    "path": "../../../icons/stomap.png",
     "hash": "1d5a20a7f167a37577efecc6fbdd60ff",
     "server": {
       "id": "929935925335711836",
@@ -1802,7 +1802,7 @@
   {
     "id": "982634643851460639",
     "name": "tomazakurohatted",
-    "path": "../../../icons//tomazakurohatted.png",
+    "path": "../../../icons/tomazakurohatted.png",
     "hash": "a4c31757bd01f5d60feb5dfb0784dd75",
     "server": {
       "id": "929935925335711836",
@@ -1812,7 +1812,7 @@
   {
     "id": "982635751198036038",
     "name": "tomazakurohatbetabeta",
-    "path": "../../../icons//tomazakurohatbetabeta.png",
+    "path": "../../../icons/tomazakurohatbetabeta.png",
     "hash": "85b2e57457ab4f60ac25e8b8c502a3b1",
     "server": {
       "id": "929935925335711836",
@@ -1822,7 +1822,7 @@
   {
     "id": "984070645824503839",
     "name": "tomaslice1",
-    "path": "../../../icons//tomaslice1.png",
+    "path": "../../../icons/tomaslice1.png",
     "hash": "fe8367e123b986e7f5516f0d6b3e228e",
     "server": {
       "id": "929935925335711836",
@@ -1832,7 +1832,7 @@
   {
     "id": "984072408178782248",
     "name": "tomarighter",
-    "path": "../../../icons//tomarighter.png",
+    "path": "../../../icons/tomarighter.png",
     "hash": "919001bc404a1dec014ca0d5e244788b",
     "server": {
       "id": "929935925335711836",
@@ -1842,7 +1842,7 @@
   {
     "id": "984072418450604152",
     "name": "tomalefter",
-    "path": "../../../icons//tomalefter.png",
+    "path": "../../../icons/tomalefter.png",
     "hash": "414838400a76260b9c31d886fc0fb84d",
     "server": {
       "id": "929935925335711836",
@@ -1852,7 +1852,7 @@
   {
     "id": "984074518215667712",
     "name": "tomaupper",
-    "path": "../../../icons//tomaupper.png",
+    "path": "../../../icons/tomaupper.png",
     "hash": "6020af88790d0ea65dc37aac3932efc8",
     "server": {
       "id": "929935925335711836",
@@ -1862,7 +1862,7 @@
   {
     "id": "984074528055504916",
     "name": "tomalower",
-    "path": "../../../icons//tomalower.png",
+    "path": "../../../icons/tomalower.png",
     "hash": "f4968407f017bcbe909b0788df77d6c6",
     "server": {
       "id": "929935925335711836",
@@ -1872,7 +1872,7 @@
   {
     "id": "984075591676477520",
     "name": "tomaslice2",
-    "path": "../../../icons//tomaslice2.png",
+    "path": "../../../icons/tomaslice2.png",
     "hash": "9bea6417ced08d89f5868b2292c0917e",
     "server": {
       "id": "929935925335711836",
@@ -1882,7 +1882,7 @@
   {
     "id": "993470032334049300",
     "name": "tomasupersad",
-    "path": "../../../icons//tomasupersad.png",
+    "path": "../../../icons/tomasupersad.png",
     "hash": "47be5ca979aa9fd12607e5a952d72399",
     "server": {
       "id": "929935925335711836",
@@ -1892,7 +1892,7 @@
   {
     "id": "993494208637837384",
     "name": "tomachidana",
-    "path": "../../../icons//tomachidana.png",
+    "path": "../../../icons/tomachidana.png",
     "hash": "84600a6edaeb3e2fef0349c887d73577",
     "server": {
       "id": "929935925335711836",
@@ -1902,7 +1902,7 @@
   {
     "id": "993495269599617024",
     "name": "no_tomachi",
-    "path": "../../../icons//no_tomachi.png",
+    "path": "../../../icons/no_tomachi.png",
     "hash": "43183356709514ca04bd8b8c31d35b1b",
     "server": {
       "id": "929935925335711836",
@@ -1912,7 +1912,7 @@
   {
     "id": "995658893910888449",
     "name": "tomaburn",
-    "path": "../../../icons//tomaburn.png",
+    "path": "../../../icons/tomaburn.png",
     "hash": "df59c9305b270d5bbe429284da39f3f5",
     "server": {
       "id": "929935925335711836",
@@ -1922,7 +1922,7 @@
   {
     "id": "995659372896210956",
     "name": "tomaburrn",
-    "path": "../../../icons//tomaburrn.png",
+    "path": "../../../icons/tomaburrn.png",
     "hash": "635b79a88712155dab10a394f57772ae",
     "server": {
       "id": "929935925335711836",
@@ -1932,7 +1932,7 @@
   {
     "id": "995662627609006110",
     "name": "tomapharaoh",
-    "path": "../../../icons//tomapharaoh.png",
+    "path": "../../../icons/tomapharaoh.png",
     "hash": "c9f6eea8b3cb0b1dba29e10e02edb373",
     "server": {
       "id": "929935925335711836",
@@ -1942,7 +1942,7 @@
   {
     "id": "995666155970777099",
     "name": "tomamilitary",
-    "path": "../../../icons//tomamilitary.png",
+    "path": "../../../icons/tomamilitary.png",
     "hash": "bc41b17ef46511e96c4e0c613856f453",
     "server": {
       "id": "929935925335711836",
@@ -1952,7 +1952,7 @@
   {
     "id": "995667390392180767",
     "name": "tomablureye",
-    "path": "../../../icons//tomablureye.png",
+    "path": "../../../icons/tomablureye.png",
     "hash": "c61c7713e1c8bc220ebe766597d71777",
     "server": {
       "id": "929935925335711836",
@@ -1962,7 +1962,7 @@
   {
     "id": "995668746754609203",
     "name": "tomaboomerang",
-    "path": "../../../icons//tomaboomerang.png",
+    "path": "../../../icons/tomaboomerang.png",
     "hash": "d91870c65b066afc4fd6b49a8daef019",
     "server": {
       "id": "929935925335711836",
@@ -1972,7 +1972,7 @@
   {
     "id": "995668748675584000",
     "name": "tomaweirdmouth",
-    "path": "../../../icons//tomaweirdmouth.png",
+    "path": "../../../icons/tomaweirdmouth.png",
     "hash": "9fab87a4c18ce11245d60f580f3d409f",
     "server": {
       "id": "929935925335711836",
@@ -1982,7 +1982,7 @@
   {
     "id": "995669666036994058",
     "name": "tomarad",
-    "path": "../../../icons//tomarad.png",
+    "path": "../../../icons/tomarad.png",
     "hash": "6f200400e2349c41fd77eae9ca759bc1",
     "server": {
       "id": "929935925335711836",
@@ -1992,7 +1992,7 @@
   {
     "id": "995671462063116349",
     "name": "tomaepi",
-    "path": "../../../icons//tomaepi.png",
+    "path": "../../../icons/tomaepi.png",
     "hash": "5dbdf09345ec314a6e5663ae7aaa4f5f",
     "server": {
       "id": "929935925335711836",
@@ -2002,7 +2002,7 @@
   {
     "id": "1003668620120948837",
     "name": "pew3tomachiavoid",
-    "path": "../../../icons//pew3tomachiavoid.gif",
+    "path": "../../../icons/pew3tomachiavoid.gif",
     "hash": "4ec1fb1c3034b4cf14fb25ae83781f9b",
     "server": {
       "id": "929935925335711836",
@@ -2012,7 +2012,7 @@
   {
     "id": "1005411071219212398",
     "name": "tomaenpatfast",
-    "path": "../../../icons//tomaenpatfast.gif",
+    "path": "../../../icons/tomaenpatfast.gif",
     "hash": "0a6ffa46161375824f4b519c82f4c0af",
     "server": {
       "id": "929935925335711836",
@@ -2022,7 +2022,7 @@
   {
     "id": "995680872189673532",
     "name": "tomachi_ojisan",
-    "path": "../../../icons//tomachi_ojisan.png",
+    "path": "../../../icons/tomachi_ojisan.png",
     "hash": "96a4bceb51bb38de29da5a4018ed59e4",
     "server": {
       "id": "995672815065911368",
@@ -2032,7 +2032,7 @@
   {
     "id": "996021365553500180",
     "name": "tomaefln",
-    "path": "../../../icons//tomaefln.png",
+    "path": "../../../icons/tomaefln.png",
     "hash": "a8b3882ecb18df0fc033b26e61187029",
     "server": {
       "id": "995672815065911368",
@@ -2042,7 +2042,7 @@
   {
     "id": "996022870482362429",
     "name": "eltomachi_guardian",
-    "path": "../../../icons//eltomachi_guardian.png",
+    "path": "../../../icons/eltomachi_guardian.png",
     "hash": "d7b9daa7a0ac643ca48b5b2e0183ee48",
     "server": {
       "id": "995672815065911368",
@@ -2052,7 +2052,7 @@
   {
     "id": "996730078497099796",
     "name": "flag_toma",
-    "path": "../../../icons//flag_toma.png",
+    "path": "../../../icons/flag_toma.png",
     "hash": "cda5f920777093abdd1083a283bf5328",
     "server": {
       "id": "995672815065911368",
@@ -2062,7 +2062,7 @@
   {
     "id": "998141184260178024",
     "name": "tomarighterlook",
-    "path": "../../../icons//tomarighterlook.png",
+    "path": "../../../icons/tomarighterlook.png",
     "hash": "eec69f2b51ba0dcf98619dc47e3afa99",
     "server": {
       "id": "995672815065911368",
@@ -2072,7 +2072,7 @@
   {
     "id": "998141960227401738",
     "name": "tomachidana_centralpolitics",
-    "path": "../../../icons//tomachidana_centralpolitics.png",
+    "path": "../../../icons/tomachidana_centralpolitics.png",
     "hash": "71b3c810fe7a7fe5ee9d7ee4619488a9",
     "server": {
       "id": "995672815065911368",
@@ -2082,7 +2082,7 @@
   {
     "id": "998146585345130527",
     "name": "tomacommunist",
-    "path": "../../../icons//tomacommunist.png",
+    "path": "../../../icons/tomacommunist.png",
     "hash": "976718fe6b2820b2f508f7cd188e451f",
     "server": {
       "id": "995672815065911368",
@@ -2092,7 +2092,7 @@
   {
     "id": "1005365473833140286",
     "name": "giganotomachi",
-    "path": "../../../icons//giganotomachi.png",
+    "path": "../../../icons/giganotomachi.png",
     "hash": "90753d7b9f4ea491c59f9341c6a191c4",
     "server": {
       "id": "995672815065911368",
@@ -2102,7 +2102,7 @@
   {
     "id": "1005412208701886536",
     "name": "flatomachi32x32",
-    "path": "../../../icons//flatomachi32x32.png",
+    "path": "../../../icons/flatomachi32x32.png",
     "hash": "1078fcde9a9af72f2a731656ac0a2504",
     "server": {
       "id": "995672815065911368",
@@ -2112,7 +2112,7 @@
   {
     "id": "1005412383554031706",
     "name": "tomanuke",
-    "path": "../../../icons//tomanuke.png",
+    "path": "../../../icons/tomanuke.png",
     "hash": "262db6f26fbaf1d7091d42155e9e8ee2",
     "server": {
       "id": "995672815065911368",
@@ -2122,7 +2122,7 @@
   {
     "id": "1005684804282486904",
     "name": "tomasob",
-    "path": "../../../icons//tomasob.png",
+    "path": "../../../icons/tomasob.png",
     "hash": "876c1fb6e7a98093dba78fd88463020a",
     "server": {
       "id": "995672815065911368",
@@ -2132,7 +2132,7 @@
   {
     "id": "1007593620255289404",
     "name": "tomasurrender",
-    "path": "../../../icons//tomasurrender.png",
+    "path": "../../../icons/tomasurrender.png",
     "hash": "9c857d457136eec88eda20f773a9a930",
     "server": {
       "id": "995672815065911368",
@@ -2142,7 +2142,7 @@
   {
     "id": "1008185298032799886",
     "name": "widetomachi",
-    "path": "../../../icons//widetomachi.gif",
+    "path": "../../../icons/widetomachi.gif",
     "hash": "f8b3a8d409d35503d34f0c762ba05a0f",
     "server": {
       "id": "995672815065911368",
@@ -2152,7 +2152,7 @@
   {
     "id": "1010848120390819892",
     "name": "tomaweird",
-    "path": "../../../icons//tomaweird.png",
+    "path": "../../../icons/tomaweird.png",
     "hash": "41247ede045b25455cfb612d96d007b8",
     "server": {
       "id": "995672815065911368",
@@ -2162,7 +2162,7 @@
   {
     "id": "1013432940723720292",
     "name": "tomablackout",
-    "path": "../../../icons//tomablackout.png",
+    "path": "../../../icons/tomablackout.png",
     "hash": "e41d614c9d429505b8f97bf285a41dcd",
     "server": {
       "id": "995672815065911368",
@@ -2172,7 +2172,7 @@
   {
     "id": "1014507355720917033",
     "name": "tomahammerandsickle",
-    "path": "../../../icons//tomahammerandsickle.png",
+    "path": "../../../icons/tomahammerandsickle.png",
     "hash": "43ab182b229c4e6b80def8baf1324564",
     "server": {
       "id": "995672815065911368",
@@ -2182,7 +2182,7 @@
   {
     "id": "1017934181734551593",
     "name": "tomajpeg",
-    "path": "../../../icons//tomajpeg.png",
+    "path": "../../../icons/tomajpeg.png",
     "hash": "9da4967c66961951b857d0b8098e3d7b",
     "server": {
       "id": "995672815065911368",
@@ -2192,7 +2192,7 @@
   {
     "id": "1017935074693496902",
     "name": "tomalag",
-    "path": "../../../icons//tomalag.gif",
+    "path": "../../../icons/tomalag.gif",
     "hash": "149b566d7e7a4f092caa5ade370d65fd",
     "server": {
       "id": "995672815065911368",
@@ -2202,7 +2202,7 @@
   {
     "id": "1021784834357604544",
     "name": "tomatrap",
-    "path": "../../../icons//tomatrap.png",
+    "path": "../../../icons/tomatrap.png",
     "hash": "9836fd0fed833ca971394496a1f74565",
     "server": {
       "id": "995672815065911368",
@@ -2212,7 +2212,7 @@
   {
     "id": "1021786764643422218",
     "name": "tomachionsasumatastick",
-    "path": "../../../icons//tomachionsasumatastick.png",
+    "path": "../../../icons/tomachionsasumatastick.png",
     "hash": "dc9b2c352b77f668d34f323098def72f",
     "server": {
       "id": "995672815065911368",
@@ -2222,7 +2222,7 @@
   {
     "id": "1021787760933216378",
     "name": "tomachi_installer",
-    "path": "../../../icons//tomachi_installer.png",
+    "path": "../../../icons/tomachi_installer.png",
     "hash": "156e69a3eee2abf859c619a99fa4e1fa",
     "server": {
       "id": "995672815065911368",
@@ -2232,7 +2232,7 @@
   {
     "id": "1021788346105725050",
     "name": "tomatrash",
-    "path": "../../../icons//tomatrash.png",
+    "path": "../../../icons/tomatrash.png",
     "hash": "2bf338ff49c6b7e0a53415fcf3c56151",
     "server": {
       "id": "995672815065911368",
@@ -2242,7 +2242,7 @@
   {
     "id": "1021789005232218143",
     "name": "tomacheesefire",
-    "path": "../../../icons//tomacheesefire.png",
+    "path": "../../../icons/tomacheesefire.png",
     "hash": "060ec79be33f4e5a2a0df712e3b260f5",
     "server": {
       "id": "995672815065911368",
@@ -2252,7 +2252,7 @@
   {
     "id": "1021789731887001702",
     "name": "tomachi_on_fire",
-    "path": "../../../icons//tomachi_on_fire.png",
+    "path": "../../../icons/tomachi_on_fire.png",
     "hash": "480c1322c181cb77e5d46f25b85ed5ac",
     "server": {
       "id": "995672815065911368",
@@ -2262,7 +2262,7 @@
   {
     "id": "1021790587986399303",
     "name": "zakurofloatmeltytomachi",
-    "path": "../../../icons//zakurofloatmeltytomachi.png",
+    "path": "../../../icons/zakurofloatmeltytomachi.png",
     "hash": "62eecb6d3198ee7bab1663dabde3cfef",
     "server": {
       "id": "995672815065911368",
@@ -2272,7 +2272,7 @@
   {
     "id": "1021791816086995024",
     "name": "tomameltymuscle",
-    "path": "../../../icons//tomameltymuscle.png",
+    "path": "../../../icons/tomameltymuscle.png",
     "hash": "3ede03d47df633cd3166daae49d16bba",
     "server": {
       "id": "995672815065911368",
@@ -2282,7 +2282,7 @@
   {
     "id": "1022866219344330861",
     "name": "tomakusodekablow",
-    "path": "../../../icons//tomakusodekablow.png",
+    "path": "../../../icons/tomakusodekablow.png",
     "hash": "3317c883213182b07b9873e1653f03d5",
     "server": {
       "id": "995672815065911368",
@@ -2292,7 +2292,7 @@
   {
     "id": "1022868334351503430",
     "name": "tomasuperkusodekablow",
-    "path": "../../../icons//tomasuperkusodekablow.png",
+    "path": "../../../icons/tomasuperkusodekablow.png",
     "hash": "9e945e739dbffa17519bceafff9b115d",
     "server": {
       "id": "995672815065911368",
@@ -2302,7 +2302,7 @@
   {
     "id": "1025973870215315466",
     "name": "tomabreaded",
-    "path": "../../../icons//tomabreaded.png",
+    "path": "../../../icons/tomabreaded.png",
     "hash": "5b332e362ba4fced5066c3467dc31a86",
     "server": {
       "id": "995672815065911368",
@@ -2312,7 +2312,7 @@
   {
     "id": "1025974308511694878",
     "name": "tomabread",
-    "path": "../../../icons//tomabread.png",
+    "path": "../../../icons/tomabread.png",
     "hash": "fa8a10cdf205b851dfa57c03012b8598",
     "server": {
       "id": "995672815065911368",
@@ -2322,7 +2322,7 @@
   {
     "id": "1025975746734346270",
     "name": "tomatetea",
-    "path": "../../../icons//tomatetea.png",
+    "path": "../../../icons/tomatetea.png",
     "hash": "cc6e42bdede704c09b0786a75a9a8650",
     "server": {
       "id": "995672815065911368",
@@ -2332,7 +2332,7 @@
   {
     "id": "1025976844622757898",
     "name": "tomafrozen",
-    "path": "../../../icons//tomafrozen.png",
+    "path": "../../../icons/tomafrozen.png",
     "hash": "676dea7ea58e960d88cd3d4fa6ef90d0",
     "server": {
       "id": "995672815065911368",
@@ -2342,7 +2342,7 @@
   {
     "id": "1025979936114225182",
     "name": "tomatransparent",
-    "path": "../../../icons//tomatransparent.png",
+    "path": "../../../icons/tomatransparent.png",
     "hash": "ab3913c038653bd2b410e4b5c0d1a520",
     "server": {
       "id": "995672815065911368",
@@ -2352,7 +2352,7 @@
   {
     "id": "1025980501065998347",
     "name": "tomatransparent_extreme",
-    "path": "../../../icons//tomatransparent_extreme.png",
+    "path": "../../../icons/tomatransparent_extreme.png",
     "hash": "65f781860ca2d22e61811b54f49ed19a",
     "server": {
       "id": "995672815065911368",
@@ -2362,7 +2362,7 @@
   {
     "id": "1025981082337824788",
     "name": "tomadistort",
-    "path": "../../../icons//tomadistort.png",
+    "path": "../../../icons/tomadistort.png",
     "hash": "f173288530e13042ea006c67296998b2",
     "server": {
       "id": "995672815065911368",
@@ -2372,7 +2372,7 @@
   {
     "id": "1025982830301421598",
     "name": "tomamsx",
-    "path": "../../../icons//tomamsx.png",
+    "path": "../../../icons/tomamsx.png",
     "hash": "81b98939e82dab387c8182e4e1295d95",
     "server": {
       "id": "995672815065911368",
@@ -2382,7 +2382,7 @@
   {
     "id": "1025983148074487888",
     "name": "tomademoncore",
-    "path": "../../../icons//tomademoncore.png",
+    "path": "../../../icons/tomademoncore.png",
     "hash": "8603ba124f4eb396a5b40507d1a1017f",
     "server": {
       "id": "995672815065911368",
@@ -2392,7 +2392,7 @@
   {
     "id": "1025984042971185263",
     "name": "goldomachi",
-    "path": "../../../icons//goldomachi.png",
+    "path": "../../../icons/goldomachi.png",
     "hash": "e2c4806af850e9e2ec6599455fbcba2a",
     "server": {
       "id": "995672815065911368",
@@ -2402,7 +2402,7 @@
   {
     "id": "1025984829000523847",
     "name": "tomaghost",
-    "path": "../../../icons//tomaghost.png",
+    "path": "../../../icons/tomaghost.png",
     "hash": "e2965924c474a7c634eee3c03434c6c7",
     "server": {
       "id": "995672815065911368",
@@ -2412,7 +2412,7 @@
   {
     "id": "1025985390525554728",
     "name": "tomaghostping",
-    "path": "../../../icons//tomaghostping.png",
+    "path": "../../../icons/tomaghostping.png",
     "hash": "6ddd5b645774cad4fd55344937ff15c4",
     "server": {
       "id": "995672815065911368",
@@ -2422,7 +2422,7 @@
   {
     "id": "1025986677367394364",
     "name": "tomatake",
-    "path": "../../../icons//tomatake.png",
+    "path": "../../../icons/tomatake.png",
     "hash": "578c1084567341143c3e22af7b9855bd",
     "server": {
       "id": "995672815065911368",
@@ -2432,7 +2432,7 @@
   {
     "id": "1025987275328331816",
     "name": "tomahalfded",
-    "path": "../../../icons//tomahalfded.png",
+    "path": "../../../icons/tomahalfded.png",
     "hash": "5eab2c7757e61ba140c81fae537feeb2",
     "server": {
       "id": "995672815065911368",
@@ -2442,7 +2442,7 @@
   {
     "id": "1025988514250240091",
     "name": "tomacubiczirconia",
-    "path": "../../../icons//tomacubiczirconia.png",
+    "path": "../../../icons/tomacubiczirconia.png",
     "hash": "61eeca5b54331c87d49acdca8d233691",
     "server": {
       "id": "995672815065911368",
@@ -2452,7 +2452,7 @@
   {
     "id": "1025992751189336104",
     "name": "tomatriplemeltdown",
-    "path": "../../../icons//tomatriplemeltdown.png",
+    "path": "../../../icons/tomatriplemeltdown.png",
     "hash": "b0550379d23caa2ee71b527aa0294c0b",
     "server": {
       "id": "995672815065911368",
@@ -2462,7 +2462,7 @@
   {
     "id": "1025993494646493214",
     "name": "tomasick",
-    "path": "../../../icons//tomasick.png",
+    "path": "../../../icons/tomasick.png",
     "hash": "a53af1b585424f54176740938722ee10",
     "server": {
       "id": "995672815065911368",
@@ -2472,7 +2472,7 @@
   {
     "id": "1025993496190005298",
     "name": "tomasuicide",
-    "path": "../../../icons//tomasuicide.png",
+    "path": "../../../icons/tomasuicide.png",
     "hash": "bcd6647252edd9434ac30fad71ef40cc",
     "server": {
       "id": "995672815065911368",
@@ -2482,7 +2482,7 @@
   {
     "id": "1025994151851991070",
     "name": "tomaship",
-    "path": "../../../icons//tomaship.png",
+    "path": "../../../icons/tomaship.png",
     "hash": "9329cd45dc820464c4c5b978d8d6bae6",
     "server": {
       "id": "995672815065911368",
@@ -2492,7 +2492,7 @@
   {
     "id": "1025994535207190538",
     "name": "tomaairplane",
-    "path": "../../../icons//tomaairplane.png",
+    "path": "../../../icons/tomaairplane.png",
     "hash": "0a78eedda6579e7631ae9277d16052a7",
     "server": {
       "id": "995672815065911368",
@@ -2502,7 +2502,7 @@
   {
     "id": "1025995246267547688",
     "name": "tomaorbital",
-    "path": "../../../icons//tomaorbital.png",
+    "path": "../../../icons/tomaorbital.png",
     "hash": "d9121addde72934286b282fa26bffc51",
     "server": {
       "id": "995672815065911368",
@@ -2512,7 +2512,7 @@
   {
     "id": "1025996052773478461",
     "name": "tomawalk",
-    "path": "../../../icons//tomawalk.png",
+    "path": "../../../icons/tomawalk.png",
     "hash": "a78cdfdceeda13689a18c81335704bc0",
     "server": {
       "id": "995672815065911368",
@@ -2522,7 +2522,7 @@
   {
     "id": "1025996291123195954",
     "name": "tomaslip",
-    "path": "../../../icons//tomaslip.png",
+    "path": "../../../icons/tomaslip.png",
     "hash": "e5dc2d291a551904cf87a8591765b308",
     "server": {
       "id": "995672815065911368",
@@ -2532,7 +2532,7 @@
   {
     "id": "1025996941844303903",
     "name": "tomacavalry",
-    "path": "../../../icons//tomacavalry.png",
+    "path": "../../../icons/tomacavalry.png",
     "hash": "df538b12d8f40cf87a2d8772677f1d3f",
     "server": {
       "id": "995672815065911368",
@@ -2542,7 +2542,7 @@
   {
     "id": "1027533630119092296",
     "name": "tomakebab",
-    "path": "../../../icons//tomakebab.png",
+    "path": "../../../icons/tomakebab.png",
     "hash": "f895dfde969bde1f8991222bbac9d230",
     "server": {
       "id": "1025997422880628776",
@@ -2552,7 +2552,7 @@
   {
     "id": "1028631983435292702",
     "name": "7DaysToMachi",
-    "path": "../../../icons//7DaysToMachi.png",
+    "path": "../../../icons/7DaysToMachi.png",
     "hash": "d3874f18621f3e44f353dfd3a9de78bc",
     "server": {
       "id": "1025997422880628776",
@@ -2562,7 +2562,7 @@
   {
     "id": "1029358967287185438",
     "name": "tomaghost_transparent",
-    "path": "../../../icons//tomaghost_transparent.png",
+    "path": "../../../icons/tomaghost_transparent.png",
     "hash": "659c8c1de355079a3cd20b2762fa29b4",
     "server": {
       "id": "1025997422880628776",
@@ -2572,7 +2572,7 @@
   {
     "id": "1035750781720207451",
     "name": "tomai",
-    "path": "../../../icons//tomai.png",
+    "path": "../../../icons/tomai.png",
     "hash": "99bed949368c3988554fd26806265702",
     "server": {
       "id": "1025997422880628776",
@@ -2582,7 +2582,7 @@
   {
     "id": "1035807944765358150",
     "name": "tomako",
-    "path": "../../../icons//tomako.png",
+    "path": "../../../icons/tomako.png",
     "hash": "c274b3bfa17642f5af7bed8c7d15d99c",
     "server": {
       "id": "1025997422880628776",
@@ -2592,7 +2592,7 @@
   {
     "id": "1035808403911618580",
     "name": "tomagirl",
-    "path": "../../../icons//tomagirl.png",
+    "path": "../../../icons/tomagirl.png",
     "hash": "e4f33ada418ce3928ad98185b494a659",
     "server": {
       "id": "1025997422880628776",
@@ -2602,7 +2602,7 @@
   {
     "id": "1035810128068345896",
     "name": "egetsunai_tomachi",
-    "path": "../../../icons//egetsunai_tomachi.png",
+    "path": "../../../icons/egetsunai_tomachi.png",
     "hash": "4f8792c822ea56a8b79de49f3b604335",
     "server": {
       "id": "1025997422880628776",
@@ -2612,7 +2612,7 @@
   {
     "id": "1035811257225330768",
     "name": "egetsunai_tomanazar",
-    "path": "../../../icons//egetsunai_tomanazar.png",
+    "path": "../../../icons/egetsunai_tomanazar.png",
     "hash": "eaebd605fc79fb80ade7950569866bf9",
     "server": {
       "id": "1025997422880628776",
@@ -2622,7 +2622,7 @@
   {
     "id": "1038399143674118184",
     "name": "megashoboshobotomachi",
-    "path": "../../../icons//megashoboshobotomachi.png",
+    "path": "../../../icons/megashoboshobotomachi.png",
     "hash": "ca2108debbcc1f0dceaa057b6ced7508",
     "server": {
       "id": "1025997422880628776",
@@ -2632,7 +2632,7 @@
   {
     "id": "1039872611385094195",
     "name": "microtomachi",
-    "path": "../../../icons//microtomachi.png",
+    "path": "../../../icons/microtomachi.png",
     "hash": "624858a76c2232e90641c50b1b55eb7b",
     "server": {
       "id": "1025997422880628776",
@@ -2642,7 +2642,7 @@
   {
     "id": "1040214597203918918",
     "name": "tomagoldbadge",
-    "path": "../../../icons//tomagoldbadge.png",
+    "path": "../../../icons/tomagoldbadge.png",
     "hash": "89a0bf0747d51a6cbc5a9dfdbba346da",
     "server": {
       "id": "1025997422880628776",
@@ -2652,7 +2652,7 @@
   {
     "id": "1040215096149954621",
     "name": "tomasilverbadge",
-    "path": "../../../icons//tomasilverbadge.png",
+    "path": "../../../icons/tomasilverbadge.png",
     "hash": "94945857b91791829c00523cf61cd083",
     "server": {
       "id": "1025997422880628776",
@@ -2662,7 +2662,7 @@
   {
     "id": "1040217892433690645",
     "name": "tomabrackets",
-    "path": "../../../icons//tomabrackets.png",
+    "path": "../../../icons/tomabrackets.png",
     "hash": "81067c42ae9b5acd49266033fd10cb0b",
     "server": {
       "id": "1025997422880628776",
@@ -2672,7 +2672,7 @@
   {
     "id": "1040218791088492618",
     "name": "tomasyntaxerror",
-    "path": "../../../icons//tomasyntaxerror.png",
+    "path": "../../../icons/tomasyntaxerror.png",
     "hash": "9143b9d2a048025e5dea5d5089c0133f",
     "server": {
       "id": "1025997422880628776",
@@ -2682,7 +2682,7 @@
   {
     "id": "1043836474363232297",
     "name": "tomahopsonar",
-    "path": "../../../icons//tomahopsonar.png",
+    "path": "../../../icons/tomahopsonar.png",
     "hash": "150f9665ddfe619aa839e83fe390c30b",
     "server": {
       "id": "1025997422880628776",
@@ -2692,7 +2692,7 @@
   {
     "id": "1044576155501596723",
     "name": "tomahate",
-    "path": "../../../icons//tomahate.png",
+    "path": "../../../icons/tomahate.png",
     "hash": "4d23adc22638b8138ce26604e2279629",
     "server": {
       "id": "1025997422880628776",
@@ -2702,7 +2702,7 @@
   {
     "id": "1044576899562741830",
     "name": "tomahatehate",
-    "path": "../../../icons//tomahatehate.png",
+    "path": "../../../icons/tomahatehate.png",
     "hash": "e0c0167dedc654e3e468d5f7ca7ce601",
     "server": {
       "id": "1025997422880628776",
@@ -2712,7 +2712,7 @@
   {
     "id": "1044577938462482452",
     "name": "tomagomi",
-    "path": "../../../icons//tomagomi.png",
+    "path": "../../../icons/tomagomi.png",
     "hash": "c90e61ceb177ebfccdbf8e2af017677e",
     "server": {
       "id": "1025997422880628776",
@@ -2722,7 +2722,7 @@
   {
     "id": "1052198716834062458",
     "name": "tomaboko",
-    "path": "../../../icons//tomaboko.png",
+    "path": "../../../icons/tomaboko.png",
     "hash": "015c799786f8a31d8b80c3f0fde915de",
     "server": {
       "id": "1025997422880628776",
@@ -2732,7 +2732,7 @@
   {
     "id": "1057979595141414982",
     "name": "tomascreen",
-    "path": "../../../icons//tomascreen.png",
+    "path": "../../../icons/tomascreen.png",
     "hash": "485aa613baf475b8f4286e49014ce5ca",
     "server": {
       "id": "1025997422880628776",
@@ -2742,7 +2742,7 @@
   {
     "id": "1058687635662577724",
     "name": "tomacheck",
-    "path": "../../../icons//tomacheck.png",
+    "path": "../../../icons/tomacheck.png",
     "hash": "12a3ce27107c74aeca82ffca15b80dfb",
     "server": {
       "id": "1025997422880628776",
