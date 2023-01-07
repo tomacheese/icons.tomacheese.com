@@ -42,7 +42,7 @@ jobs:
 
     - name: Generate README file
       working-directory: ./.github/scripts/generate-readme/
-      run: yarn build --target ../../../icons/ --output ../../../README.md --target-guilds ../../../targetGuilds.json --emojis ../../../emojis.json
+      run: yarn build --target-emojis ../../../icons/ --target-stickers ../../../stickers/ --output ../../../README.md --target-guilds ../../../targetGuilds.json --emojis ../../../emojis.json --stickers ../../../stickers.json
 
     - name: Commit & Push
       run: |
