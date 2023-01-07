@@ -133,3 +133,4 @@ Tomachi icons repository
 | **Tomachi Emojis 3** | 50 | 7 |
 | **Tomachi Emojis 4** | 50 | 2 |
 | **Tomachi Emojis 5** | 21 | 0 |
+| **Tomachi Emojis 6** | 0 | 0 |
