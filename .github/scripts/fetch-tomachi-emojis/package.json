@@ -17,7 +17,7 @@
     "@types/axios": "0.14.0",
     "@types/md5": "2.3.2",
     "@types/node": "18.11.18",
-    "@types/yargs": "17.0.19",
+    "@types/yargs": "17.0.20",
     "@typescript-eslint/eslint-plugin": "5.48.2",
     "@typescript-eslint/parser": "5.48.2",
     "axios": "1.2.3",
