@@ -3048,5 +3048,25 @@
       "id": "1025997422880628776",
       "name": "Tomachi Emojis 5"
     }
+  },
+  {
+    "id": "1067025437416501268",
+    "name": "toma_monosugoi_kanki",
+    "path": "../../../icons/toma_monosugoi_kanki.png",
+    "hash": "e17fd46cc9da34d4d1a2c9d633e1c747",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1067203097107112047",
+    "name": "tomaivor",
+    "path": "../../../icons/tomaivor.png",
+    "hash": "9096a77fd359e676423545333b5c530d",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
   }
 ]
