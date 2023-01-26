@@ -94,19 +94,6 @@ jobs:
         working-directory: ${{ matrix.directory }}
         run: npx depcheck
 
-      - name: Check exists dist directory
-        id: check-dist
-        working-directory: ${{ matrix.directory }}
-        run: |
-          echo "exists=$(test -d dist && echo true || echo false)" >> $GITHUB_OUTPUT
-
-      - name: 📦 Upload artifact
-        if: steps.check-dist.outputs.exists == 'true'
-        uses: actions/upload-artifact@v3
-        with:
-          name: ${{ matrix.directory }}-dist
-          path: ${{ matrix.directory }}/dist
-
   finished-node-ci:
     name: Check finished Node CI
     runs-on: ubuntu-latest
