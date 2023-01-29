@@ -880,6 +880,26 @@
     }
   },
   {
+    "id": "1068763387846217738",
+    "name": "tomadistorting_mild",
+    "path": "../../../icons/tomadistorting_mild.gif",
+    "hash": "e58e22605980353d87e76d25cbcb39c4",
+    "server": {
+      "id": "627851806990663724",
+      "name": "Tomachi Emojis"
+    }
+  },
+  {
+    "id": "1068763391138738216",
+    "name": "tomadistorting_severe",
+    "path": "../../../icons/tomadistorting_severe.gif",
+    "hash": "710c4727ad67023053f4780aa9030cab",
+    "server": {
+      "id": "627851806990663724",
+      "name": "Tomachi Emojis"
+    }
+  },
+  {
     "id": "855462651425194046",
     "name": "tomadevil",
     "path": "../../../icons/tomadevil.png",
