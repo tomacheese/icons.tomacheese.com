@@ -3088,5 +3088,25 @@
       "id": "1061292001162698884",
       "name": "Tomachi Emojis 6"
     }
+  },
+  {
+    "id": "1069201724000174130",
+    "name": "tomahollownoface",
+    "path": "../../../icons/tomahollownoface.png",
+    "hash": "9e42f09c4e82704b3e6ca9fa7382c59a",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1069202206793928774",
+    "name": "tomahollow",
+    "path": "../../../icons/tomahollow.png",
+    "hash": "e77d2942fb1bb2be60cc14061ccf87cb",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
   }
 ]
