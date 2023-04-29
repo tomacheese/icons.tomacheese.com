@@ -28,7 +28,7 @@
     "ts-node": "10.9.1",
     "ts-node-dev": "2.0.0",
     "typescript": "5.0.4",
-    "yargs": "17.7.1",
+    "yargs": "17.7.2",
     "yarn-run-all": "3.1.1"
   }
 }
