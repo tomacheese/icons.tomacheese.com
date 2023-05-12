@@ -1,9 +1,9 @@
 import axios from 'axios'
 import fs from 'fs'
-import md5 from 'md5'
 import yargs from 'yargs'
 import { getEmojis, getStickers } from './lib'
 import { DownloadedItem, EmojiWithGuild, StickerWithGuild } from './models'
+import crypto from 'crypto'
 
 const conf = {
   EMOJI: {
@@ -28,6 +28,12 @@ function getExtension(emoji: EmojiWithGuild | StickerWithGuild) {
     return 'lottie'
   }
   return 'png'
+}
+
+function getHash(data: ArrayBuffer) {
+  const hash = crypto.createHash('md5')
+  hash.update(Buffer.from(data))
+  return hash.digest('hex')
 }
 
 async function crawl(
@@ -71,7 +77,7 @@ async function crawl(
     const data = await axios.get(emojiUrl, {
       responseType: 'arraybuffer',
     })
-    const hash = md5(data.data)
+    const hash = getHash(data.data)
 
     const downloadedItem = downloadedItems.find((e) => e.id === item.id)
     if (downloadedItem !== undefined) {
