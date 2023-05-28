@@ -3218,5 +3218,25 @@
       "id": "1061292001162698884",
       "name": "Tomachi Emojis 6"
     }
+  },
+  {
+    "id": "1112372240625971231",
+    "name": "tomastraw",
+    "path": "../../../icons/tomastraw.png",
+    "hash": "4a2acc79120a7e9a484945eaf76c611ae602ef9639009da8399c16d3cdd731ce",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1112377325913395210",
+    "name": "ottottomachi",
+    "path": "../../../icons/ottottomachi.png",
+    "hash": "7a726fc9c1c6011c89c65186a04ec58fa41410ce798c2b713066d2e5c0494664",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
   }
 ]
