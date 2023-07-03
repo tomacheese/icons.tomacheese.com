@@ -3258,5 +3258,15 @@
       "id": "1061292001162698884",
       "name": "Tomachi Emojis 6"
     }
+  },
+  {
+    "id": "1125422550130888754",
+    "name": "tomasinister",
+    "path": "../../../icons/tomasinister.png",
+    "hash": "36b8ac9dda6af2e9bd298afed333aa5965da82a99a3e6b603c99b94062e9a9f7",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
   }
 ]
