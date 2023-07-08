@@ -3268,5 +3268,55 @@
       "id": "1061292001162698884",
       "name": "Tomachi Emojis 6"
     }
+  },
+  {
+    "id": "1127189344545951825",
+    "name": "yosano_tomachi",
+    "path": "../../../icons/yosano_tomachi.png",
+    "hash": "09e75543e476fa63a84a821ab8f2e2ef744d45d1ba480209fa008b26a7fae9c2",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127190963794747512",
+    "name": "tomayosano",
+    "path": "../../../icons/tomayosano.png",
+    "hash": "5e417883998eac3d0b7ccded48a7b3bf2fca2cf1c53f8af1784c28422d88e848",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127192296648093757",
+    "name": "tomacloud",
+    "path": "../../../icons/tomacloud.png",
+    "hash": "2439a196889df29548942de4b18395aef2a28ee3c8a52b7152aeec867ca2690b",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127192769857859634",
+    "name": "tomacloud_tomafalling",
+    "path": "../../../icons/tomacloud_tomafalling.png",
+    "hash": "e151b685a0c052ac46d5ef27a9c4bd79acaa2ae087accfd897ff5eb7e006a6e9",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127193740449165312",
+    "name": "tomaterminal",
+    "path": "../../../icons/tomaterminal.png",
+    "hash": "805a63e67cdcedf6b94720c733be0861ba575206a0e54df5b1c627b5848f1d02",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
   }
 ]
