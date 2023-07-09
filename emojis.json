@@ -3488,5 +3488,95 @@
       "id": "1061292001162698884",
       "name": "Tomachi Emojis 6"
     }
+  },
+  {
+    "id": "1127412074667069583",
+    "name": "tomaultrasparkle",
+    "path": "../../../icons/tomaultrasparkle.png",
+    "hash": "800e0e482e82ad07fe29b6af1f300f37a953087415b214068fbe02b5b88131ae",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127413570670428262",
+    "name": "tomaeverythingshrug",
+    "path": "../../../icons/tomaeverythingshrug.png",
+    "hash": "3592ebf2f5050236cd1cb5f2f4d9dd2591a0c45bd9a26861abbe7ba20f875a5a",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127423170652151818",
+    "name": "tomagodlikeshrug",
+    "path": "../../../icons/tomagodlikeshrug.png",
+    "hash": "0ddb893d4ba50631984e448d580741576c96ec9b00932256172c727390267d8d",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127423174322180147",
+    "name": "tomagodlikeshrug_bg",
+    "path": "../../../icons/tomagodlikeshrug_bg.png",
+    "hash": "ab1a02e6d7c60106e8905e246c6c59a32c392716bb76ec0a11a9464c66e5160b",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127424300757024850",
+    "name": "tomashrugded",
+    "path": "../../../icons/tomashrugded.png",
+    "hash": "d7613851b040a06525063e5e223281bd4e500542be31e46f3701e91f3db27e62",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127429112462589983",
+    "name": "tomavapor",
+    "path": "../../../icons/tomavapor.png",
+    "hash": "1e9fd95426c41d30e8da74747203f727e7c33d8a4583cef7ceeb8ec5c579b0a9",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127433318930063511",
+    "name": "tomagift",
+    "path": "../../../icons/tomagift.png",
+    "hash": "cdfe9bc32e9b33e542c58a53208a5dfa071764b590f23fe78bb840adf398fe6f",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127433322163863552",
+    "name": "tomawireless",
+    "path": "../../../icons/tomawireless.png",
+    "hash": "a3855e36bffc95503d7d9503dc1332a92142303b4da986b21cfb7a09e3fb10e8",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
+  },
+  {
+    "id": "1127433324156158012",
+    "name": "tomazure",
+    "path": "../../../icons/tomazure.png",
+    "hash": "b1d6fc5de6b8b21f33f286b15f5c7d9c2f4b8bfed71a33ee2ab157653ac80d3a",
+    "server": {
+      "id": "1061292001162698884",
+      "name": "Tomachi Emojis 6"
+    }
   }
 ]
