@@ -3598,5 +3598,15 @@
       "id": "1127441577388814366",
       "name": "Tomachi Emojis 7"
     }
+  },
+  {
+    "id": "1129389339936292864",
+    "name": "tomarikidouzan",
+    "path": "../../../icons/tomarikidouzan.png",
+    "hash": "be36f9d0aef513c10b6eb334108010150b8831b567516cb2e3e3322da7b0bffe",
+    "server": {
+      "id": "1127441577388814366",
+      "name": "Tomachi Emojis 7"
+    }
   }
 ]
