@@ -146,13 +146,13 @@ Tomachi icons repository
 |     |     |     |
 | :-: | :-: | :-: |
 | <a href="stickers/2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png"><img src="stickers/2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png" title="2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png" alt="2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png" width="100px" /><br>2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png</a> | <a href="stickers/AIが描いたかわいいとまちっち.png"><img src="stickers/AIが描いたかわいいとまちっち.png" title="AIが描いたかわいいとまちっち.png" alt="AIが描いたかわいいとまちっち.png" width="100px" /><br>AIが描いたかわいいとまちっち.png</a> | <a href="stickers/AIによるとまちっち.png"><img src="stickers/AIによるとまちっち.png" title="AIによるとまちっち.png" alt="AIによるとまちっち.png" width="100px" /><br>AIによるとまちっち.png</a> |
-| <a href="stickers/人智を超越し、すべてを:tomashrug:するとまちっち.png"><img src="stickers/人智を超越し、すべてを:tomashrug:するとまちっち.png" title="人智を超越し、すべてを:tomashrug:するとまちっち.png" alt="人智を超越し、すべてを:tomashrug:するとまちっち.png" width="100px" /><br>人智を超越し、すべてを:tomashrug:するとまちっち.png</a> | <a href="stickers/嘔吐まちっち.png"><img src="stickers/嘔吐まちっち.png" title="嘔吐まちっち.png" alt="嘔吐まちっち.png" width="100px" /><br>嘔吐まちっち.png</a> |
+| <a href="stickers/人智を超越し、すべてを:tomashrug:するとまちっち.png"><img src="stickers/人智を超越し、すべてを:tomashrug:するとまちっち.png" title="人智を超越し、すべてを:tomashrug:するとまちっち.png" alt="人智を超越し、すべてを:tomashrug:するとまちっち.png" width="100px" /><br>人智を超越し、すべてを:tomashrug:するとまちっち.png</a> | <a href="stickers/嘔吐まちっち.png"><img src="stickers/嘔吐まちっち.png" title="嘔吐まちっち.png" alt="嘔吐まちっち.png" width="100px" /><br>嘔吐まちっち.png</a> | <a href="stickers/熊出没注意.png"><img src="stickers/熊出没注意.png" title="熊出没注意.png" alt="熊出没注意.png" width="100px" /><br>熊出没注意.png</a> |
 
 ## Extensions
 
 | file ext | emojis count | stickers count |
 | :-: | :-: | :-: |
-| **png** | 311 |5 |
+| **png** | 311 |6 |
 | **gif** | 58 |0 |
 | **jpg** | 1 |0 |
 | **jpeg** | 0 |0 |
@@ -166,7 +166,7 @@ Tomachi icons repository
 
 | server | emoji/png | emoji/gif | sticker/png | sticker/apng |
 | :- | :-: | :-: | :-: | :-: |
-| **Tomachi Emojis** | 50 | 41 | 2 | 0 |
+| **Tomachi Emojis** | 50 | 41 | 3 | 0 |
 | **Tomachi Emojis 2** | 50 | 8 | 0 | 0 |
 | **Tomachi Emojis 3** | 50 | 7 | 0 | 0 |
 | **Tomachi Emojis 4** | 50 | 2 | 0 | 0 |
