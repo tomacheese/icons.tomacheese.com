@@ -3608,5 +3608,25 @@
       "id": "1127441577388814366",
       "name": "Tomachi Emojis 7"
     }
+  },
+  {
+    "id": "1133782590655053874",
+    "name": "tomachiexpress",
+    "path": "../../../icons/tomachiexpress.png",
+    "hash": "fc0bf59ba9bb940abad79660e16a828db3323aa1e9528229f174bf06f6b46d0f",
+    "server": {
+      "id": "1127441577388814366",
+      "name": "Tomachi Emojis 7"
+    }
+  },
+  {
+    "id": "1133783922023600159",
+    "name": "tomaopen",
+    "path": "../../../icons/tomaopen.png",
+    "hash": "3d4128e9e0eaf24b0a2b106d85e0c3cdb39592498551ec638864d69c1c4acb76",
+    "server": {
+      "id": "1127441577388814366",
+      "name": "Tomachi Emojis 7"
+    }
   }
 ]
