@@ -40,6 +40,36 @@
     }
   },
   {
+    "id": "1134060722582724619",
+    "name": "4番ファーストとまち",
+    "path": "../../../stickers/4番ファーストとまち.png",
+    "hash": "75a1789f0a1e614f6b89d3a1fcb6342f45fe01e82e02e6c23e877a7008bf01b0",
+    "server": {
+      "id": "844380625645600778",
+      "name": "Tomachi Emojis 2"
+    }
+  },
+  {
+    "id": "1134060812852547704",
+    "name": "2番ショートとまち",
+    "path": "../../../stickers/2番ショートとまち.png",
+    "hash": "3f33af0302cec8e4b82668010c84e292b67240eebe4e3e73b2a7a62b670b9977",
+    "server": {
+      "id": "844380625645600778",
+      "name": "Tomachi Emojis 2"
+    }
+  },
+  {
+    "id": "1134065564218834995",
+    "name": "球審とまち",
+    "path": "../../../stickers/球審とまち.png",
+    "hash": "b6f1f760a0cde3586ab951e8f4a9180f481ea529e67ad0b3f64dbbab7fe664ff",
+    "server": {
+      "id": "844380625645600778",
+      "name": "Tomachi Emojis 2"
+    }
+  },
+  {
     "id": "1035751076298752000",
     "name": "AIによるとまちっち",
     "path": "../../../stickers/AIによるとまちっち.png",
