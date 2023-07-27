@@ -3698,5 +3698,25 @@
       "id": "1127441577388814366",
       "name": "Tomachi Emojis 7"
     }
+  },
+  {
+    "id": "1134094775377727588",
+    "name": "tomaotter",
+    "path": "../../../icons/tomaotter.png",
+    "hash": "c2ea7a04511ae8ac21dccfda85c4518eee1e69999d373ff4cedfb6763984498f",
+    "server": {
+      "id": "1127441577388814366",
+      "name": "Tomachi Emojis 7"
+    }
+  },
+  {
+    "id": "1134094779764965468",
+    "name": "tomaotter2",
+    "path": "../../../icons/tomaotter2.png",
+    "hash": "8c1fef8278b6eb47985cc5c0aad3dfe8355e05c727781a06f934839fab7f2f7a",
+    "server": {
+      "id": "1127441577388814366",
+      "name": "Tomachi Emojis 7"
+    }
   }
 ]
