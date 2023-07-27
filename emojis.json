@@ -910,6 +910,26 @@
     }
   },
   {
+    "id": "1134131241478791238",
+    "name": "tomachi_atsui",
+    "path": "../../../icons/tomachi_atsui.gif",
+    "hash": "57aa64abd27a0a3551daca5d977bd4c30bb9826514584dc53d5655a296c7d102",
+    "server": {
+      "id": "627851806990663724",
+      "name": "Tomachi Emojis"
+    }
+  },
+  {
+    "id": "1134131995660783658",
+    "name": "tomachi_atsui_severe",
+    "path": "../../../icons/tomachi_atsui_severe.gif",
+    "hash": "8006224c15f2f5c6b76dad0e7ec4a0fe1b63646f7af87bc462a14203b4d9473f",
+    "server": {
+      "id": "627851806990663724",
+      "name": "Tomachi Emojis"
+    }
+  },
+  {
     "id": "855462651425194046",
     "name": "tomadevil",
     "path": "../../../icons/tomadevil.png",
