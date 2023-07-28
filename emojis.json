@@ -4368,5 +4368,15 @@
       "id": "1134120019744264312",
       "name": "Tomachi Emojis 8"
     }
+  },
+  {
+    "id": "1134430083986235513",
+    "name": "teiuka_mou_tomachi",
+    "path": "../../../icons/teiuka_mou_tomachi.png",
+    "hash": "ce4fa2b39af1ece9d3e90bedcc825b6932401b2bc65bf917f0d89f79da7bf88e",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
