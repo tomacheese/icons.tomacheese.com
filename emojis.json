@@ -4308,5 +4308,65 @@
       "id": "1134120019744264312",
       "name": "Tomachi Emojis 8"
     }
+  },
+  {
+    "id": "1134408509040119808",
+    "name": "tomakakumei",
+    "path": "../../../icons/tomakakumei.png",
+    "hash": "db8b7884c035b2f4311ede8f88e421dde67c8befb7c2a7f5e24cc1deccdbd703",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1134408512949198938",
+    "name": "tomacopter",
+    "path": "../../../icons/tomacopter.png",
+    "hash": "f46fb10e8b8d656788fd43f2656b8171811fef022b6f7fc51728c8535481596f",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1134422136761614436",
+    "name": "tomafile",
+    "path": "../../../icons/tomafile.png",
+    "hash": "724ede65909da7292f5fb45eabcf037640f00592f3183691f25830ee27717dd2",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1134422141366980668",
+    "name": "tomashirt",
+    "path": "../../../icons/tomashirt.png",
+    "hash": "2ad2a93d57c691746bf5f92eb0f9b1130048c59a628b7f19c5ea0d29a4c579dd",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1134423811152941096",
+    "name": "tomacranegame",
+    "path": "../../../icons/tomacranegame.png",
+    "hash": "8877462641512e2e02485686ce6c732236c4e52ec61242781c7a2800be0b58e4",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1134425959504818209",
+    "name": "chiitoma",
+    "path": "../../../icons/chiitoma.png",
+    "hash": "938532967706f338fba57f683918fc213836fb1dd076a00deba638ed868c767c",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
