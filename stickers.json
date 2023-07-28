@@ -118,5 +118,25 @@
       "id": "1127441577388814366",
       "name": "Tomachi Emojis 7"
     }
+  },
+  {
+    "id": "1134360233842577468",
+    "name": "とまたぬき",
+    "path": "../../../stickers/とまたぬき.png",
+    "hash": "16e891b71366658e54756010f893f3b52ec1436235c96176ea069401f3feb90f",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1134360409227411476",
+    "name": "新しい元号は、苫知であります。",
+    "path": "../../../stickers/新しい元号は、苫知であります。.png",
+    "hash": "a84aff2cdd2c6a3bae27213bcb5bb2988ab23da465006d3d1f889de0fbac4ccc",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
