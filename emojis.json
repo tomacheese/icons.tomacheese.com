@@ -4378,5 +4378,15 @@
       "id": "1134120019744264312",
       "name": "Tomachi Emojis 8"
     }
+  },
+  {
+    "id": "1134461454695796836",
+    "name": "symmetomachi",
+    "path": "../../../icons/symmetomachi.png",
+    "hash": "5f1450e659df33ae49e6d5f0249ced85ba944f9c144a5e9fd90c975b9a7fff57",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
