@@ -930,6 +930,16 @@
     }
   },
   {
+    "id": "1134819062447362132",
+    "name": "tomapolishcow",
+    "path": "../../../icons/tomapolishcow.gif",
+    "hash": "e0c7a7ecc7004c8f2b624774c0c13631ad31ab3fdabf3d81b5708e25b40ef7cc",
+    "server": {
+      "id": "627851806990663724",
+      "name": "Tomachi Emojis"
+    }
+  },
+  {
     "id": "855462651425194046",
     "name": "tomadevil",
     "path": "../../../icons/tomadevil.png",
