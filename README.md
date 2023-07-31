@@ -170,17 +170,17 @@ Tomachi icons repository
 
 |     |     |     |
 | :-: | :-: | :-: |
-| <a href="stickers/2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png"><img src="stickers/2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png" title="2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png" alt="2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png" width="100px" /><br>2023.7月 地球人類の阿鼻叫喚の断末魔の叫び声は全宇宙….png</a> | <a href="stickers/2番ショートとまち.png"><img src="stickers/2番ショートとまち.png" title="2番ショートとまち.png" alt="2番ショートとまち.png" width="100px" /><br>2番ショートとまち.png</a> | <a href="stickers/4番ファーストとまち.png"><img src="stickers/4番ファーストとまち.png" title="4番ファーストとまち.png" alt="4番ファーストとまち.png" width="100px" /><br>4番ファーストとまち.png</a> |
-| <a href="stickers/AIが描いたかわいいとまちっち.png"><img src="stickers/AIが描いたかわいいとまちっち.png" title="AIが描いたかわいいとまちっち.png" alt="AIが描いたかわいいとまちっち.png" width="100px" /><br>AIが描いたかわいいとまちっち.png</a> | <a href="stickers/AIによるとまちっち.png"><img src="stickers/AIによるとまちっち.png" title="AIによるとまちっち.png" alt="AIによるとまちっち.png" width="100px" /><br>AIによるとまちっち.png</a> | <a href="stickers/GODLIKEを食らうとまちっち.png"><img src="stickers/GODLIKEを食らうとまちっち.png" title="GODLIKEを食らうとまちっち.png" alt="GODLIKEを食らうとまちっち.png" width="100px" /><br>GODLIKEを食らうとまちっち.png</a> |
-| <a href="stickers/とますけクン.png"><img src="stickers/とますけクン.png" title="とますけクン.png" alt="とますけクン.png" width="100px" /><br>とますけクン.png</a> | <a href="stickers/とまたぬき.png"><img src="stickers/とまたぬき.png" title="とまたぬき.png" alt="とまたぬき.png" width="100px" /><br>とまたぬき.png</a> | <a href="stickers/とまち急便.png"><img src="stickers/とまち急便.png" title="とまち急便.png" alt="とまち急便.png" width="100px" /><br>とまち急便.png</a> |
-| <a href="stickers/とまち運動.png"><img src="stickers/とまち運動.png" title="とまち運動.png" alt="とまち運動.png" width="100px" /><br>とまち運動.png</a> | <a href="stickers/人智を超越し、すべてを:tomashrug:するとまちっち.png"><img src="stickers/人智を超越し、すべてを:tomashrug:するとまちっち.png" title="人智を超越し、すべてを:tomashrug:するとまちっち.png" alt="人智を超越し、すべてを:tomashrug:するとまちっち.png" width="100px" /><br>人智を超越し、すべてを:tomashrug:するとまちっち.png</a> | <a href="stickers/嘔吐まちっち.png"><img src="stickers/嘔吐まちっち.png" title="嘔吐まちっち.png" alt="嘔吐まちっち.png" width="100px" /><br>嘔吐まちっち.png</a> |
-| <a href="stickers/新しい元号は、苫知であります。.png"><img src="stickers/新しい元号は、苫知であります。.png" title="新しい元号は、苫知であります。.png" alt="新しい元号は、苫知であります。.png" width="100px" /><br>新しい元号は、苫知であります。.png</a> | <a href="stickers/熊出没注意.png"><img src="stickers/熊出没注意.png" title="熊出没注意.png" alt="熊出没注意.png" width="100px" /><br>熊出没注意.png</a> | <a href="stickers/球審とまち.png"><img src="stickers/球審とまち.png" title="球審とまち.png" alt="球審とまち.png" width="100px" /><br>球審とまち.png</a> |
+| <a href="stickers/2番ショートとまち.png"><img src="stickers/2番ショートとまち.png" title="2番ショートとまち.png" alt="2番ショートとまち.png" width="100px" /><br>2番ショートとまち.png</a> | <a href="stickers/4番ファーストとまち.png"><img src="stickers/4番ファーストとまち.png" title="4番ファーストとまち.png" alt="4番ファーストとまち.png" width="100px" /><br>4番ファーストとまち.png</a> | <a href="stickers/AIが描いたかわいいとまちっち.png"><img src="stickers/AIが描いたかわいいとまちっち.png" title="AIが描いたかわいいとまちっち.png" alt="AIが描いたかわいいとまちっち.png" width="100px" /><br>AIが描いたかわいいとまちっち.png</a> |
+| <a href="stickers/AIによるとまちっち.png"><img src="stickers/AIによるとまちっち.png" title="AIによるとまちっち.png" alt="AIによるとまちっち.png" width="100px" /><br>AIによるとまちっち.png</a> | <a href="stickers/GODLIKEを食らうとまちっち.png"><img src="stickers/GODLIKEを食らうとまちっち.png" title="GODLIKEを食らうとまちっち.png" alt="GODLIKEを食らうとまちっち.png" width="100px" /><br>GODLIKEを食らうとまちっち.png</a> | <a href="stickers/とますけクン.png"><img src="stickers/とますけクン.png" title="とますけクン.png" alt="とますけクン.png" width="100px" /><br>とますけクン.png</a> |
+| <a href="stickers/とまたぬき.png"><img src="stickers/とまたぬき.png" title="とまたぬき.png" alt="とまたぬき.png" width="100px" /><br>とまたぬき.png</a> | <a href="stickers/とまち急便.png"><img src="stickers/とまち急便.png" title="とまち急便.png" alt="とまち急便.png" width="100px" /><br>とまち急便.png</a> | <a href="stickers/とまち運動.png"><img src="stickers/とまち運動.png" title="とまち運動.png" alt="とまち運動.png" width="100px" /><br>とまち運動.png</a> |
+| <a href="stickers/人智を超越し、すべてを:tomashrug:するとまちっち.png"><img src="stickers/人智を超越し、すべてを:tomashrug:するとまちっち.png" title="人智を超越し、すべてを:tomashrug:するとまちっち.png" alt="人智を超越し、すべてを:tomashrug:するとまちっち.png" width="100px" /><br>人智を超越し、すべてを:tomashrug:するとまちっち.png</a> | <a href="stickers/嘔吐まちっち.png"><img src="stickers/嘔吐まちっち.png" title="嘔吐まちっち.png" alt="嘔吐まちっち.png" width="100px" /><br>嘔吐まちっち.png</a> | <a href="stickers/新しい元号は、苫知であります。.png"><img src="stickers/新しい元号は、苫知であります。.png" title="新しい元号は、苫知であります。.png" alt="新しい元号は、苫知であります。.png" width="100px" /><br>新しい元号は、苫知であります。.png</a> |
+| <a href="stickers/熊出没注意.png"><img src="stickers/熊出没注意.png" title="熊出没注意.png" alt="熊出没注意.png" width="100px" /><br>熊出没注意.png</a> | <a href="stickers/球審とまち.png"><img src="stickers/球審とまち.png" title="球審とまち.png" alt="球審とまち.png" width="100px" /><br>球審とまち.png</a> |
 
 ## Extensions
 
 | file ext | emojis count | stickers count |
 | :-: | :-: | :-: |
-| **png** | 384 |15 |
+| **png** | 384 |14 |
 | **gif** | 62 |0 |
 | **jpg** | 1 |0 |
 | **jpeg** | 0 |0 |
@@ -194,7 +194,7 @@ Tomachi icons repository
 
 | server | emoji/png | emoji/gif | sticker/png | sticker/apng |
 | :- | :-: | :-: | :-: | :-: |
-| **Tomachi Emojis** | 50 | 44 | 4 | 0 |
+| **Tomachi Emojis** | 50 | 44 | 3 | 0 |
 | **Tomachi Emojis 2** | 50 | 8 | 4 | 0 |
 | **Tomachi Emojis 3** | 50 | 7 | 1 | 0 |
 | **Tomachi Emojis 4** | 50 | 2 | 0 | 0 |
