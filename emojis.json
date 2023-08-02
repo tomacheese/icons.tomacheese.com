@@ -4438,5 +4438,15 @@
       "id": "1134120019744264312",
       "name": "Tomachi Emojis 8"
     }
+  },
+  {
+    "id": "1136319290031743046",
+    "name": "zaitakunotomachi1_sick",
+    "path": "../../../icons/zaitakunotomachi1_sick.png",
+    "hash": "b11d24ab032a24fbd102f409c33d70668519be0515641237b849e38c56261688",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
