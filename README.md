@@ -165,6 +165,7 @@ Tomachi icons repository
 | <a href="icons/tomazombielikething.png"><img src="icons/tomazombielikething.png" title="tomazombielikething.png" alt="tomazombielikething.png" width="100px" /><br>tomazombielikething.png</a> | <a href="icons/tomazon.png"><img src="icons/tomazon.png" title="tomazon.png" alt="tomazon.png" width="100px" /><br>tomazon.png</a> | <a href="icons/tomazoomeyes.png"><img src="icons/tomazoomeyes.png" title="tomazoomeyes.png" alt="tomazoomeyes.png" width="100px" /><br>tomazoomeyes.png</a> |
 | <a href="icons/tomazure.png"><img src="icons/tomazure.png" title="tomazure.png" alt="tomazure.png" width="100px" /><br>tomazure.png</a> | <a href="icons/toomachi.png"><img src="icons/toomachi.png" title="toomachi.png" alt="toomachi.png" width="100px" /><br>toomachi.png</a> | <a href="icons/toomachi_face.png"><img src="icons/toomachi_face.png" title="toomachi_face.png" alt="toomachi_face.png" width="100px" /><br>toomachi_face.png</a> |
 | <a href="icons/widetomachi.gif"><img src="icons/widetomachi.gif" title="widetomachi.gif" alt="widetomachi.gif" width="100px" /><br>widetomachi.gif</a> | <a href="icons/yellowtmt.png"><img src="icons/yellowtmt.png" title="yellowtmt.png" alt="yellowtmt.png" width="100px" /><br>yellowtmt.png</a> | <a href="icons/yosano_tomachi.png"><img src="icons/yosano_tomachi.png" title="yosano_tomachi.png" alt="yosano_tomachi.png" width="100px" /><br>yosano_tomachi.png</a> |
+| <a href="icons/zaitakitomachi1.png"><img src="icons/zaitakitomachi1.png" title="zaitakitomachi1.png" alt="zaitakitomachi1.png" width="100px" /><br>zaitakitomachi1.png</a> | <a href="icons/zaitakunotomachi1.png"><img src="icons/zaitakunotomachi1.png" title="zaitakunotomachi1.png" alt="zaitakunotomachi1.png" width="100px" /><br>zaitakunotomachi1.png</a> | <a href="icons/zaitakunotomachi2.png"><img src="icons/zaitakunotomachi2.png" title="zaitakunotomachi2.png" alt="zaitakunotomachi2.png" width="100px" /><br>zaitakunotomachi2.png</a> |
 | <a href="icons/zakurofloatmeltytomachi.png"><img src="icons/zakurofloatmeltytomachi.png" title="zakurofloatmeltytomachi.png" alt="zakurofloatmeltytomachi.png" width="100px" /><br>zakurofloatmeltytomachi.png</a> |
 
 ## Stickers
@@ -181,7 +182,7 @@ Tomachi icons repository
 
 | file ext | emojis count | stickers count |
 | :-: | :-: | :-: |
-| **png** | 385 |15 |
+| **png** | 388 |15 |
 | **gif** | 62 |0 |
 | **jpg** | 1 |0 |
 | **jpeg** | 0 |0 |
@@ -202,4 +203,4 @@ Tomachi icons repository
 | **Tomachi Emojis 5** | 50 | 0 | 2 | 0 |
 | **Tomachi Emojis 6** | 50 | 1 | 1 | 0 |
 | **Tomachi Emojis 7** | 50 | 0 | 1 | 0 |
-| **Tomachi Emojis 8** | 29 | 0 | 2 | 0 |
+| **Tomachi Emojis 8** | 32 | 0 | 2 | 0 |

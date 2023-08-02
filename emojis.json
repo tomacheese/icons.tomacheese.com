@@ -4408,5 +4408,35 @@
       "id": "1134120019744264312",
       "name": "Tomachi Emojis 8"
     }
+  },
+  {
+    "id": "1136307986810286261",
+    "name": "zaitakitomachi1",
+    "path": "../../../icons/zaitakitomachi1.png",
+    "hash": "3b97642bd5fdd89226ef17f9480c58f26378d41aad4ca1387a2aec419abbdac2",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1136310464184328285",
+    "name": "zaitakunotomachi1",
+    "path": "../../../icons/zaitakunotomachi1.png",
+    "hash": "a3d1c5a83fe4b866d1810c5d6aebadbb20463ac432f78024be19a6cbcadc3296",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1136310470618382429",
+    "name": "zaitakunotomachi2",
+    "path": "../../../icons/zaitakunotomachi2.png",
+    "hash": "b31743473a92bf71b48fdd414e7c47c80c6ca06217fb3ee4eaf8f1591da91140",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
