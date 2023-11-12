@@ -4548,5 +4548,15 @@
       "id": "1134120019744264312",
       "name": "Tomachi Emojis 8"
     }
+  },
+  {
+    "id": "1173182353561100359",
+    "name": "tomaushanka",
+    "path": "../../../icons/tomaushanka.png",
+    "hash": "5a665c92b3a36bf356779e8b410d3db6dccb6a692b52ef0516eaf47391f0bafb",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
