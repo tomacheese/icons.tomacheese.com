@@ -4538,5 +4538,15 @@
       "id": "1134120019744264312",
       "name": "Tomachi Emojis 8"
     }
+  },
+  {
+    "id": "1173126262030606416",
+    "name": "sb_tomachiman",
+    "path": "../../../icons/sb_tomachiman.png",
+    "hash": "a4b4125609bab4e1b5a1b0d024b5ab34f0ab7f940e99c79abda8ea71784ca728",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
