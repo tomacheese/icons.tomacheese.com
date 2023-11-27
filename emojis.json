@@ -4558,5 +4558,25 @@
       "id": "1134120019744264312",
       "name": "Tomachi Emojis 8"
     }
+  },
+  {
+    "id": "1178643128459214899",
+    "name": "tomadefenestration",
+    "path": "../../../icons/tomadefenestration.png",
+    "hash": "09c92ca5750bd7d562b0cecd448e499442853bc76ee60adc46b05b3a9861c921",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
+  },
+  {
+    "id": "1178644599766528040",
+    "name": "tomadefenestrated",
+    "path": "../../../icons/tomadefenestrated.png",
+    "hash": "92b01aa13b533fe6424fcbe44fcffbb504ed635539b5aee37aa7769be0a28481",
+    "server": {
+      "id": "1134120019744264312",
+      "name": "Tomachi Emojis 8"
+    }
   }
 ]
