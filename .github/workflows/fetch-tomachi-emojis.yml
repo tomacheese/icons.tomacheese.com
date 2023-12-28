@@ -37,7 +37,8 @@ jobs:
 
     - name: Install dependencies
       working-directory: ./.github/scripts/fetch-tomachi-emojis/
-      run: yarn
+      run: |
+        yarn && npm install --force @img/sharp-linux-x64
 
     - name: Fetch emojis from Tomachi Emojis
       working-directory: ./.github/scripts/fetch-tomachi-emojis/
