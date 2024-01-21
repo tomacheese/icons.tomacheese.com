@@ -35,6 +35,6 @@
     "yarn-run-all": "3.1.1"
   },
   "dependencies": {
-    "@img/sharp-linux-x64": "^0.33.1"
+    "@img/sharp-linux-x64": "0.33.1"
   }
 }
