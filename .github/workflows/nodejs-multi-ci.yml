@@ -1,5 +1,3 @@
-# 複数のディレクトリにある Node.js でビルド・テストを実行する。バージョンは .node-version に記載されているものを利用する
-
 name: Node CI
 
 on:
@@ -31,8 +29,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: ${{ matrix.directory }}/.node-version
-          cache: yarn
-          cache-dependency-path: ${{ matrix.directory }}/yarn.lock
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: false
+          package_json_file: ${{ matrix.directory }}/package.json
 
       - name: 📃 Check package.json definition
         id: package-json
@@ -59,36 +61,39 @@ jobs:
           echo "lint=$lint" >> $GITHUB_OUTPUT
           echo "test=$test" >> $GITHUB_OUTPUT
 
+      - name: 📂 Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: 📂 Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
       - name: 👨🏻‍💻 Install dependencies
         working-directory: ${{ matrix.directory }}
-        run: yarn install --frozen-lockfile
+        run: |
+          pnpm install --frozen-lockfile --prefer-frozen-lockfile
 
       - name: 👀 Run linter
         if: steps.package-json.outputs.lint == 'true'
         working-directory: ${{ matrix.directory }}
-        run: yarn lint
+        run: pnpm run lint
 
       - name: 🎁 Run package
         if: steps.package-json.outputs.package == 'true'
         working-directory: ${{ matrix.directory }}
-        run: yarn package
-
-      - name: 🏃 Run compile
-        if: steps.package-json.outputs.compile == 'true'
-        working-directory: ${{ matrix.directory }}
-        run: yarn compile
-
-      - name: 🏗️ Run build & generate (Nuxt.js)
-        if: steps.package-json.outputs.build == 'true' && steps.package-json.outputs.generate == 'true'
-        working-directory: ${{ matrix.directory }}
-        run: |
-          yarn build
-          yarn generate
+        run: pnpm run package
 
       - name: 🧪 Run tests
         if: steps.package-json.outputs.test == 'true'
         working-directory: ${{ matrix.directory }}
-        run: yarn test
+        run: pnpm run test
 
       - name: ☑️ Check Dependencies
         working-directory: ${{ matrix.directory }}

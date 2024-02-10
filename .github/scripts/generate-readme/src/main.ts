@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from 'node:fs'
 import yargs from 'yargs'
 import { DownloadedItem } from './models'
 
@@ -16,40 +16,43 @@ const extensions = [
 
 function arrayChunk([...array], size = 1) {
   return array.reduce(
-    (acc, _, index) =>
-      index % size ? acc : [...acc, array.slice(index, index + size)],
+    (accumulator, _, index) =>
+      index % size
+        ? accumulator
+        : [...accumulator, array.slice(index, index + size)],
     []
   )
 }
 
 function getEmojiExtensionsTable(emojiFiles: string[], stickerFiles: string[]) {
-  const extCounts = extensions
-    .map((ext) => {
+  const extensionCounts = extensions
+    .map((extension) => {
       return {
-        ext,
-        emojiCount: emojiFiles.filter((file) => file.endsWith(`.${ext}`))
+        ext: extension,
+        emojiCount: emojiFiles.filter((file) => file.endsWith(`.${extension}`))
           .length,
-        stickerCount: stickerFiles.filter((file) => file.endsWith(`.${ext}`))
-          .length,
+        stickerCount: stickerFiles.filter((file) =>
+          file.endsWith(`.${extension}`)
+        ).length,
       }
     })
     .sort((a, b) => b.emojiCount - a.emojiCount)
-  const headerIconExts =
+  const headerIconExtensions =
     '| file ext | emojis count | stickers count |\n| :-: | :-: | :-: |'
-  const extTables = extCounts
+  const extensionTables = extensionCounts
     .map(
-      (ext) =>
+      (extension) =>
         '| **' +
-        ext.ext +
+        extension.ext +
         '** | ' +
-        ext.emojiCount +
+        extension.emojiCount +
         ' |' +
-        ext.stickerCount +
+        extension.stickerCount +
         ' |'
     )
     .join('\n')
 
-  return headerIconExts + '\n' + extTables
+  return headerIconExtensions + '\n' + extensionTables
 }
 
 function getEmojiServerTable(
@@ -130,10 +133,14 @@ function main(argv: any) {
 
   const emojiFiles = fs
     .readdirSync(targetEmojisPath)
-    .filter((file) => extensions.find((ext) => file.endsWith(`.${ext}`)))
+    .filter((file) =>
+      extensions.find((extension) => file.endsWith(`.${extension}`))
+    )
   const stickerFiles = fs
     .readdirSync(targetStickersPath)
-    .filter((file) => extensions.find((ext) => file.endsWith(`.${ext}`)))
+    .filter((file) =>
+      extensions.find((extension) => file.endsWith(`.${extension}`))
+    )
 
   const emojiImgTags = emojiFiles.map(
     (file) =>
