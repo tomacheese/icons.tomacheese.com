@@ -17,32 +17,39 @@ jobs:
         persist-credentials: false
         fetch-depth: 0
 
-    - name: Setup node env
-      uses: actions/setup-node@v4.0.2
+    - name: Setup node
+      uses: actions/setup-node@v4
       with:
-        node-version: 16
+        node-version-file: ./.github/scripts/generate-readme//.node-version
 
-    - name: Get yarn cache directory path
-      id: yarn-cache-dir-path
-      working-directory: ./.github/scripts/generate-readme/
-      run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
-
-    - name: Cache node_modules
-      uses: actions/cache@v4.0.0
-      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+      id: pnpm-install
       with:
-        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        run_install: false
+
+    - name: Get pnpm store directory
+      id: pnpm-cache
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+    - name: Setup pnpm cache
+      uses: actions/cache@v4
+      with:
+        path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
-          ${{ runner.os }}-yarn-
+          ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
       working-directory: ./.github/scripts/generate-readme/
-      run: yarn
+        run: |
+          pnpm install --frozen-lockfile --prefer-frozen-lockfile
 
     - name: Generate README file
       working-directory: ./.github/scripts/generate-readme/
-      run: yarn build --target-emojis ../../../icons/ --target-stickers ../../../stickers/ --output ../../../README.md --target-guilds ../../../targetGuilds.json --emojis ../../../emojis.json --stickers ../../../stickers.json
+      run: pnpm start --target-emojis ../../../icons/ --target-stickers ../../../stickers/ --output ../../../README.md --target-guilds ../../../targetGuilds.json --emojis ../../../emojis.json --stickers ../../../stickers.json
 
     - name: Commit & Push
       run: |
