@@ -1,21 +1,18 @@
 {
   "scripts": {
-    "build": "ts-node ./src/main.ts",
-    "dev": "ts-node-dev ./src/main.ts",
-    "start": "node ./dist/main.js",
-    "compile": "tsc -p .",
-    "compile:test": "tsc -p . --noEmit",
-    "lint": "run-p -c lint:prettier lint:eslint lint:tsc",
+    "start": "tsx ./src/main.ts",
+    "dev": "tsx watch ./src/main.ts",
+    "lint": "run-z lint:prettier,lint:eslint,lint:tsc",
+    "fix": "run-z fix:prettier,fix:eslint",
     "lint:prettier": "prettier --check src",
     "lint:eslint": "eslint . --ext ts,tsx",
     "lint:tsc": "tsc",
-    "fix": "run-s fix:prettier fix:eslint",
     "fix:eslint": "eslint . --ext ts,tsx --fix",
-    "fix:prettier": "prettier --write src"
+    "fix:prettier": "prettier --write src",
+    "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@types/axios": "0.14.0",
-    "@types/node": "20.11.16",
+    "@types/node": "20.11.17",
     "@types/yargs": "17.0.32",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
@@ -26,12 +23,13 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-promise": "6.1.1",
-    "prettier": "2.8.8",
+    "eslint-plugin-unicorn": "51.0.1",
+    "prettier": "3.2.5",
+    "run-z": "2.0.0",
     "sharp": "0.33.2",
-    "ts-node": "10.9.2",
-    "ts-node-dev": "2.0.0",
+    "tsx": "4.7.1",
     "typescript": "5.3.3",
-    "yargs": "17.7.2",
-    "yarn-run-all": "3.1.1"
-  }
+    "yargs": "17.7.2"
+  },
+  "packageManager": "pnpm@8.15.1"
 }

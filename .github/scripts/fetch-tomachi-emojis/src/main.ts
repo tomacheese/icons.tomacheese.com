@@ -1,12 +1,12 @@
 import axios from 'axios'
-import fs from 'fs'
+import fs from 'node:fs'
 import yargs from 'yargs'
 import { getEmojis, getStickers } from './lib'
 import { DownloadedItem, EmojiWithGuild, StickerWithGuild } from './models'
-import crypto from 'crypto'
+import crypto from 'node:crypto'
 import sharp from 'sharp'
 
-const conf = {
+const config = {
   EMOJI: {
     URL: 'https://cdn.discordapp.com/emojis/{id}.{format}',
     METHOD: getEmojis,
@@ -36,9 +36,9 @@ function getHash(data: ArrayBuffer): Promise<string> {
     const hash = crypto.createHash('sha256')
     sharp(data)
       .raw()
-      .toBuffer((err, data) => {
-        if (err) {
-          reject(err)
+      .toBuffer((error, data) => {
+        if (error) {
+          reject(error)
           return
         }
         hash.update(data)
@@ -56,7 +56,7 @@ async function crawl(
 ) {
   console.log(`crawl(${target})`)
   console.time(`crawl(${target})`)
-  const { URL, METHOD } = conf[target]
+  const { URL, METHOD } = config[target]
   const items = await Promise.all(
     Object.entries(guildIds).map((v) => {
       const guildName = v[1]
@@ -79,7 +79,7 @@ async function crawl(
   for (const item of items.flat()) {
     const path =
       `${
-        output.endsWith('/') ? output.substring(0, output.length - 1) : output
+        output.endsWith('/') ? output.slice(0, Math.max(0, output.length - 1)) : output
       }/${item.name}.` + getExtension(item)
     const emojiUrl = URL.replace('{id}', item.id).replace(
       '{format}',
@@ -173,7 +173,7 @@ async function main(options: MainOptions) {
 }
 
 ;(async () => {
-  const args = yargs
+  const arguments_ = yargs
     .option('output-emojis', {
       description: 'Output emojis path',
       demandOption: true,
@@ -203,11 +203,11 @@ async function main(options: MainOptions) {
     .parseSync()
   main({
     output: {
-      emojis: args['output-emojis'],
-      stickers: args['output-stickers'],
+      emojis: arguments_['output-emojis'],
+      stickers: arguments_['output-stickers'],
     },
-    targetGuildsPath: args['target-guilds'],
-    emojisPath: args.emojis,
-    stickersPath: args.stickers,
+    targetGuildsPath: arguments_['target-guilds'],
+    emojisPath: arguments_.emojis,
+    stickersPath: arguments_.stickers,
   })
 })()
