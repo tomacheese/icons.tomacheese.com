@@ -20,13 +20,14 @@ jobs:
     - name: Setup node
       uses: actions/setup-node@v4
       with:
-        node-version-file: ./.github/scripts/generate-readme//.node-version
+        node-version-file: ./.github/scripts/generate-readme/.node-version
 
     - name: Setup pnpm
       uses: pnpm/action-setup@v2
       id: pnpm-install
       with:
         run_install: false
+        package_json_file: ./.github/scripts/generate-readme/package.json
 
     - name: Get pnpm store directory
       id: pnpm-cache

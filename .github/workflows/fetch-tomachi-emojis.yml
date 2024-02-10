@@ -26,6 +26,7 @@ jobs:
       id: pnpm-install
       with:
         run_install: false
+        package_json_file: ./.github/scripts/fetch-tomachi-emojis/package.json
 
     - name: Get pnpm store directory (Fetch emojis)
       id: pnpm-cache
