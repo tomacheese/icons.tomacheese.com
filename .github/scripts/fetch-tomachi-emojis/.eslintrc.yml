@@ -22,4 +22,3 @@ rules:
   'unicorn/prefer-top-level-await': off
   'unicorn/prevent-abbreviations': off
   'unicorn/no-null': off
-  'no-console': error

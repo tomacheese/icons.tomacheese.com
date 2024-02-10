@@ -20,5 +20,6 @@ rules:
     - error
     - { ignoreIIFE: true }
   'unicorn/prefer-top-level-await': off
+  'unicorn/no-array-reduce': off
   'unicorn/no-null': off
   'no-console': error

@@ -79,7 +79,9 @@ async function crawl(
   for (const item of items.flat()) {
     const path =
       `${
-        output.endsWith('/') ? output.slice(0, Math.max(0, output.length - 1)) : output
+        output.endsWith('/')
+          ? output.slice(0, Math.max(0, output.length - 1))
+          : output
       }/${item.name}.` + getExtension(item)
     const emojiUrl = URL.replace('{id}', item.id).replace(
       '{format}',
@@ -126,9 +128,7 @@ async function crawl(
 
   // 削除済みの画像を処理
   for (const downloadedItem of downloadedItems) {
-    if (
-      newDownloadedItems.find((e) => e.id === downloadedItem.id) !== undefined
-    ) {
+    if (newDownloadedItems.some((e) => e.id === downloadedItem.id)) {
       continue
     }
     console.log(`delete ${downloadedItem.name}`)
@@ -173,7 +173,7 @@ async function main(options: MainOptions) {
 }
 
 ;(async () => {
-  const arguments_ = yargs
+  const args = yargs
     .option('output-emojis', {
       description: 'Output emojis path',
       demandOption: true,
@@ -201,13 +201,13 @@ async function main(options: MainOptions) {
     })
     .help()
     .parseSync()
-  main({
+  await main({
     output: {
-      emojis: arguments_['output-emojis'],
-      stickers: arguments_['output-stickers'],
+      emojis: args['output-emojis'],
+      stickers: args['output-stickers'],
     },
-    targetGuildsPath: arguments_['target-guilds'],
-    emojisPath: arguments_.emojis,
-    stickersPath: arguments_.stickers,
+    targetGuildsPath: args['target-guilds'],
+    emojisPath: args.emojis,
+    stickersPath: args.stickers,
   })
 })()
