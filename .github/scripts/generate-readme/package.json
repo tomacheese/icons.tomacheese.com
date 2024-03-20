@@ -26,7 +26,7 @@
     "prettier": "3.2.5",
     "run-z": "2.0.0",
     "tsx": "4.7.1",
-    "typescript": "5.4.2",
+    "typescript": "5.4.3",
     "yargs": "17.7.2"
   },
   "packageManager": "pnpm@8.15.5"
