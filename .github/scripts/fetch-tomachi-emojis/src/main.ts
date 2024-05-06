@@ -17,7 +17,21 @@ const config = {
   },
 }
 
-function getExtension(emoji: EmojiWithGuild | StickerWithGuild) {
+function getUrlExtension(emoji: EmojiWithGuild | StickerWithGuild) {
+  if ('animated' in emoji && emoji.animated) {
+    return 'gif'
+  }
+  // https://discord.com/developers/docs/resources/sticker#sticker-object-sticker-format-types
+  if ('format_type' in emoji && emoji.format_type === 2) {
+    return 'png'
+  }
+  if ('format_type' in emoji && emoji.format_type === 3) {
+    return 'lottie'
+  }
+  return 'png'
+}
+
+function getFileExtension(emoji: EmojiWithGuild | StickerWithGuild) {
   if ('animated' in emoji && emoji.animated) {
     return 'gif'
   }
@@ -91,14 +105,21 @@ async function crawl(
         output.endsWith('/')
           ? output.slice(0, Math.max(0, output.length - 1))
           : output
-      }/${sanitizeName(item.name)}.` + getExtension(item)
+      }/${sanitizeName(item.name)}.` + getFileExtension(item)
     const emojiUrl = URL.replace('{id}', item.id).replace(
       '{format}',
-      getExtension(item)
+      getUrlExtension(item)
     )
     const data = await axios.get(emojiUrl, {
       responseType: 'arraybuffer',
+      validateStatus: () => true
     })
+    if (data.status !== 200) {
+      console.warn(`failed to download ${emojiUrl}`)
+      console.warn(item)
+      process.exitCode = 1
+      continue
+    }
     const hash = await getHash(data.data)
 
     const downloadedItem = downloadedItems.find((e) => e.id === item.id)
