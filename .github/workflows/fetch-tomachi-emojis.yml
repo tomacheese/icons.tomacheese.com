@@ -70,8 +70,8 @@ jobs:
 
     - name: Install dependencies
       working-directory: ./.github/scripts/generate-readme/
-        run: |
-          pnpm install --frozen-lockfile --prefer-frozen-lockfile
+      run: |
+        pnpm install --frozen-lockfile --prefer-frozen-lockfile
 
     - name: Generate README file
       working-directory: ./.github/scripts/generate-readme/

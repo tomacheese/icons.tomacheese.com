@@ -47,6 +47,15 @@ function getHash(data: ArrayBuffer): Promise<string> {
   })
 }
 
+function sanitizeName(name: string) {
+  // ファイル名として使えない文字を置換
+  const invalidChars = ['\\', '/', ':', '*', '?', '"', '<', '>', '|']
+  for (const c of invalidChars) {
+    name = name.replaceAll(c, '_')
+  }
+  return name
+}
+
 async function crawl(
   target: 'EMOJI' | 'STICKER',
   guildIds: { [key: string]: string },
@@ -82,7 +91,7 @@ async function crawl(
         output.endsWith('/')
           ? output.slice(0, Math.max(0, output.length - 1))
           : output
-      }/${item.name}.` + getExtension(item)
+      }/${sanitizeName(item.name)}.` + getExtension(item)
     const emojiUrl = URL.replace('{id}', item.id).replace(
       '{format}',
       getExtension(item)
