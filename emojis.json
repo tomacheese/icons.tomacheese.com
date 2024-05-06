@@ -992,7 +992,7 @@
   {
     "id": "855464874536075264",
     "name": "tomacat2",
-    "path": "../../../icons/tomacat.png",
+    "path": "../../../icons/tomacat2.png",
     "hash": "f7b4ac055be89f0a842860696e3b8596b4eee66fcc3f309ebc0ffbe9f5d63efb",
     "server": {
       "id": "844380625645600778",
@@ -2502,7 +2502,7 @@
   {
     "id": "1025984042971185263",
     "name": "goldtomachi",
-    "path": "../../../icons/goldomachi.png",
+    "path": "../../../icons/goldtomachi.png",
     "hash": "f56df954574fb3fa10002d04da1b6ef511e7980473904519920d54321a887cf1",
     "server": {
       "id": "995672815065911368",
@@ -3722,7 +3722,7 @@
   {
     "id": "1134054277355155468",
     "name": "tomasleepy",
-    "path": "../../../icons/tomasleep.png",
+    "path": "../../../icons/tomasleepy.png",
     "hash": "5ea1153661581d0b288b93dd20ddf0099d03b4af6da2b91dedbb3d5a03671655",
     "server": {
       "id": "1127441577388814366",
