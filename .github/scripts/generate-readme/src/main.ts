@@ -14,8 +14,9 @@ const extensions = [
   'lottie',
 ]
 
-function arrayChunk([...array], size = 1) {
-  return array.reduce(
+function arrayChunk([...array]: string[], size = 1) {
+  // eslint-disable-next-line unicorn/no-array-reduce
+  return array.reduce<string[][]>(
     (accumulator, _, index) =>
       index % size
         ? accumulator
@@ -45,9 +46,9 @@ function getEmojiExtensionsTable(emojiFiles: string[], stickerFiles: string[]) {
         '| **' +
         extension.ext +
         '** | ' +
-        extension.emojiCount +
+        extension.emojiCount.toString() +
         ' |' +
-        extension.stickerCount +
+        extension.stickerCount.toString() +
         ' |'
     )
     .join('\n')
@@ -69,9 +70,9 @@ function getEmojiServerTable(
   const stickers = JSON.parse(
     fs.readFileSync(stickerPath, 'utf8')
   ) as DownloadedItem[]
-  const guilds = JSON.parse(fs.readFileSync(targetGuildsPath, 'utf8')) as {
-    [key: string]: string
-  }
+  const guilds = JSON.parse(
+    fs.readFileSync(targetGuildsPath, 'utf8')
+  ) as Record<string, string>
 
   const guildItemCount = Object.entries(guilds).map((guild) => {
     const guildName = guild[1]
@@ -110,26 +111,59 @@ function getEmojiServerTable(
         '| **' +
         guild.guildName +
         '** | ' +
-        guild.emojiPngCount +
+        guild.emojiPngCount.toString() +
         ' | ' +
-        guild.emojiGifCount +
+        guild.emojiGifCount.toString() +
         ' | ' +
-        guild.stickerPngCount +
+        guild.stickerPngCount.toString() +
         ' | ' +
-        guild.stickerApngCount +
+        guild.stickerApngCount.toString() +
         ' |'
     )
     .join('\n')
   return headerIconServers + '\n' + serverTables
 }
 
-function main(argv: any) {
-  const targetEmojisPath = argv.targetEmojis as string
-  const targetStickersPath = argv.targetStickers as string
-  const outputPath = argv.output as string
-  const targetGuildsPath = argv.targetGuilds as string
-  const emojisPath = argv.emojis as string
-  const stickersPath = argv.stickers as string
+function main() {
+  const argv = yargs
+    .option('target-emojis', {
+      description: 'Target emojis path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('target-stickers', {
+      description: 'Target stickers path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('output', {
+      description: 'Output path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('target-guilds', {
+      description: 'Target guilds file path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('emojis', {
+      description: 'Emojis file path',
+      demandOption: true,
+      type: 'string',
+    })
+    .option('stickers', {
+      description: 'Stickers file path',
+      demandOption: true,
+      type: 'string',
+    })
+    .help()
+    .parseSync()
+  const targetEmojisPath = argv.targetEmojis
+  const targetStickersPath = argv.targetStickers
+  const outputPath = argv.output
+  const targetGuildsPath = argv.targetGuilds
+  const emojisPath = argv.emojis
+  const stickersPath = argv.stickers
 
   const emojiFiles = fs
     .readdirSync(targetEmojisPath)
@@ -173,31 +207,4 @@ function main(argv: any) {
 
   fs.writeFileSync(outputPath, output)
 }
-main(
-  yargs
-    .option('target-emojis', {
-      description: 'Target emojis path',
-      demandOption: true,
-    })
-    .option('target-stickers', {
-      description: 'Target stickers path',
-      demandOption: true,
-    })
-    .option('output', {
-      description: 'Output path',
-      demandOption: true,
-    })
-    .option('target-guilds', {
-      description: 'Target guilds file path',
-      demandOption: true,
-    })
-    .option('emojis', {
-      description: 'Emojis file path',
-      demandOption: true,
-    })
-    .option('stickers', {
-      description: 'Stickers file path',
-      demandOption: true,
-    })
-    .help().argv
-)
+main()

@@ -51,6 +51,7 @@ function getHash(data: ArrayBuffer): Promise<string> {
     sharp(data)
       .raw()
       .toBuffer((error, data) => {
+        // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
         if (error) {
           reject(error)
           return
@@ -72,7 +73,7 @@ function sanitizeName(name: string) {
 
 async function crawl(
   target: 'EMOJI' | 'STICKER',
-  guildIds: { [key: string]: string },
+  guildIds: Record<string, string>,
   token: string,
   output: string,
   filePath: string
@@ -112,7 +113,7 @@ async function crawl(
     )
     const data = await axios.get(emojiUrl, {
       responseType: 'arraybuffer',
-      validateStatus: () => true
+      validateStatus: () => true,
     })
     if (data.status !== 200) {
       console.warn(`failed to download ${emojiUrl}`)
@@ -192,9 +193,9 @@ async function main(options: MainOptions) {
     console.warn('targetGuilds.json does not exist')
     return
   }
-  const guildIds: {
-    [key: string]: string
-  } = JSON.parse(fs.readFileSync(targetGuildsPath, 'utf8'))
+  const guildIds: Record<string, string> = JSON.parse(
+    fs.readFileSync(targetGuildsPath, 'utf8')
+  )
 
   await Promise.all([
     crawl('EMOJI', guildIds, token, output.emojis, emojisPath),

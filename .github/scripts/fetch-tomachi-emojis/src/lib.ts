@@ -6,7 +6,7 @@ export async function getEmojis(
   guildId: string,
   guildName: string
 ): Promise<EmojiWithGuild[]> {
-  const response = await axios.get(
+  const response = await axios.get<Emoji[]>(
     'https://discord.com/api/guilds/' + guildId + '/emojis',
     {
       headers: {
@@ -31,7 +31,7 @@ export async function getStickers(
   guildId: string,
   guildName: string
 ): Promise<StickerWithGuild[]> {
-  const response = await axios.get(
+  const response = await axios.get<Sticker[]>(
     'https://discord.com/api/guilds/' + guildId + '/stickers',
     {
       headers: {
