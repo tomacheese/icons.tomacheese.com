@@ -69,9 +69,7 @@ function getEmojiServerTable(
   const stickers = JSON.parse(
     fs.readFileSync(stickerPath, 'utf8')
   ) as DownloadedItem[]
-  const guilds = JSON.parse(fs.readFileSync(targetGuildsPath, 'utf8')) as {
-    [key: string]: string
-  }
+  const guilds = JSON.parse(fs.readFileSync(targetGuildsPath, 'utf8')) as Record<string, string>
 
   const guildItemCount = Object.entries(guilds).map((guild) => {
     const guildName = guild[1]

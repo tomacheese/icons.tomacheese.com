@@ -112,7 +112,7 @@ async function crawl(
     )
     const data = await axios.get(emojiUrl, {
       responseType: 'arraybuffer',
-      validateStatus: () => true
+      validateStatus: () => true,
     })
     if (data.status !== 200) {
       console.warn(`failed to download ${emojiUrl}`)
