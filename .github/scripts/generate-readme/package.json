@@ -12,7 +12,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@book000/eslint-config": "1.8.46",
+    "@book000/eslint-config": "1.8.48",
     "@types/node": "22.14.1",
     "@types/yargs": "17.0.33",
     "eslint": "9.24.0",
