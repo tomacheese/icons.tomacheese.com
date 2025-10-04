@@ -12,8 +12,8 @@ importers:
         specifier: 1.11.2
         version: 1.11.2(eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.41.0(eslint@9.36.0)(typescript@5.9.3))(eslint@9.36.0))(eslint-plugin-n@17.23.1(eslint@9.36.0)(typescript@5.9.3))(eslint-plugin-promise@7.2.1(eslint@9.36.0))(eslint@9.36.0))(eslint@9.36.0)(typescript@5.9.3)
       '@types/node':
-        specifier: 22.18.7
-        version: 22.18.7
+        specifier: 22.18.8
+        version: 22.18.8
       '@types/yargs':
         specifier: 17.0.33
         version: 17.0.33
@@ -429,8 +429,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.18.7':
-    resolution: {integrity: sha512-3E97nlWEVp2V6J7aMkR8eOnw/w0pArPwf/5/W0865f+xzBoGL/ZuHkTAKAGN7cOWNwd+sG+hZOqj+fjzeHS75g==}
+  '@types/node@22.18.8':
+    resolution: {integrity: sha512-pAZSHMiagDR7cARo/cch1f3rXy0AEXwsVsVH09FcyeJVAzCnGgmYis7P3JidtTUjyadhTeSo8TgRPswstghDaw==}
 
   '@types/yargs-parser@21.0.3':
     resolution: {integrity: sha512-I4q9QU9MQv4oEOz4tAHJtNz1cwuLxn2F3xcc2iV5WdqLPpUnj30aUuxt1mAxYTG+oe8CZMV/+6rU4S4gRDzqtQ==}
@@ -1948,7 +1948,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.18.7':
+  '@types/node@22.18.8':
     dependencies:
       undici-types: 6.21.0
 
