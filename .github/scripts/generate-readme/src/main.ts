@@ -37,7 +37,7 @@ function getEmojiExtensionsTable(emojiFiles: string[], stickerFiles: string[]) {
         ).length,
       }
     })
-    .sort((a, b) => b.emojiCount - a.emojiCount)
+    .toSorted((a, b) => b.emojiCount - a.emojiCount)
   const headerIconExtensions =
     '| file ext | emojis count | stickers count |\n| :-: | :-: | :-: |'
   const extensionTables = extensionCounts
