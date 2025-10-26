@@ -188,16 +188,16 @@ Tomachi icons repository
 | <a href="stickers/AIが描いたかわいいとまちっち.png"><img src="stickers/AIが描いたかわいいとまちっち.png" title="AIが描いたかわいいとまちっち.png" alt="AIが描いたかわいいとまちっち.png" width="100px" /><br>AIが描いたかわいいとまちっち.png</a> | <a href="stickers/AIによるとまちっち.png"><img src="stickers/AIによるとまちっち.png" title="AIによるとまちっち.png" alt="AIによるとまちっち.png" width="100px" /><br>AIによるとまちっち.png</a> | <a href="stickers/ChatGPTが創造したとまちっち.png"><img src="stickers/ChatGPTが創造したとまちっち.png" title="ChatGPTが創造したとまちっち.png" alt="ChatGPTが創造したとまちっち.png" width="100px" /><br>ChatGPTが創造したとまちっち.png</a> |
 | <a href="stickers/GODLIKEを食らうとまちっち.png"><img src="stickers/GODLIKEを食らうとまちっち.png" title="GODLIKEを食らうとまちっち.png" alt="GODLIKEを食らうとまちっち.png" width="100px" /><br>GODLIKEを食らうとまちっち.png</a> | <a href="stickers/さ目てゃ.png"><img src="stickers/さ目てゃ.png" title="さ目てゃ.png" alt="さ目てゃ.png" width="100px" /><br>さ目てゃ.png</a> | <a href="stickers/とますけクン.png"><img src="stickers/とますけクン.png" title="とますけクン.png" alt="とますけクン.png" width="100px" /><br>とますけクン.png</a> |
 | <a href="stickers/とまたぬき.png"><img src="stickers/とまたぬき.png" title="とまたぬき.png" alt="とまたぬき.png" width="100px" /><br>とまたぬき.png</a> | <a href="stickers/とまち急便.png"><img src="stickers/とまち急便.png" title="とまち急便.png" alt="とまち急便.png" width="100px" /><br>とまち急便.png</a> | <a href="stickers/とまち運動.png"><img src="stickers/とまち運動.png" title="とまち運動.png" alt="とまち運動.png" width="100px" /><br>とまち運動.png</a> |
-| <a href="stickers/インターとまち.png"><img src="stickers/インターとまち.png" title="インターとまち.png" alt="インターとまち.png" width="100px" /><br>インターとまち.png</a> | <a href="stickers/トマえもん.png"><img src="stickers/トマえもん.png" title="トマえもん.png" alt="トマえもん.png" width="100px" /><br>トマえもん.png</a> | <a href="stickers/トマチの叫び.png"><img src="stickers/トマチの叫び.png" title="トマチの叫び.png" alt="トマチの叫び.png" width="100px" /><br>トマチの叫び.png</a> |
-| <a href="stickers/人智を超越し、すべてを_tomashrug_するとまちっち.png"><img src="stickers/人智を超越し、すべてを_tomashrug_するとまちっち.png" title="人智を超越し、すべてを_tomashrug_するとまちっち.png" alt="人智を超越し、すべてを_tomashrug_するとまちっち.png" width="100px" /><br>人智を超越し、すべてを_tomashrug_するとまちっち.png</a> | <a href="stickers/嘔吐まちっち.png"><img src="stickers/嘔吐まちっち.png" title="嘔吐まちっち.png" alt="嘔吐まちっち.png" width="100px" /><br>嘔吐まちっち.png</a> | <a href="stickers/家の回りを全部岩盤堀りされたとまちっち.png"><img src="stickers/家の回りを全部岩盤堀りされたとまちっち.png" title="家の回りを全部岩盤堀りされたとまちっち.png" alt="家の回りを全部岩盤堀りされたとまちっち.png" width="100px" /><br>家の回りを全部岩盤堀りされたとまちっち.png</a> |
-| <a href="stickers/新しい元号は、苫知であります。.png"><img src="stickers/新しい元号は、苫知であります。.png" title="新しい元号は、苫知であります。.png" alt="新しい元号は、苫知であります。.png" width="100px" /><br>新しい元号は、苫知であります。.png</a> | <a href="stickers/熊出没注意.png"><img src="stickers/熊出没注意.png" title="熊出没注意.png" alt="熊出没注意.png" width="100px" /><br>熊出没注意.png</a> | <a href="stickers/球審とまち.png"><img src="stickers/球審とまち.png" title="球審とまち.png" alt="球審とまち.png" width="100px" /><br>球審とまち.png</a> |
-| <a href="stickers/草むしり検定3級.png"><img src="stickers/草むしり検定3級.png" title="草むしり検定3級.png" alt="草むしり検定3級.png" width="100px" /><br>草むしり検定3級.png</a> |
+| <a href="stickers/ものすごいとまキプ.png"><img src="stickers/ものすごいとまキプ.png" title="ものすごいとまキプ.png" alt="ものすごいとまキプ.png" width="100px" /><br>ものすごいとまキプ.png</a> | <a href="stickers/インターとまち.png"><img src="stickers/インターとまち.png" title="インターとまち.png" alt="インターとまち.png" width="100px" /><br>インターとまち.png</a> | <a href="stickers/トマえもん.png"><img src="stickers/トマえもん.png" title="トマえもん.png" alt="トマえもん.png" width="100px" /><br>トマえもん.png</a> |
+| <a href="stickers/トマチの叫び.png"><img src="stickers/トマチの叫び.png" title="トマチの叫び.png" alt="トマチの叫び.png" width="100px" /><br>トマチの叫び.png</a> | <a href="stickers/人智を超越し、すべてを_tomashrug_するとまちっち.png"><img src="stickers/人智を超越し、すべてを_tomashrug_するとまちっち.png" title="人智を超越し、すべてを_tomashrug_するとまちっち.png" alt="人智を超越し、すべてを_tomashrug_するとまちっち.png" width="100px" /><br>人智を超越し、すべてを_tomashrug_するとまちっち.png</a> | <a href="stickers/嘔吐まちっち.png"><img src="stickers/嘔吐まちっち.png" title="嘔吐まちっち.png" alt="嘔吐まちっち.png" width="100px" /><br>嘔吐まちっち.png</a> |
+| <a href="stickers/家の回りを全部岩盤堀りされたとまちっち.png"><img src="stickers/家の回りを全部岩盤堀りされたとまちっち.png" title="家の回りを全部岩盤堀りされたとまちっち.png" alt="家の回りを全部岩盤堀りされたとまちっち.png" width="100px" /><br>家の回りを全部岩盤堀りされたとまちっち.png</a> | <a href="stickers/新しい元号は、苫知であります。.png"><img src="stickers/新しい元号は、苫知であります。.png" title="新しい元号は、苫知であります。.png" alt="新しい元号は、苫知であります。.png" width="100px" /><br>新しい元号は、苫知であります。.png</a> | <a href="stickers/熊出没注意.png"><img src="stickers/熊出没注意.png" title="熊出没注意.png" alt="熊出没注意.png" width="100px" /><br>熊出没注意.png</a> |
+| <a href="stickers/球審とまち.png"><img src="stickers/球審とまち.png" title="球審とまち.png" alt="球審とまち.png" width="100px" /><br>球審とまち.png</a> | <a href="stickers/草むしり検定3級.png"><img src="stickers/草むしり検定3級.png" title="草むしり検定3級.png" alt="草むしり検定3級.png" width="100px" /><br>草むしり検定3級.png</a> |
 
 ## Extensions
 
 | file ext | emojis count | stickers count |
 | :-: | :-: | :-: |
-| **png** | 418 |21 |
+| **png** | 418 |22 |
 | **gif** | 68 |0 |
 | **jpg** | 1 |0 |
 | **jpeg** | 0 |0 |
@@ -211,7 +211,7 @@ Tomachi icons repository
 
 | server | emoji/png | emoji/gif | sticker/png | sticker/apng |
 | :- | :-: | :-: | :-: | :-: |
-| **Tomachi Emojis** | 50 | 46 | 3 | 0 |
+| **Tomachi Emojis** | 50 | 46 | 4 | 0 |
 | **Tomachi Emojis 2** | 50 | 9 | 5 | 0 |
 | **Tomachi Emojis 3** | 50 | 10 | 1 | 0 |
 | **Tomachi Emojis 4** | 50 | 2 | 1 | 0 |
