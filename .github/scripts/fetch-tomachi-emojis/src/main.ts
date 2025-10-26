@@ -1,6 +1,7 @@
 import axios from 'axios'
 import fs from 'node:fs'
 import yargs from 'yargs'
+import { hideBin } from 'yargs/helpers'
 import { getEmojis, getStickers } from './lib'
 import { DownloadedItem, EmojiWithGuild, StickerWithGuild } from './models'
 import crypto from 'node:crypto'
@@ -204,7 +205,7 @@ async function main(options: MainOptions) {
 }
 
 ;(async () => {
-  const args = yargs
+  const args = yargs(hideBin(process.argv))
     .option('output-emojis', {
       description: 'Output emojis path',
       demandOption: true,

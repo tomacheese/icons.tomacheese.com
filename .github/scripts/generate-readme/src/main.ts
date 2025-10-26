@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import yargs from 'yargs'
+import { hideBin } from 'yargs/helpers'
 import { DownloadedItem } from './models'
 
 const extensions = [
@@ -125,7 +126,7 @@ function getEmojiServerTable(
 }
 
 function main() {
-  const argv = yargs
+  const argv = yargs(hideBin(process.argv))
     .option('target-emojis', {
       description: 'Target emojis path',
       demandOption: true,
