@@ -45,6 +45,7 @@ jobs:
           generate=$(jq '.scripts | has("generate")' package.json)
           package=$(jq '.scripts | has("package")' package.json)
           lint=$(jq '.scripts | has("lint")' package.json)
+          start=$(jq '.scripts | has("start")' package.json)
           test=$(jq '.scripts | has("test")' package.json)
 
           echo "compile: $compile"
@@ -52,6 +53,7 @@ jobs:
           echo "generate: $generate"
           echo "package: $package"
           echo "lint: $lint"
+          echo "start: $start"
           echo "test: $test"
 
           echo "compile=$compile" >> $GITHUB_OUTPUT
@@ -59,6 +61,7 @@ jobs:
           echo "generate=$generate" >> $GITHUB_OUTPUT
           echo "package=$package" >> $GITHUB_OUTPUT
           echo "lint=$lint" >> $GITHUB_OUTPUT
+          echo "start=$start" >> $GITHUB_OUTPUT
           echo "test=$test" >> $GITHUB_OUTPUT
 
       - name: 📂 Get pnpm store directory
@@ -84,6 +87,11 @@ jobs:
         if: steps.package-json.outputs.lint == 'true'
         working-directory: ${{ matrix.directory }}
         run: pnpm run lint
+
+      - name: 🚦 Smoke test CLI
+        if: steps.package-json.outputs.start == 'true'
+        working-directory: ${{ matrix.directory }}
+        run: pnpm run start -- --help
 
       - name: 🎁 Run package
         if: steps.package-json.outputs.package == 'true'
