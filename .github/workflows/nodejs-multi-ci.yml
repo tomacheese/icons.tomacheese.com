@@ -91,7 +91,18 @@ jobs:
       - name: 🚦 Smoke test CLI
         if: steps.package-json.outputs.start == 'true'
         working-directory: ${{ matrix.directory }}
-        run: pnpm run start -- --help
+        run: |
+          node <<'NODE'
+          const { spawnSync } = require('node:child_process')
+          const pkg = require('./package.json')
+          const start = pkg.scripts?.start
+          if (!start) process.exit(0)
+          const result = spawnSync(`pnpm exec ${start} --help`, {
+            shell: true,
+            stdio: 'inherit',
+          })
+          process.exit(result.status ?? 1)
+          NODE
 
       - name: 🎁 Run package
         if: steps.package-json.outputs.package == 'true'
