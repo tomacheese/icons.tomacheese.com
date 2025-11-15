@@ -28,5 +28,5 @@
     "typescript": "5.9.3",
     "yargs": "18.0.0"
   },
-  "packageManager": "pnpm@10.21.0"
+  "packageManager": "pnpm@10.22.0"
 }
