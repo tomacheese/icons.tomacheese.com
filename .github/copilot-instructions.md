@@ -37,3 +37,4 @@
 ## ドキュメント更新
 
 ## リポジトリ固有
+- 目的: Tomachi icons repository
