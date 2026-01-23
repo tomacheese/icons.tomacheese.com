@@ -25,4 +25,6 @@
 - ログに機密情報を出力しない。
 
 ## リポジトリ固有
-- 目的: Tomachi icons repository
+- 概要: Tomachi icons repository
+- 公開 URL: https://icons.tomacheese.com
+- 定期実行: `.github/workflows/fetch-tomachi-emojis.yml` の schedule
