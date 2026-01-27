@@ -12,7 +12,7 @@ Claude Code の作業方針とプロジェクト固有ルールを示します�
 
 ## プロジェクト概要
 - 目的: Tomachi アイコンと絵文字の管理・公開
-- 主な機能: 画像アセットの管理、Discord 絵文字データの取得、カタログ生成
+- 主な機能: 画像アセットの管理、Discord 絵文字・ステッカー データの取得、カタログ生成
 
 ## 重要ルール
 - 会話言語: 日本語
@@ -41,7 +41,13 @@ Claude Code の作業方針とプロジェクト固有ルールを示します�
 
 ```bash
 pnpm install  # 依存関係のインストール
-pnpm start    # スクリプトの実行
+
+# 利用可能なサブコマンドや必須オプションを確認
+pnpm start -- --help
+
+# 必須オプションを指定して実行する（例）
+# pnpm start -- <script-name> --input <input-path> --output <output-path>
+
 pnpm lint     # Lint 実行
 pnpm fix      # 自動修正
 ```

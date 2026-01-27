@@ -26,4 +26,5 @@
 - アイコン画像は `icons/` に追加します。
 - ステッカー画像は `stickers/` に追加します。
 - `emojis.json` は `.github/scripts/fetch-tomachi-emojis` で更新されます。
+- `stickers.json` は `.github/scripts/fetch-tomachi-emojis` で更新されます。
 - `README.md` は `.github/scripts/generate-readme` で更新されます。

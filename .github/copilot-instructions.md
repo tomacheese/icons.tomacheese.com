@@ -1,8 +1,8 @@
 # GitHub Copilot Instructions
 
 ## プロジェクト概要
-- 目的: Tomachi アイコンと絵文字の管理および公開
-- 主な機能: アイコン・絵文字の保存、自動的な絵文字取得、README の生成
+- 目的: Tomachi アイコン・絵文字・ステッカーの管理および公開
+- 主な機能: アイコン・絵文字・ステッカーの保存、自動的な絵文字取得、README の生成
 - 対象ユーザー: Tomachi アイコンの利用者およびメンテナ
 
 ## 共通ルール
@@ -23,7 +23,7 @@
 ```bash
 cd .github/scripts/fetch-tomachi-emojis
 pnpm install
-pnpm start  # 絵文字の取得
+pnpm start  # 絵文字・ステッカーの取得
 pnpm lint   # Lint 実行
 pnpm fix    # Lint 自動修正
 ```
@@ -32,7 +32,9 @@ pnpm fix    # Lint 自動修正
 ```bash
 cd .github/scripts/generate-readme
 pnpm install
-pnpm start  # README の生成
+pnpm start -- --target-emojis ../../emojis --output ../../README.md  # README の生成
+# もしくはヘルプを参照:
+# pnpm start -- --help
 pnpm lint   # Lint 実行
 pnpm fix    # Lint 自動修正
 ```

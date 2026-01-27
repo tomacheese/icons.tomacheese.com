@@ -15,7 +15,7 @@ Gemini CLI 向けのコンテキストと作業方針を定義します。
 
 ## プロジェクト概要
 - 目的: Tomachi アイコン・絵文字のホスティングとメタデータ管理
-- 主な機能: Discord 絵文字の自動取得、カタログ (README) の自動生成
+- 主な機能: Discord 絵文字・ステッカーの自動取得、カタログ (README) の自動生成
 
 ## コーディング規約
 - 言語: TypeScript
@@ -28,7 +28,13 @@ Gemini CLI 向けのコンテキストと作業方針を定義します。
 
 ```bash
 pnpm install
-pnpm start
+
+# 利用可能なサブコマンドや必須オプションを確認
+pnpm start -- --help
+
+# 必須オプションを指定して実行する（例）
+# pnpm start -- <script-name> --input <input-path> --output <output-path>
+
 pnpm lint
 pnpm fix
 ```
@@ -36,7 +42,7 @@ pnpm fix
 ## 注意事項
 - 認証情報のコミット禁止
 - 既存の命名規則やディレクトリ構成を優先
-- README は自動生成されるため、直接編集する際はテンプレート (`.github/scripts/generate-readme/src/template.md`) を確認すること
+- README は自動生成されるため、直接編集する際はテンプレート (`.github/scripts/generate-readme/template.md`) を確認すること
 
 ## リポジトリ固有
 - 新しいアイコンが追加された場合、エージェントは README の更新スクリプトを提案または実行すべきです。
