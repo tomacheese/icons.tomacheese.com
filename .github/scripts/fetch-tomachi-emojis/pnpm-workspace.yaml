@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+confirmModulesPurge: false
+minimumReleaseAgeExclude:
+  - '@book000/*'
