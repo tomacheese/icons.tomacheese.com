@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@book000/eslint-config':
-        specifier: 1.15.13
-        version: 1.15.13(eslint@10.5.0)(typescript@6.0.3)
+        specifier: 1.15.14
+        version: 1.15.14(eslint@10.5.0)(typescript@6.0.3)
       '@types/node':
         specifier: 24.13.2
         version: 24.13.2
@@ -54,8 +54,8 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@book000/eslint-config@1.15.13':
-    resolution: {integrity: sha512-tBOnwojhsCKxyGwUO1jOsAVhhx2+G+OYQyEW4xp8C/kNlYE6Ctm6yI8eDjannSJnyHP7TuyDeZmLHx4XSjoB/Q==}
+  '@book000/eslint-config@1.15.14':
+    resolution: {integrity: sha512-vCKx6Hh5v11g9Yiy3/J/nhgR1MfYZXRY2nuujXQUq1oEdwP0YREoHi6GY+TkZ1hKPwPMkz0xcoT2Ouu+++asXA==}
     peerDependencies:
       eslint: 10.5.0
 
@@ -705,8 +705,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
 
-  eslint-plugin-unicorn@67.0.0:
-    resolution: {integrity: sha512-XEYhNfAFFFYQLq++53iqpgIPFqvjasf5lsUJuCdmd/QvbRfcLbmPTjcTyVEXc5yBudWIg08SSEGgqJtEojk1ug==}
+  eslint-plugin-unicorn@68.0.0:
+    resolution: {integrity: sha512-mHYWvX948Q4H3bGc39bsNMxD/leOuNI+Iws9NVsoSz5VA7EGP86wnz7mZ/SPSvRhefT8L4hd8DHfDuGC+lIoCQ==}
     engines: {node: '>=22'}
     peerDependencies:
       eslint: '>=10.4'
@@ -1508,12 +1508,12 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@book000/eslint-config@1.15.13(eslint@10.5.0)(typescript@6.0.3)':
+  '@book000/eslint-config@1.15.14(eslint@10.5.0)(typescript@6.0.3)':
     dependencies:
       '@typescript-eslint/parser': 8.61.1(eslint@10.5.0)(typescript@6.0.3)
       eslint: 10.5.0
       eslint-config-prettier: 10.1.8(eslint@10.5.0)
-      eslint-plugin-unicorn: 67.0.0(eslint@10.5.0)
+      eslint-plugin-unicorn: 68.0.0(eslint@10.5.0)
       globals: 17.6.0
       neostandard: 0.13.0(eslint@10.5.0)(typescript@6.0.3)
       typescript-eslint: 8.61.1(eslint@10.5.0)(typescript@6.0.3)
@@ -2272,7 +2272,7 @@ snapshots:
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-unicorn@67.0.0(eslint@10.5.0):
+  eslint-plugin-unicorn@68.0.0(eslint@10.5.0):
     dependencies:
       '@babel/helper-validator-identifier': 7.29.7
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.5.0)
