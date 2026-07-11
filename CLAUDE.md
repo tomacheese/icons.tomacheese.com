@@ -1,85 +1,66 @@
 # CLAUDE.md
 
-## 目的
-Claude Code の作業方針とプロジェクト固有ルールを示します。
+## Project overview
 
-## 判断記録のルール
-- 判断内容の要約
-- 検討した代替案
-- 採用しなかった案とその理由
-- 前提条件・仮定・不確実性
-- 他エージェントによるレビュー可否
+- Hosts Tomachi's Discord emojis, stickers, and icons, plus their metadata, and publishes them via GitHub Pages (`CNAME`).
+- Two TypeScript scripts under `.github/scripts/` do the work: `fetch-tomachi-emojis` downloads assets from Discord, and `generate-readme` builds the `README.md` catalog from those assets.
+- Both scripts run in CI (see `.github/workflows/`); the repository is data-driven and rarely needs manual code changes.
 
-## プロジェクト概要
-- 目的: Tomachi アイコンと絵文字の管理・公開
-- 主な機能: 画像アセットの管理、Discord 絵文字・ステッカー データの取得、カタログ生成
+## Repository layout
 
-## 重要ルール
-- 会話言語: 日本語
-- コミット規約: Conventional Commits
-- コメント言語: 日本語
-- エラーメッセージ: 英語
+- `icons/`, `stickers/`: downloaded image assets.
+- `emojis.json`, `stickers.json`: metadata written by `fetch-tomachi-emojis`.
+- `targetGuilds.json`: Discord guild IDs to fetch from (input).
+- `README.md`: auto-generated catalog. Do not hand-edit; regenerate with `generate-readme`.
+- `.github/scripts/fetch-tomachi-emojis/`, `.github/scripts/generate-readme/`: independent pnpm projects (each has its own `package.json`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`).
+- `.github/scripts/generate-readme/template.md`: README template consumed by `generate-readme`.
 
-## 環境のルール
-- ブランチ命名: Conventional Branch (`feat/`, `fix/`)
-- GitHub リポジトリ調査: 必要に応じてテンポラリディレクトリに clone して検索
-- Renovate PR: 追加コミットや更新を行わない
+## Development commands
 
-## コード改修時のルール
-- 日本語と英数字の間には半角スペースを挿入
-- エラーメッセージの絵文字は全体で統一
-- TypeScript の `skipLibCheck` 禁止
-- docstring (JSDoc) を日本語で記載
-
-## 相談ルール
-- Codex CLI: 実装レビュー、局所設計、整合性確認
-- Gemini CLI: 外部仕様、最新情報確認
-- 指摘への対応: 黙殺せず、必ず対応または理由を回答
-
-## 開発コマンド
-リポジトリ内の各スクリプトディレクトリ（`.github/scripts/*`）で実行します。
+Run commands inside the specific script directory. Each project uses pnpm (enforced by `only-allow pnpm`) and tsx.
 
 ```bash
-pnpm install  # 依存関係のインストール
-
-# 利用可能なサブコマンドや必須オプションを確認
-pnpm start -- --help
-
-# 必須オプションを指定して実行する（例）
-# pnpm start -- <script-name> --input <input-path> --output <output-path>
-
-pnpm lint     # Lint 実行
-pnpm fix      # 自動修正
+cd .github/scripts/<fetch-tomachi-emojis|generate-readme>
+pnpm install
+pnpm lint   # run-z: prettier --check, eslint, tsc
+pnpm fix    # run-z: prettier --write, eslint --fix
 ```
 
-## アーキテクチャと主要ファイル
-- `icons/`: アイコン画像ファイル
-- `stickers/`: ステッカー画像ファイル
-- `emojis.json`: 取得された絵文字データ
-- `targetGuilds.json`: 取得対象の Discord サーバー ID
-- `.github/scripts/`: 管理用スクリプト (TypeScript)
+`fetch-tomachi-emojis` (requires `DISCORD_TOKEN` in the environment):
 
-## 作業チェックリスト
+```bash
+pnpm start --output-emojis ../../../icons/ --output-stickers ../../../stickers/ \
+  --target-guilds ../../../targetGuilds.json \
+  --emojis ../../../emojis.json --stickers ../../../stickers.json
+```
 
-### 新規改修時
-1. プロジェクト構成の理解
-2. 適切な作業ブランチの作成 (`feat/` or `fix/`)
-3. `pnpm install` による依存関係の解決
+`generate-readme` (all options are required):
 
-### コミット・プッシュ前
-1. Conventional Commits の遵守
-2. 機密情報（Discord Token 等）の混入確認
-3. `pnpm lint` でのエラー確認
-4. 動作確認
+```bash
+pnpm start --target-emojis ../../../icons/ --target-stickers ../../../stickers/ \
+  --output ../../../README.md --target-guilds ../../../targetGuilds.json \
+  --emojis ../../../emojis.json --stickers ../../../stickers.json
+```
 
-### PR 作成前
-1. ユーザーへの依頼確認
-2. コンフリクトの有無を確認
+## Coding conventions
 
-### PR 作成後
-1. PR 本文が日本語で詳細に記載されているか確認
-2. GitHub Actions CI の成功を確認
-3. Copilot レビューへの対応
+- Insert a half-width space between Japanese and alphanumeric characters.
+- Comments and JSDoc: Japanese. Error messages: English.
+- Do not enable TypeScript `skipLibCheck`.
+- Follow the existing `eslint.config.mjs` and `.prettierrc.yml`; do not introduce new style deviations.
 
-## リポジトリ固有
-- アイコンを追加した際は、必ず `generate-readme` を実行して README を更新する必要があります。
+## Testing
+
+- No automated tests exist. Verify changes by running the affected script locally with the arguments above and confirming the generated output (`README.md`, `emojis.json`, etc.) is correct.
+- CI (`.github/workflows/nodejs-multi-ci.yml`) runs `lint` for each script directory; ensure `pnpm lint` passes before pushing.
+
+## Documentation update rules
+
+- After adding or changing icons/stickers/emojis, run `generate-readme` to refresh `README.md`. Never edit `README.md` by hand.
+- If the README format needs to change, edit `.github/scripts/generate-readme/template.md`, not the generated output.
+
+## Repository-specific rules
+
+- Conventional Commits for messages; Conventional Branch (`feat/`, `fix/`, `chore/`) for branches.
+- Never commit credentials such as `DISCORD_TOKEN`; it is provided via GitHub Actions secrets. Do not log secret values.
+- Do not add commits to Renovate-created PRs.
