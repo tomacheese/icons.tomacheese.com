@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@book000/eslint-config':
-        specifier: 1.16.34
-        version: 1.16.34(eslint@10.8.1)(typescript@7.0.2)
+        specifier: 1.16.35
+        version: 1.16.35(eslint@10.8.1)(typescript@7.0.2)
       '@types/node':
         specifier: 24.13.3
         version: 24.13.3
@@ -39,8 +39,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0
       tsx:
-        specifier: 4.23.11
-        version: 4.23.11
+        specifier: 4.23.12
+        version: 4.23.12
       typescript:
         specifier: 7.0.2
         version: 7.0.2
@@ -50,8 +50,8 @@ importers:
 
 packages:
 
-  '@book000/eslint-config@1.16.34':
-    resolution: {integrity: sha512-wQKnuxn1V7ZW7W8AciNxDbkLUfcQaUKpYkofDN87pI54qWjDZNOckqy1NqFNdqvU5oszXEDOG4VibqRRKqylSg==}
+  '@book000/eslint-config@1.16.35':
+    resolution: {integrity: sha512-Y9awlbAewcUiq5incZu9zz70eq0SQoKEkpGCH0aUMbNAZBUtGTaAResw8K8tvmOBbAodBPd5FYH4VIAS36h5HQ==}
     peerDependencies:
       eslint: 10.8.1
 
@@ -1574,8 +1574,8 @@ packages:
   tsconfig-paths@3.15.0:
     resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
 
-  tsx@4.23.11:
-    resolution: {integrity: sha512-Ry2oTEUnhBdeEdWIztY8kf3/nBGnPnjMLVGL0YfdRXMORuPER5NlKmayqxtxRxwB1xBN+RivRaJfe7PM1rtiyw==}
+  tsx@4.23.12:
+    resolution: {integrity: sha512-FDf4L4sYzKtzWYhU/Xm0AQFdTjdIxNo9ElTf2mxXM6k8YMHXzYUe4yODVaXP4V9uMFbVg8c0qyBccK2OOxb45Q==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -1698,7 +1698,7 @@ packages:
 
 snapshots:
 
-  '@book000/eslint-config@1.16.34(eslint@10.8.1)(typescript@7.0.2)':
+  '@book000/eslint-config@1.16.35(eslint@10.8.1)(typescript@7.0.2)':
     dependencies:
       '@typescript-eslint/parser': 8.66.0(eslint@10.8.1)(typescript@7.0.2)
       eslint: 10.8.1
@@ -3374,7 +3374,7 @@ snapshots:
       minimist: 1.2.8
       strip-bom: 3.0.0
 
-  tsx@4.23.11:
+  tsx@4.23.12:
     dependencies:
       esbuild: 0.28.1
     optionalDependencies:
