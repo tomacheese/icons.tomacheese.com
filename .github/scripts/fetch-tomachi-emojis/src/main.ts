@@ -26,10 +26,7 @@ function getUrlExtension(emoji: EmojiWithGuild | StickerWithGuild) {
   if ('format_type' in emoji && emoji.format_type === 2) {
     return 'png'
   }
-  if ('format_type' in emoji && emoji.format_type === 3) {
-    return 'lottie'
-  }
-  return 'png'
+  return 'format_type' in emoji && emoji.format_type === 3 ? 'lottie' : 'png'
 }
 
 function getFileExtension(emoji: EmojiWithGuild | StickerWithGuild) {
@@ -40,10 +37,7 @@ function getFileExtension(emoji: EmojiWithGuild | StickerWithGuild) {
   if ('format_type' in emoji && emoji.format_type === 2) {
     return 'apng'
   }
-  if ('format_type' in emoji && emoji.format_type === 3) {
-    return 'lottie'
-  }
-  return 'png'
+  return 'format_type' in emoji && emoji.format_type === 3 ? 'lottie' : 'png'
 }
 
 function getHash(data: ArrayBuffer): Promise<string> {
@@ -108,9 +102,9 @@ async function crawl(
           ? output.slice(0, Math.max(0, output.length - 1))
           : output
       }/${sanitizeName(item.name)}.` + getFileExtension(item)
-    const emojiUrl = URL.replace('{id}', item.id).replace(
+    const emojiUrl = URL.replace('{id}', () => item.id).replace(
       '{format}',
-      getUrlExtension(item)
+      () => getUrlExtension(item)
     )
     const data = await axios.get(emojiUrl, {
       responseType: 'arraybuffer',
@@ -188,12 +182,12 @@ async function main(options: MainOptions) {
     console.warn('DISCORD_TOKEN is not set')
     return
   }
-  const token: string = process.env.DISCORD_TOKEN
 
   if (!fs.existsSync(targetGuildsPath)) {
     console.warn('targetGuilds.json does not exist')
     return
   }
+  const token: string = process.env.DISCORD_TOKEN
   const guildIds: Record<string, string> = JSON.parse(
     fs.readFileSync(targetGuildsPath, 'utf8')
   )
