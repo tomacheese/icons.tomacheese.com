@@ -16,7 +16,6 @@ const extensions = [
 ]
 
 function arrayChunk([...array]: string[], size = 1) {
-  // eslint-disable-next-line unicorn/no-array-reduce
   return array.reduce<string[][]>(
     (accumulator, _, index) =>
       index % size
@@ -198,11 +197,12 @@ function main() {
   const headerIcons = '|     |     |     |\n| :-: | :-: | :-: |'
 
   const output = template
-    .replace('{{ICONS}}', headerIcons + '\n' + emojiImages)
-    .replace('{{STICKERS}}', headerIcons + '\n' + stickerImages)
-    .replace('{{ICON_EXTS}}', getEmojiExtensionsTable(emojiFiles, stickerFiles))
-    .replace(
-      '{{ICON_SERVERS}}',
+    .replace('{{ICONS}}', () => headerIcons + '\n' + emojiImages)
+    .replace('{{STICKERS}}', () => headerIcons + '\n' + stickerImages)
+    .replace('{{ICON_EXTS}}', () =>
+      getEmojiExtensionsTable(emojiFiles, stickerFiles)
+    )
+    .replace('{{ICON_SERVERS}}', () =>
       getEmojiServerTable(targetGuildsPath, emojisPath, stickersPath)
     )
 
