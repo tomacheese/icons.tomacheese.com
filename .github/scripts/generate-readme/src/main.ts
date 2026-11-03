@@ -39,7 +39,7 @@ function getEmojiExtensionsTable(emojiFiles: string[], stickerFiles: string[]) {
     })
     .toSorted((a, b) => b.emojiCount - a.emojiCount)
   const headerIconExtensions =
-    '| file ext | emojis count | stickers count |\n| :-: | :-: | :-: |'
+    '| 拡張子 | 絵文字数 | ステッカー数 |\n| :-: | :-: | :-: |'
   const extensionTables = extensionCounts
     .map(
       (extension) =>
@@ -62,7 +62,7 @@ function getEmojiServerTable(
   stickerPath: string
 ) {
   const headerIconServers =
-    '| server | emoji/png | emoji/gif | sticker/png | sticker/apng |\n| :- | :-: | :-: | :-: | :-: |'
+    '| サーバー | 絵文字/png | 絵文字/gif | ステッカー/png | ステッカー/apng |\n| :- | :-: | :-: | :-: | :-: |'
 
   const emojis = JSON.parse(
     fs.readFileSync(emojisPath, 'utf8')

@@ -2,17 +2,17 @@
 
 [![](https://img.shields.io/github/last-commit/tomacheese/icons.tomacheese.com)](https://github.com/tomacheese/icons.tomacheese.com)
 
-Tomachi icons repository
+Tomachi のアイコン・絵文字・ステッカーを管理するリポジトリです。
 
-- [Tomachi Icon Usage Rules (Japanese)](https://icons.tomacheese.com/terms)
+- [Tomachi アイコン利用ルール](https://icons.tomacheese.com/terms)
 
-## How do I add icon?
+## アイコンの追加方法
 
-1. [Fork this repository.](https://github.com/tomacheese/icons.tomacheese.com/fork)
-2. Upload icon image to icon directory. (`https://github.com/{USERNAME}/icons.tomacheese.com/upload/master/icons`)
-3. Create pull request! (`https://github.com/{USERNAME}/icons.tomacheese.com/pull/new/main`)
+1. [このリポジトリをフォークします。](https://github.com/tomacheese/icons.tomacheese.com/fork)
+2. フォークした `icons` ディレクトリに画像をアップロードします。(`https://github.com/{USERNAME}/icons.tomacheese.com/upload/master/icons`)
+3. `master` ブランチ宛てにプルリクエストを作成します。(`https://github.com/{USERNAME}/icons.tomacheese.com/pull/new/master`)
 
-## Icons
+## アイコン
 
 |     |     |     |
 | :-: | :-: | :-: |
@@ -180,7 +180,7 @@ Tomachi icons repository
 | <a href="icons/zaitakitomachi1.png"><img src="icons/zaitakitomachi1.png" title="zaitakitomachi1.png" alt="zaitakitomachi1.png" width="100px" /><br>zaitakitomachi1.png</a> | <a href="icons/zaitakunotomachi1.png"><img src="icons/zaitakunotomachi1.png" title="zaitakunotomachi1.png" alt="zaitakunotomachi1.png" width="100px" /><br>zaitakunotomachi1.png</a> | <a href="icons/zaitakunotomachi1_sick.png"><img src="icons/zaitakunotomachi1_sick.png" title="zaitakunotomachi1_sick.png" alt="zaitakunotomachi1_sick.png" width="100px" /><br>zaitakunotomachi1_sick.png</a> |
 | <a href="icons/zaitakunotomachi2.png"><img src="icons/zaitakunotomachi2.png" title="zaitakunotomachi2.png" alt="zaitakunotomachi2.png" width="100px" /><br>zaitakunotomachi2.png</a> | <a href="icons/zakurofloatmeltytomachi.png"><img src="icons/zakurofloatmeltytomachi.png" title="zakurofloatmeltytomachi.png" alt="zakurofloatmeltytomachi.png" width="100px" /><br>zakurofloatmeltytomachi.png</a> |
 
-## Stickers
+## ステッカー
 
 |     |     |     |
 | :-: | :-: | :-: |
@@ -193,9 +193,9 @@ Tomachi icons repository
 | <a href="stickers/家の回りを全部岩盤堀りされたとまちっち.png"><img src="stickers/家の回りを全部岩盤堀りされたとまちっち.png" title="家の回りを全部岩盤堀りされたとまちっち.png" alt="家の回りを全部岩盤堀りされたとまちっち.png" width="100px" /><br>家の回りを全部岩盤堀りされたとまちっち.png</a> | <a href="stickers/新しい元号は、苫知であります。.png"><img src="stickers/新しい元号は、苫知であります。.png" title="新しい元号は、苫知であります。.png" alt="新しい元号は、苫知であります。.png" width="100px" /><br>新しい元号は、苫知であります。.png</a> | <a href="stickers/熊出没注意.png"><img src="stickers/熊出没注意.png" title="熊出没注意.png" alt="熊出没注意.png" width="100px" /><br>熊出没注意.png</a> |
 | <a href="stickers/球審とまち.png"><img src="stickers/球審とまち.png" title="球審とまち.png" alt="球審とまち.png" width="100px" /><br>球審とまち.png</a> | <a href="stickers/草むしり検定3級.png"><img src="stickers/草むしり検定3級.png" title="草むしり検定3級.png" alt="草むしり検定3級.png" width="100px" /><br>草むしり検定3級.png</a> | <a href="stickers/ｶﾜｲｲﾈ.png"><img src="stickers/ｶﾜｲｲﾈ.png" title="ｶﾜｲｲﾈ.png" alt="ｶﾜｲｲﾈ.png" width="100px" /><br>ｶﾜｲｲﾈ.png</a> |
 
-## Extensions
+## 拡張子
 
-| file ext | emojis count | stickers count |
+| 拡張子 | 絵文字数 | ステッカー数 |
 | :-: | :-: | :-: |
 | **png** | 419 |23 |
 | **gif** | 68 |0 |
@@ -207,9 +207,9 @@ Tomachi icons repository
 | **apng** | 0 |1 |
 | **lottie** | 0 |0 |
 
-## Servers
+## サーバー
 
-| server | emoji/png | emoji/gif | sticker/png | sticker/apng |
+| サーバー | 絵文字/png | 絵文字/gif | ステッカー/png | ステッカー/apng |
 | :- | :-: | :-: | :-: | :-: |
 | **Tomachi Emojis** | 50 | 46 | 4 | 0 |
 | **Tomachi Emojis 2** | 50 | 9 | 5 | 0 |

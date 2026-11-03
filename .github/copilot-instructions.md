@@ -1,39 +1,17 @@
-# GitHub Copilot Instructions
+# GitHub Copilot 指示
 
-Guidance for Copilot code review on this repository. Focus reviews on the points below.
+このリポジトリで Copilot がコードレビューを行う際の指針。プロジェクトの概要、コマンド、規約は、ルートの `AGENTS.md` を参照すること。レビューコメントは日本語で書く。
 
-## Project summary
+## レビューで重視する点
 
-- Hosts Tomachi's Discord emojis, stickers, and icons plus their metadata, and publishes them via GitHub Pages.
-- Code lives in two independent TypeScript projects under `.github/scripts/`: `fetch-tomachi-emojis` (downloads assets from Discord) and `generate-readme` (builds `README.md` from those assets).
+- `fetch-tomachi-emojis` のネットワーク呼び出し(axios)とファイル書き込みのエラー処理。
+- `generate-readme` の CLI オプション(`--target-emojis`, `--target-stickers`, `--output`, `--target-guilds`, `--emojis`, `--stickers`)はすべて必須である。`.github/workflows/` の呼び出しと整合しているか。
+- `README.md` は生成物である。直接編集は指摘し、形式の変更は `.github/scripts/generate-readme/template.md` 側で行うよう促す。
+- 認証情報(`DISCORD_TOKEN` など)のハードコードや、秘密値のログ出力。
+- スタイルは `eslint.config.mjs` と `.prettierrc.yml` に従う。個人の好みではなく、設定からの逸脱を指摘する。
 
-## Tech stack
+## 指摘しないこと
 
-- TypeScript on Node.js, executed with tsx. Package manager: pnpm (enforced by `only-allow pnpm`).
-- Key libraries: axios, sharp, yargs.
-
-## Coding standards to enforce
-
-- Insert a half-width space between Japanese and alphanumeric characters.
-- JSDoc and comments in Japanese; error messages in English.
-- `skipLibCheck` must not be enabled in any `tsconfig.json`.
-- Style is enforced by `eslint.config.mjs` and `.prettierrc.yml` (`pnpm lint` runs prettier, eslint, and tsc). Flag deviations from these configs rather than personal preference.
-
-## Review focus
-
-- Error handling around network calls (axios) and filesystem writes in `fetch-tomachi-emojis`.
-- All `generate-readme` CLI options (`--target-emojis`, `--target-stickers`, `--output`, `--target-guilds`, `--emojis`, `--stickers`) are required; changes must keep them consistent with the workflow invocations in `.github/workflows/`.
-- `README.md` is generated output — flag direct hand-edits to it; changes to its format belong in `.github/scripts/generate-readme/template.md`.
-
-## Security
-
-- Never commit credentials such as `DISCORD_TOKEN`; it is supplied via GitHub Actions secrets. Flag any hardcoded tokens or secret values written to logs.
-
-## Testing
-
-- There are no automated tests. Do not request test additions as a matter of course; verification is done by running the scripts and checking their generated output.
-
-## Known non-issues (do not flag)
-
-- The absence of a root `package.json`: each script under `.github/scripts/` is its own pnpm project by design.
-- Large committed data files (`emojis.json`, `README.md`, image assets): these are generated artifacts intentionally tracked in the repository.
+- 自動テストが無いこと。テストの追加を当然のように求めない。
+- ルートに `package.json` が無いこと。各スクリプトが独立した pnpm プロジェクトである設計による。
+- `emojis.json`、`README.md`、画像など、生成物の大きなファイルをコミットしていること。意図的である。
