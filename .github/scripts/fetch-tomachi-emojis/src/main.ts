@@ -58,7 +58,7 @@ function getHash(data: ArrayBuffer): Promise<string> {
 }
 
 function sanitizeName(name: string) {
-  // ファイル名として使えない文字を置換
+  // Replace characters that are invalid in file names
   const invalidChars = ['\\', '/', ':', '*', '?', '"', '<', '>', '|']
   for (const c of invalidChars) {
     name = name.replaceAll(c, '_')
@@ -120,17 +120,17 @@ async function crawl(
 
     const downloadedItem = downloadedItems.find((e) => e.id === item.id)
     if (downloadedItem !== undefined) {
-      // すでにダウンロード済み
-      // 既存画像と比較して変更があれば更新
+      // Already downloaded
+      // Update if it differs from the existing image
 
-      // 名前の変更
+      // Name changed
       if (downloadedItem.name !== item.name) {
         console.log(`rename ${downloadedItem.name} -> ${item.name}`)
         fs.renameSync(downloadedItem.path, path)
         downloadedItem.name = item.name
       }
 
-      // ハッシュ値の変更
+      // Hash changed
       if (downloadedItem.hash !== hash) {
         console.log(`update ${item.name}`)
         fs.writeFileSync(path, data.data)
@@ -140,7 +140,7 @@ async function crawl(
       continue
     }
 
-    // ダウンロード済みでない
+    // Not downloaded yet
     console.log(`download ${item.name}`)
     fs.writeFileSync(path, data.data)
     newDownloadedItems.push({
@@ -152,7 +152,7 @@ async function crawl(
     })
   }
 
-  // 削除済みの画像を処理
+  // Delete downloaded files not re-fetched in this run (removed on Discord, or failed to download)
   for (const downloadedItem of downloadedItems) {
     if (newDownloadedItems.some((e) => e.id === downloadedItem.id)) {
       continue
