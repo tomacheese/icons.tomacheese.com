@@ -15,7 +15,7 @@
     "@book000/eslint-config": "1.16.120",
     "@types/node": "26.6.6",
     "@types/yargs": "17.0.35",
-    "axios": "1.21.0",
+    "axios": "1.21.1",
     "eslint": "10.14.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.32.0",
